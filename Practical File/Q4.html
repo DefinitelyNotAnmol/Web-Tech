@@ -2,10 +2,6 @@
     <head>
         <title>Question 4 | Form</title>
         <style>
-            body {
-                font-family: montserrat;
-            }
-
             .space {
                 margin-right: 30px;
             }
@@ -15,7 +11,7 @@
             }
         </style>
     </head>
-    <body>
+    <body style="font-family:montserrat">
         <form action="POST" style="width:75%; margin: 0 auto ;">
             <fieldset>
                 <span class="space">First Name </span>
@@ -40,7 +36,8 @@
                 <span class="space">Zip   </span>
                 <input type="text" name="zip" class="in">
                 <br>
-                <span class="space">Country <input type="text" name="country" class="in"></span>                
+                <span class="space">Country</span>
+                <input type="text" name="country" class="in">
                 <hr>
 
                 <div style="display:flex;">
@@ -53,15 +50,11 @@
                         </select>
                     </div>
                     <div style="flex:50%;">
-                        <span>
-                            Purchase Date
-                            <input type="date" name="pdate" class="in">
-                        </span>
+                        <span>Purchase Date</span>
+                        <input type="date" name="pdate" class="in">
                         <br>    
-                        <span>
-                            Serial Number
-                            <input type="text" name="SNo" class="in">
-                        </span>
+                        <span>Serial Number</span>
+                        <input type="text" name="SNo" class="in">
                     </div>
                 </div>
 
@@ -97,8 +90,6 @@
                     <input type="submit" value="submit">
                     <input type="button" value="cancel">
                 </span>
-
-
             </fieldset>            
         </form>
     </body>
