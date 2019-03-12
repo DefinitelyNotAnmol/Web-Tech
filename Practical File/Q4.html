@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>Question 4 | Form</title>
+        <style>
+            body {
+                font-family: montserrat;
+            }
+
+            .space {
+                margin-right: 30px;
+            }
+
+            .in {
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="POST" style="width:75%; margin: 0 auto ;">
+            <fieldset>
+                <span class="space">First Name </span>
+                <input type="text" name="fname" class="in">
+                <span class="space">Last Name</span>
+                <input type="text" name="lname" class="in">
+                
+                <br>
+
+                <span class="space">Address #1 </span>
+                <input type="text" name="address1" class="in">
+                <br>
+                <span class="space">Address #2 </span>
+                <input type="text" name="address2" class="in">
+
+                <br>
+
+                <span class="space">City  </span>
+                <input type="text" name="city" class="in">
+                <span class="space">State </span>                
+                <input type="text" name="state" class="in">
+                <span class="space">Zip   </span>
+                <input type="text" name="zip" class="in">
+                <br>
+                <span class="space">Country <input type="text" name="country" class="in"></span>                
+                <hr>
+
+                <div style="display:flex;">
+                    <div style="flex:50%;">
+                        Items Purchased
+                        <select name="items">
+                            <option value="MSOffice16">Microsoft Office 2016 Professional</option>
+                            <option value="MSOffice13">Microsoft Office 2013 Professional</option>
+                            <option value="MSOffice10">Microsoft Office 2010 Professional</option>
+                        </select>
+                    </div>
+                    <div style="flex:50%;">
+                        <span>
+                            Purchase Date
+                            <input type="date" name="pdate" class="in">
+                        </span>
+                        <br>    
+                        <span>
+                            Serial Number
+                            <input type="text" name="SNo" class="in">
+                        </span>
+                    </div>
+                </div>
+
+                <hr>
+
+                <span style="display:flex;">
+                    <fieldset style="width: 50%;">
+                        <legend>Used For (Check One)</legend>
+                        <input type="radio" name="used" value="home"> Home <br>
+                        <input type="radio" name="used" value="business"> Business <br>
+                        <input type="radio" name="used" value="religion"> Religious or Charitable Institution <br>
+                        <input type="radio" name="used" value="govt"> Government <br>
+                        <input type="radio" name="used" value="education"> Education Institution <br>
+                    </fieldset>
+                    <fieldset style="width: 50%">
+                        <legend>Network Operating System</legend>
+                        <input type="checkbox" name="netware" value="netware"> Netware <br>
+                        <input type="checkbox" name="banyan" value="banyan"> Banyan Vines <br>
+                        <input type="checkbox" name="windows" value="windows"> Windows <br>
+                        <input type="checkbox" name="ibm" value="IBM"> IBM LAN Server <br>
+                        <input type="checkbox" name="pc" value="pc"> PC/NFS <br>
+                    </fieldset>
+                </span>
+
+                <hr>
+
+                <div style="text-align:center;">
+                    <span class="space">Comments</span>
+                    <input type="text" name="comments" style="height:70px; width:700px;">
+                </div>
+                <br>
+                <span style="align-self: center;">
+                    <input type="submit" value="submit">
+                    <input type="button" value="cancel">
+                </span>
+
+
+            </fieldset>            
+        </form>
+    </body>
+</html>
