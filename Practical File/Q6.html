@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Question 6 | Fibonacci Series using Recursion</title>
+        <script>
+            function Fibo(n) {
+                if (n <= 1)
+                    return 1;
+                return Fibo(n-1) + Fibo(n-2);
+            }
+
+            function Fibonacci() {
+                n = document.getElementById("n").value;
+                ans = document.getElementById("ans");
+                var answer = Fibo(n);
+                ans.innerHTML = answer;
+            }
+        </script>
+    </head>
+    <body style="font-family: montserrat;">
+        <span>Value of N: &nbsp;</span> <input type="text" id="n"> <br>
+        <br>
+        <button onclick="Fibonacci()"> Fibonacci Series </button>
+        <br> <br>
+        <span id="ans" style="font-weight: bolder"></span>
+    </body>
+</html>
