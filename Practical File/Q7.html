@@ -1,5 +1,40 @@
 <html>
     <head>
         <title>Question 7 | </title>
+        <script>
+            function validateForm() {
+                var name = document.forms["myForm"]["name"].value;
+                var namePattern = /^[A-Z\s]+$/gi;
+                if (!namePattern.test(name)) {
+                    alert("Name entered is not valid");
+                    return false;
+                }
+
+                var mail = document.forms["myForm"]["mail"].value;
+                var mailPattern = /^[@]/gi;
+            }
+        </script>
+        <style>
+            .space {
+                margin-bottom: 10px;                
+            }
+        </style>
     </head>
+    <body style="font-family: montserrat">
+        <form method="POST" name="myForm" onsubmit="return validateForm()">
+            <div class="space">
+                <span>Name</span>
+                <input type="text" name="name">
+            </div>
+            <div class="space">
+                <span>Email ID</span>
+                <input type="text" name="mail">
+            </div>
+            <div class="space">
+                <span>Password</span>
+                <input type="password" name="pass">
+            </div>
+            <input type="submit" value="Submit" style="width: 100px; font-weight: bold; font-family: montserrat;">
+        </form>
+    </body>
 </html>
