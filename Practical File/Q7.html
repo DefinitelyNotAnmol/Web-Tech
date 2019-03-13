@@ -11,7 +11,11 @@
                 }
 
                 var mail = document.forms["myForm"]["mail"].value;
-                var mailPattern = /^[@]/gi;
+                var mailPattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w)*(\.\w{2,3})+$/;
+                if (!mailPattern.test(mail)) {
+                    alert("Email ID entered is not valid");
+                    return false;
+                }
             }
         </script>
         <style>
@@ -24,15 +28,16 @@
         <form method="POST" name="myForm" onsubmit="return validateForm()">
             <div class="space">
                 <span>Name</span>
-                <input type="text" name="name">
+                <input type="text" name="name" required>
             </div>
             <div class="space">
                 <span>Email ID</span>
-                <input type="text" name="mail">
+                <input type="text" name="mail" required>
             </div>
             <div class="space">
                 <span>Password</span>
-                <input type="password" name="pass">
+                <input type="password" name="pass" required>
+                <span>&nbsp;(Minimum 8 characters)</span>
             </div>
             <input type="submit" value="Submit" style="width: 100px; font-weight: bold; font-family: montserrat;">
         </form>
