@@ -16,6 +16,14 @@
                     alert("Email ID entered is not valid");
                     return false;
                 }
+
+                var password = document.forms["myForm"]["pass"].value;
+                if (password.length < 8) {
+                    alert("Password is short");
+                    return false;
+                }
+
+                return true;
             }
         </script>
         <style>
