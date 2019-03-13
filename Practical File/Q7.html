@@ -22,22 +22,26 @@
             .space {
                 margin-bottom: 10px;                
             }
+
+            .labels {
+                font-weight: bold;
+            }
         </style>
     </head>
     <body style="font-family: montserrat">
         <form method="POST" name="myForm" onsubmit="return validateForm()">
             <div class="space">
-                <span>Name</span>
+                <span class="labels">Name</span>
                 <input type="text" name="name" required>
             </div>
             <div class="space">
-                <span>Email ID</span>
+                <span class="labels">Email ID</span>
                 <input type="text" name="mail" required>
             </div>
             <div class="space">
-                <span>Password</span>
+                <span class="labels">Password</span>
                 <input type="password" name="pass" required>
-                <span>&nbsp;(Minimum 8 characters)</span>
+                <span style="font-size: 0.75em;">&nbsp;(Minimum 8 characters)</span>
             </div>
             <input type="submit" value="Submit" style="width: 100px; font-weight: bold; font-family: montserrat;">
         </form>
