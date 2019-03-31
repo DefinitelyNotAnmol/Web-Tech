@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-
 body {
     margin: 0;
     padding: 0;
@@ -13,7 +12,7 @@ body {
     width: 16%;
     min-width: 200px;
     height: 100%;
-    background: #f1f1f1;
+        
 }
 
 .block {
@@ -37,11 +36,18 @@ body {
 .navbar a:hover {
     background: black;
     color: white;
-    font
 }
 
 .logo {
     position: relative;
     margin: 15px auto 0 auto;
     width: 80%;
+}
+
+.body {
+    width: 84%
+}
+
+.column {
+    float: left;
 }
