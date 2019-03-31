@@ -1,4 +1,4 @@
-/* #5c5edc blue color */
+/*  blue color */
 
 body {
     margin: 0;
@@ -34,4 +34,25 @@ body {
     position: relative;
     width: 80%;
     margin: 15px auto 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 90px;
+    margin: 25px;
+}
+
+.menu a {
+    text-decoration: none;
+    display: block;
+    color: #cecece;
+    margin-left: 10%;
+    font-family: montserrat;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 3px 0 2px 0;
+}
+
+.menu a:hover {
+    color: #5c5edc;
 }
