@@ -45,14 +45,19 @@ body {
 .menu a {
     text-decoration: none;
     display: block;
-    color: #cecece;
+    color: #fecea8;
     margin-left: 10%;
     font-family: montserrat;
     font-weight: 400;
     font-size: 1.2em;
+    margin-left: 5px;
     padding: 3px 0 2px 0;
 }
 
 .menu a:hover {
-    color: #5c5edc;
+    color: #f9cdae;
+}
+
+.logo path {
+    fill: white;
 }
