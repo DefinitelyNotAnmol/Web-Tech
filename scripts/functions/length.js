@@ -1,3 +1,5 @@
+// functions to convert cm into something
+
 function cmToInch(cm) {
 	return cm * 0.3937;
 }
