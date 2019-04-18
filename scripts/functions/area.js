@@ -1,4 +1,4 @@
-// functions to convert cm2 into something
+// functions to convert centimeter square into something
 
 function cm2toM2(cm) {
 	return cm / 0.0001;
@@ -32,7 +32,7 @@ function cm2toAc(cm) {
 	return cm /  4.047e+7;
 }
 
-// functions to convert m2 into something
+// functions to convert meter square into something
 
 function m2toCm2(m2) {
 	return m2 * 10000;
@@ -66,7 +66,7 @@ function m2toAc(m2) {
 	return m2 /  4046.856;
 }
 
-// functions to convert km2 into something
+// functions to convert kilometer square into something
 
 function km2toCm2(km2) {
 	return km2 * 1e+10;
@@ -100,7 +100,7 @@ function km2toAc(km2) {
 	return km2 * 247.105;
 }
 
-// functions to convert ha into something
+// functions to convert hectare into something
 
 function hatoCm2(hac) {
 	return hac * 1e+8;
@@ -134,7 +134,7 @@ function hatoAc(hac) {
 	return hac * 2.471;
 }
 
-// functions to convert in2 into something
+// functions to convert inch square into something
 
 function in2toCm2(in2) {
 	return in2 * 6.452;
@@ -168,7 +168,7 @@ function in2toAc(in2) {
 	return in2 / 6.273e+6;
 }
 
-// functions to convert ft2 into something
+// functions to convert foot square into something
 
 function ft2toCm2(ft2) {
 	return ft2 * 929.03;
@@ -202,7 +202,7 @@ function ft2toAc(ft2) {
 	return ft2 / 43560;
 }
 
-// functions to convert yd2 into something
+// functions to convert yard square into something
 
 function yd2toCm2(yd2) {
 	return yd2 * 8361.274;
@@ -236,7 +236,7 @@ function yd2toAc(yd2) {
 	return yd2 /  4840;
 }
 
-// functions to convert mi2 into something
+// functions to convert mile square into something
 
 function mi2toCm2(mi2) {
 	return mi2 * 2.59e+10;
@@ -270,7 +270,7 @@ function mi2toAc(mi2) {
 	return mi2 * 640;
 }
 
-// functions to convert ac into something
+// functions to convert acre into something
 
 function actoCm2(ac) {
 	return ac * 4.047e+7;

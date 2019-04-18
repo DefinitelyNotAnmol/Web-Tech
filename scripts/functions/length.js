@@ -1,4 +1,4 @@
-// functions to convert cm into something
+// functions to convert centimeter into something
 
 function cmToInch(cm) {
 	return cm * 0.3937;
@@ -32,7 +32,7 @@ function cmToNauticalMiles(cm) {
 	return cm / 185200;
 }
 
-// functions to convert mm into something
+// functions to convert millimeter into something
 function mmToCm(mm) {
 	return mm / 10;
 }
