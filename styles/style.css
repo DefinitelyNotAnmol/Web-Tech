@@ -72,8 +72,19 @@ button {
 
 .content {
     position: absolute;
+    min-height: 100%;
     height: auto;
     background: url("../Resources/resources_Asset\ 15_TGL.png") no-repeat, linear-gradient(135deg, #994e9e, #5d429a);
+    z-index: 1;
+    color: white;
+    margin-left: 299px;
+    width: calc(100% - 300px);
+}
+
+.content-about {
+    position: absolute;
+    height: 100%;
+    background: url("../Resources/resources_Asset\ 17_TGL.png") no-repeat, linear-gradient(135deg, #994e9e, #5d429a);
     z-index: 1;
     color: white;
     margin-left: 299px;
@@ -206,7 +217,7 @@ button {
     margin-bottom: -15px;
 }
 
-.data-heading {
+.sub-heading {
     font-family: Poppins-SemiBold;
     font-size: 2em;
     margin-bottom: -10px;
@@ -214,12 +225,6 @@ button {
 
 .result {
     font-size: 1.2em;
-}
-
-.formula-heading {
-    font-family: Poppins-SemiBold;
-    font-size: 2em;
-    margin-bottom: -10px;
 }
 
 .formula {
