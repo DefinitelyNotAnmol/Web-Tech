@@ -73,13 +73,13 @@ function calculate() {
         },
     
         "m_mi" : {
-            "para" : "The Length L in Mile(km) is equal to the Length L in Meter(m) divided by 1609.344",
+            "para" : "The Length L in Mile(mi) is equal to the Length L in Meter(m) divided by 1609.344",
             "formula" : "L(mi) = L(m) / 1609.344"
         },
     
         "m_mm" : {
             "para" : "The Length L in Milimeter(mm) is equal to the Length L in Meter(m) times 1000",
-            "formula" : "L(km) = L(m) * 1000"
+            "formula" : "L(mm) = L(m) * 1000"
         },
     
     
@@ -116,12 +116,12 @@ function calculate() {
     
         "km_mi" : {
             "para" : "The Length L in Mile(mi) is equal to the Length L in Kilometer(km) divided by 1.609",
-            "formula" : "L(cm) = L(km) / 1.609"
+            "formula" : "L(mi) = L(km) / 1.609"
         },
     
         "km_mm" : {
             "para" : "The Length L in Milimeter(mm) is equal to the Length L in Kilometer(km) times 1000000",
-            "formula" : "L(cm) = L(km) * 1000000"
+            "formula" : "L(mm) = L(km) * 1000000"
         },
     
     
@@ -221,7 +221,7 @@ function calculate() {
         },
     
         "ft_m" : {
-            "para" : "The Length L in Meter(mm) is equal to the Length L in Foot(ft) divide by 3.281",
+            "para" : "The Length L in Meter(m) is equal to the Length L in Foot(ft) divide by 3.281",
             "formula" : "L(m) = L(ft) / 3.281"
         },
     
@@ -231,7 +231,7 @@ function calculate() {
         },
     
         "ft_in" : {
-            "para" : "The Length L in Inch(in) is equal to the Length L in Foot(ft) times 144",
+            "para" : "The Length L in Inch(in) is equal to the Length L in Foot(ft) times 12",
             "formula" : "L(in) = L(ft) * 12"
         },
     
@@ -253,43 +253,43 @@ function calculate() {
     
     
         "yd_cm" : {
-            "para" : "The Length L in Centimeter(cm) is equal to the Length L in Yard(ft) times 91.44",
+            "para" : "The Length L in Centimeter(cm) is equal to the Length L in Yard(yd) times 91.44",
             "formula" : "L(cm) = L(yd) * 91.44"
         },
     
         "yd_km" : {
-            "para" : "The Length L in Kilometer(km) is equal to the Length L in Yard(ft) divide by 1093.613",
+            "para" : "The Length L in Kilometer(km) is equal to the Length L in Yard(yd) divide by 1093.613",
             "formula" : "L(km) = L(yd) / 1093.613"
         },
     
         "yd_m" : {
-            "para" : "The Length L in Meter(m) is equal to the Length L in Yard(ft) divide by 1.094",
+            "para" : "The Length L in Meter(m) is equal to the Length L in Yard(yd) divide by 1.094",
             "formula" : "L(m) = L(yd) / 1.094"
         },
     
         "yd_nm" : {
-            "para" : "The Length L in Nautical Mile(nm) is equal to the Length L in Yard(ft) divide by 2025.372",
+            "para" : "The Length L in Nautical Mile(nm) is equal to the Length L in Yard(yd) divide by 2025.372",
             "formula" : "L(nm) = L(yd) / 2025.372"
         },
     
         "yd_in" : {
-            "para" : "The Length L in Inch(in) is equal to the Length L in Yard(ft) times 36",
+            "para" : "The Length L in Inch(in) is equal to the Length L in Yard(yd) times 36",
             "formula" : "L(in) = L(yd) * 36"
         },
     
         "yd_ft" : {
-            "para" : "The Length L in Foot(ft) is equal to the Length L in Yard(ft) times 3",
+            "para" : "The Length L in Foot(ft) is equal to the Length L in Yard(yd) times 3",
             "formula" : "L(ft) = L(yd) * 3"
         },
     
         "yd_mi" : {
-            "para" : "The Length L in Mile(mi) is equal to the Length L in Yard(ft) divide by 1760",
+            "para" : "The Length L in Mile(mi) is equal to the Length L in Yard(yd) divide by 1760",
             "formula" : "L(mi) = L(yd) / 1760"
         },
     
         "yd_mm" : {
-            "para" : "The Length L in Milimeter(mm) is equal to the Length L in Yard(ft) times 914.4",
-            "formula" : "L(mm) = L(yd) times 914.4"
+            "para" : "The Length L in Milimeter(mm) is equal to the Length L in Yard(yd) times 914.4",
+            "formula" : "L(mm) = L(yd) * 914.4"
         },
     
     
@@ -330,7 +330,7 @@ function calculate() {
         },
     
         "mi_mm" : {
-            "para" : "The Length L in Milimeter(mm) is equal to the Length L in Mile(mi) times 640",
+            "para" : "The Length L in Milimeter(mm) is equal to the Length L in Mile(mi) times 1.609e+6",
             "formula" : "L(mm) = L(mi) * 1.609e+6"
         },
     

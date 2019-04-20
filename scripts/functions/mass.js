@@ -20,7 +20,7 @@ function tToMg(t) {
 	return t * 1e+9;
 }
 
-function tToMicrog(t) {
+function tToMcg(t) {
 	return t * 1e+12;
 }
 
@@ -49,7 +49,7 @@ function kgToMg(kg) {
 	return kg * 1e+6;
 }
 
-function kgToMicrog(kg) {
+function kgToMcg(kg) {
 	return kg * 1e+9;
 }
 
@@ -67,31 +67,31 @@ function kgToOz(kg) {
 
 // functions to convert gram into other units
 function gToT(g) {
-	return g / 1e+6 ;
+	return g / 1e+6;
 }
 
 function gToKg(g) {
-	return g /1000 ;
+	return g /1000;
 }
 
 function gToMg(g) {
-	return g * 1000 ;
+	return g * 1000;
 }
 
-function gToMicrog(g) {
-	return g * 1e+6 ;
+function gToMcg(g) {
+	return g * 1e+6;
 }
 
 function gToQ(g) {
-	return g / 100000 ;
+	return g / 100000;
 }
 
 function gToLb(g) {
-	return g / 453.592 ;
+	return g / 453.592;
 }
 
 function gToOz(g) {
-	return g / 28.35 ;
+	return g / 28.35;
 }
 
 // functions to convert miligram into other units
@@ -107,7 +107,7 @@ function mgToG(mg) {
 	return mg / 1000;
 }
 
-function mgToMicrog(mg) {
+function mgToMcg(mg) {
 	return mg * 1000;
 }
 
@@ -149,7 +149,7 @@ function mcgToLb(microg) {
 }
 
 function mcgToOz(microg) {
-	return microg / 2.835e+7 ;
+	return microg / 2.835e+7;
 }
 
 // functions to convert quintal to other units
@@ -169,7 +169,7 @@ function qToMg(quintal) {
 	return quintal * 1e+8;
 }
 
-function qToMicrog(quintal) {
+function qToMcg(quintal) {
 	return quintal * 1e+11;
 }
 
@@ -198,7 +198,7 @@ function lbToMg(pounds) {
 	return pounds * 453592.37;
 }
 
-function lbToMicrog(pounds) {
+function lbToMcg(pounds) {
 	return pounds * 4.536e+8;
 }
 
@@ -227,7 +227,7 @@ function ozToMg(ounce) {
 	return ounce * 28349.523;
 }
 
-function ozToMicrog(ounce) {
+function ozToMcg(ounce) {
 	return ounce * 2.835e+7;
 }
 
