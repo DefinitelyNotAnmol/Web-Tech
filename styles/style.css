@@ -98,7 +98,7 @@ button {
     margin-top: 75px;
 }
 
-.menu p {
+.menu a {
     display: block;
     text-decoration: none;
     color: #ffffff;
@@ -113,10 +113,24 @@ button {
     width: 50%;
 }
 
-.menu p:hover {
+.menu a:hover {
     font-size: 1.4em;
     text-shadow: 5px 5px 15px #994e9e;
-    background: linear-gradient(90deg, #994e9e, #5d429a);
+    background: linear-gradient(90deg, rgba(141, 44, 248, 0), rgba(93, 66, 154, 1));
+}
+
+.menu p {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Poppins-Medium;
+    font-weight: 500;
+    font-size: 1.2em;
+    padding-right: 50px;
+    margin: 7px 0 0 5px;
+    width: 50%;
+    font-size: 1.4em;
+    text-shadow: 5px 5px 15px #994e9e;
     background: linear-gradient(90deg, rgba(141, 44, 248, 0), rgba(93, 66, 154, 1));
 }
            
