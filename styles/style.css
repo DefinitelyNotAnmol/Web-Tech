@@ -248,3 +248,7 @@ button {
     margin-left: 30px;
     width: calc(calc(100% - 300px) - 50px);
 }
+
+.formulae {
+    font-style: italic;
+}
