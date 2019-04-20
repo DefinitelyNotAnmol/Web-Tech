@@ -1,3 +1,13 @@
+// months - months
+// yr - year
+// week - week
+// day - day
+// hr - hour
+// ms - milisecond
+// min - minute
+// micro - microseconds
+// s - seconds
+
 // functions to convert seconds into every time unit
 function sToMs(s) {
 	return s * 1000;
@@ -32,271 +42,262 @@ function sToMicro(s) {
 }
 
 // functions to convert microseconds into every time unit
-
-function MicroToMs(micro) {
+function microToMs(micro) {
 	return micro / 1000;
 }
 
-function MicroTos(micro) {
+function microTos(micro) {
 	return micro / 1e+6;
 }
-function MicroToMin(micro) {
+function microToMin(micro) {
 	return micro / 6e+7;
 }
 
-function MicroToHr(micro) {
+function microToHr(micro) {
 	return micro / 3.6e+9;
 }
 
-function MicroToDay(micro) {
+function microToDay(micro) {
 	return micro / 8.64e+10;
 }
 
-function MicroToMonth(micro) {
+function microToMonth(micro) {
 	return micro / 2.628e+12;
 }
 
-function MicroToYr(micro) {
+function microToYr(micro) {
 	return micro / 3.154e+13;
 }
 
-function MicroToWeek(micro) {
+function microToWeek(micro) {
 	return micro / 6.048e+11;
 }
 
-// functions to convert min into every timeunit
-
-function MinToMs(min) {
+// functions to convert minute into every timeunit
+function minToMs(min) {
 	return min * 60000;
 }
 
-function MinTos(min) {
+function minTos(min) {
 	return min * 60;
 }
-function MinToMicro(min) {
+function minToMicro(min) {
 	return min * 6e+7;
 }
 
-function MinToHr(min) {
+function minToHr(min) {
 	return min / 60;
 }
 
-function MinToDay(min) {
+function minToDay(min) {
 	return min / 1440;
 }
 
-function MinToMonth(min) {
+function minToMonth(min) {
 	return min / 43800.048;
 }
 
-function MinToYr(min) {
+function minToYr(min) {
 	return min / 525600 ;
 }
 
-function MinToWeek(min) {
+function minToWeek(min) {
 	return min / 10080;
 }
 
 // functions to convert milisecond to every time unit
-
-function MsToMicro(ms) {
+function msToMicro(ms) {
 	return ms * 1000;
 }
 
-function MsTos(ms) {
+function msTos(ms) {
 	return ms / 1000;
 }
-function MsToMin(ms) {
+function msToMin(ms) {
 	return ms / 60000;
 }
 
-function MsToHr(ms) {
+function msToHr(ms) {
 	return ms / 3.6e+6;
 }
 
-function MsToDay(ms) {
+function msToDay(ms) {
 	return ms / 8.64e+7;
 }
 
-function MsToMonth(ms) {
+function msToMonth(ms) {
 	return ms / 2.628e+9;
 }
 
-function MsToYr(ms) {
+function msToYr(ms) {
 	return ms / 3.154e+10;
 }
 
-function MsToWeek(ms) {
+function msToWeek(ms) {
 	return ms / 6.048e+8;
 }
 
 //functions to convert hour to every time unit
-
-function HrToMs(hr) {
+function hrToMs(hr) {
 	return hr * 3.6e+6;
 }
 
-function HrToMicro(hr) {
+function hrToMicro(hr) {
 	return hr * 3.6e+9;
 }
 
-function HrTos(hr) {
+function hrTos(hr) {
 	return hr * 3600;
 }
 
-function HrToMin(hr) {
+function hrToMin(hr) {
 	return hr * 60;
 }
 
-function HrToDay(hr) {
+function hrToDay(hr) {
 	return hr / 24;
 }
 
-function HrToWeek(hr) {
+function hrToWeek(hr) {
 	return hr / 168;
 }
 
-function HrToMonth(hr) {
+function hrToMonth(hr) {
 	return hr / 730.001;
 }
 
-function HrToYr(hr) {
+function hrToYr(hr) {
 	return hr / 8760;
 }
 
 // functions to convert day into other units
-
-function DayToMs(day) {
+function dayToMs(day) {
 	return day * 8.64e+7;
 }
 
-function DayToMicro(day) {
+function dayToMicro(day) {
 	return day * 8.64e+10;
 }
 
-function DayTos(day) {
+function dayTos(day) {
 	return day * 86400;
 }
 
-function DayToMin(day) {
+function dayToMin(day) {
 	return day * 1440;
 }
 
-function DayToHr(day) {
+function dayToHr(day) {
 	return day * 24;
 }
 
-function DayToWeek(day) {
+function dayToWeek(day) {
 	return day / 7;
 }
 
-function DayToMonth(day) {
+function dayToMonth(day) {
 	return day / 30.417;
 }
 
-function DayToYear(day) {
+function dayToYear(day) {
 	return day / 365;
 }
 
 // functions to convert week into other units
-
-function WeekToMicro(week) {
+function weekToMicro(week) {
 	return week * 6.048e+11;
 }
 
-function WeekToMs(week) {
+function weekToMs(week) {
 	return week * 6.048e+8;
 }
 
-function WeekTos(week) {
+function weekTos(week) {
 	return week * 604800;
 }
 
-function WeekToMin(week) {
+function weekToMin(week) {
 	return week * 10080;
 }
 
-function WeekToHr(week) {
+function weekToHr(week) {
 	return week * 168;
 }
 
-function WeekToDay(week) {
+function weekToDay(week) {
 	return week * 7;
 }
 
-function WeekToMonth(week) {
+function weekToMonth(week) {
 	return week / 4.345;
 }
 
-function WeekToYear(week) {
+function weekToYear(week) {
 	return week / 52.143;
 }
 
-// functions to convert year itno another units
-
-function YrToMicro(yr) {
+// functions to convert year into another units
+function yrToMicro(yr) {
 	return yr * 3.154e+13;
 }
 
-function YrToMs(yr) {
+function yrToMs(yr) {
 	return yr * 3.154e+10;
 }
 
-function YrTos(yr) {
+function yrTos(yr) {
 	return yr * 3.154e+7;
 }
 
-function YrToMin(yr) {
+function yrToMin(yr) {
 	return yr * 525600;
 }
 
-function YrToHr(yr) {
+function yrToHr(yr) {
 	return yr * 8760;
 }
 
-function YrToDay(yr) {
+function yrToDay(yr) {
 	return yr * 365;
 }
 
-function YrToMonth(yr) {
+function yrToMonth(yr) {
 	return yr * 12;
 }
 
-function YrToWeek(yr) {
+function yrToWeek(yr) {
 	return yr * 52.143;
 }
 
 // functions to convert months into other units
-
-function MonthsToMicro(months) {
+function monthsToMicro(months) {
 	return months * 2.628e+12;
 }
 
-function MonthsToMs(months) {
+function monthsToMs(months) {
 	return months * 2.628e+9;
 }
 
-function MonthsTos(months) {
+function monthsTos(months) {
 	return months * 2.628e+6;
 }
 
-function MonthsToMin(months) {
+function monthsToMin(months) {
 	return months * 43800.048;
 }
 
-function MonthsToHr(months) {
+function monthsToHr(months) {
 	return months * 730.001;
 }
 
-function MonthsToDay(months) {
+function monthsToDay(months) {
 	return months * 30.4017;
 }
 
-function MonthsToWeek(months) {
+function monthsToWeek(months) {
 	return months * 4.345;
 }
 
-function MonthsToYear(months) {
+function monthsToYear(months) {
 	return months / 12
 }
-
