@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Frequency of a number</title>
+        <script type="text/javascript">
+            function print()
+            {
+            var freq1=0,freq2=0,freq3=0,freq4=0,freq5=0,freq6=0,face=0;
+            for(var i=1;i<=document.getElementById("tx").value;i++)
+                {
+                face=Math.floor(1+Math.random()*6);
+                switch(face)
+                    {
+                        case 1:++freq1;
+                            break;
+                        case 2:++freq2;
+                            break;
+                        case 3:++freq3;
+                            break;
+                        case 4:++freq4;
+                            break;
+                        case 5:++freq5;
+                            break;
+                        case 6:++freq6;
+                            break;
+                    }
+                }
+                document.getElementById("para1").innerHTML="Frequency of Face 1 : "+freq1;
+                document.getElementById("para2").innerHTML="Frequency of Face 2 : "+freq2;
+                document.getElementById("para3").innerHTML="Frequency of Face 3 : "+freq3;
+                document.getElementById("para4").innerHTML="Frequency of Face 4 : "+freq4;
+                document.getElementById("para5").innerHTML="Frequency of Face 5 : "+freq5;
+                document.getElementById("para6").innerHTML="Frequency of Face 6 : "+freq6;
+            }
+        </script>
+        <style type="text/css">
+            p   {
+                color: whitesmoke;
+                font-size: 18;
+                font-style: italic;
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body style="background-color: black">
+        <center>
+        <b><font style="font-size: 20;color: white">How Many Times Do You Want to Roll the Dice : </font><input type="text" id="tx"><br><br>
+        <input type="button" value="Display Frequencies" onclick="print()">
+        <p id="para1"></p>
+        <p id="para2"></p>
+        <p id="para3"></p>
+        <p id="para4"></p>
+        <p id="para5"></p>
+        <p id="para6"></p></b>
+        </center>
+    </body>
+</html>

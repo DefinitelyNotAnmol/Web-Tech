@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Labelled Break</title>
+        <script type="text/javascript">
+            function print()
+            {
+                document.getElementById("para1").innerHTML="Pyramid formed is";
+            stop:{
+                for(var i=1;i<=document.getElementById("tx1").value;i++)
+                    {
+                        if(i==document.getElementById("tx2").value)
+                            {
+                                document.getElementById("para3").innerHTML="Loop Terminated At Iteration "+document.getElementById("tx2").value+".";    
+                                break stop;
+                            }
+                        for(j=1;j<=i;j++)
+                            document.getElementById("para2").innerHTML+="*"+"   ";
+                        document.getElementById("para2").innerHTML+="<br>"
+                    }
+            }
+            }
+        </script>
+    </head>
+    <body style="background-color: black">
+        <center>
+        <font style="font-size: 16;color: white">How Many Rows Do You Want to Print in the Pyramid : </font><input type="text" id="tx1"><br><br>
+        <font style="font-size: 16;color: white">Enter  the Break Point of the Loop : </font><input type="text" id="tx2"><br><br>
+        <input type="button" value="Print Pyramid" onclick="print()">
+        <p id="para1" style="color: red"></p>
+        <p id="para2" style="color: red"></p>
+        <p id="para3" style="color: red"></p>
+        </center>
+    </body>
+</html>

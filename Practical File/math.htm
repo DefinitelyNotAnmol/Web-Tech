@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>String Functions</title>
+        <style type="text/css">
+            font    {
+                color: white;
+                font-style: italic;
+                font-size: 18;
+                font-weight: bolder;
+            }
+            p   {
+                color: red;
+                font-style: italic;
+                font-size: 18;
+                font-weight: bolder;
+            }
+        </style>
+        <script type="text/javascript">
+            function print()
+            {
+                var num=parseInt(document.getElementById("tx1").value);
+                var fnum=parseFloat(document.getElementById("tx2").value);
+                document.getElementById("para1").innerHTML="Result after applying the Math functions are ";
+                document.getElementById("para2").innerHTML="Greater Number is : "+Math.max(num,fnum);
+                document.getElementById("para3").innerHTML="Square Root of "+num+" is : "+Math.sqrt(num);
+                document.getElementById("para4").innerHTML="Rounding off "+fnum+" : to "+Math.round(fnum);
+                document.getElementById("para5").innerHTML=num+" raise to power 5 is : "+Math.pow(num,7);
+                document.getElementById("para6").innerHTML="Applying Ceil Function on "+fnum+" : "+Math.ceil(fnum);
+                document.getElementById("para7").innerHTML="Any Random Number Between 0 and 1 : "+Math.random();
+            }
+        </script>
+    </head>
+    <body style="background-color: black">
+        <center>
+        <font>Enter an Integer : </font><input type="text" id="tx1"><br><br>
+        <font>Enter a Floating Point Number : </font><input type="text" id="tx2"><br><br>
+        <input type="button" value="Apply Math Functions." onclick="print()">
+            <p id="para1"></p>
+            <p id="para2"></p>
+            <p id="para3"></p>
+            <p id="para4"></p>
+            <p id="para5"></p>
+            <p id="para6"></p>
+            <p id="para7"></p>
+        </center>
+    </body>
+</html>

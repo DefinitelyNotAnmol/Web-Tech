@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>CSS using DHTML</title>
+        <link rel="stylesheet" type="text/css" href="extern.css">
+        <style type="text/css">
+        #header2{
+            color: deeppink;
+        }
+        #p1{
+            font-size: 18;
+            color: darkorange;
+            font-weight: bolder;
+        }
+        </style>
+    </head>
+<body style="background-color: black">
+<h1 id="header" onclick="this.style.color='white'" style="color: green">Click Me!</h1>
+<p style="font-size: 18;color: red;font-weight: bolder;">Using Internal CSS : If you click the header above , it turns white.</p><br>
+<h1 id="header2" onclick="document.getElementById('p1').style.color='white'">Click Me!</h1>
+<p id="p1">Using Inline CSS : If you click the header above , this line will turn white.</p><br>
+<h1 id="header3" onclick="this.style.color='white';document.getElementById('p2').style.color='white';">Click Me!</h1>
+<p id="p2">Using External CSS : If you click the header above , Both Header and Line will turn white.</p><br>
+
+</body>
+</html>

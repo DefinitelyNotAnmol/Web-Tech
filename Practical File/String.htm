@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>String Functions</title>
+        <style type="text/css">
+            font    {
+                color: white;
+                font-style: italic;
+                font-size: 18;
+                font-weight: bolder;
+            }
+            p   {
+                color: red;
+                font-style: italic;
+                font-size: 18;
+                font-weight: bolder;
+            }
+        </style>
+        <script type="text/javascript">
+            function print()
+            {
+                var s=document.getElementById("tx1").value;
+                var sub=document.getElementById("tx2").value;
+                var str=s[0]+s[1]+s[2];
+                document.getElementById("para1").innerHTML="Result after applying the String functions are ";
+                document.getElementById("para2").innerHTML="Length of the String : "+s.length;
+                document.getElementById("para3").innerHTML=sub+" is found at index : "+s.indexOf(sub);
+                document.getElementById("para4").innerHTML="Slicing From Index 0 to 3 : "+s.slice(0,4);
+                document.getElementById("para5").innerHTML="String in UPPER CASE : "+s.toUpperCase();
+                document.getElementById("para6").innerHTML="Concatinating 2 Strings : "+ "Hello, ".concat(s);
+                document.getElementById("para7").innerHTML="Replacing the First 3 Letters of the string by STR : "+s.replace(str,"STR");
+            }
+        </script>
+    </head>
+    <body style="background-color: black">
+        <center>
+        <font>Enter a String : </font><input type="text" id="tx1"><br><br>
+        <font>Enter a Sub String to search in the String : </font><input type="text" id="tx2"><br><br>
+        <input type="button" value="Apply String Functions." onclick="print()">
+            <p id="para1"></p>
+            <p id="para2"></p>
+            <p id="para3"></p>
+            <p id="para4"></p>
+            <p id="para5"></p>
+            <p id="para6"></p>
+            <p id="para7"></p>
+        </center>
+    </body>
+</html>
+
+
+
+

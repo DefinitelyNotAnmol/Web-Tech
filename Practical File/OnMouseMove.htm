@@ -1,0 +1,28 @@
+<html xmlns = "http://www.w3.org/1999/xhtml">
+    <head>
+        <title>onmousemove event</title>
+        <script type = "text/javascript">
+        function updateMouseCoordinates() 
+        {
+            var str="Cursor at Co-Ordinates : ";
+            coordinates.innerText =str+" (" + event.offsetX + ", " + event.offsetY + ")";
+        }
+        </script>
+        <style type="text/css">
+            body  {
+            background-image:url(img.jpg);
+            font-family: montserrat;
+                background-repeat: no-repeat;
+                background-size:cover; 
+                margin-top: 25;
+                color: black;
+                font-weight: bold;       
+            }
+        </style>
+    </head>
+    <body onmousemove = "updateMouseCoordinates()">
+        <center>
+        <span id = "coordinates" style="text-align: center">(0, 0)</span><br />
+        </center>
+    </body>
+</html>

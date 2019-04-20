@@ -1,0 +1,74 @@
+<html>
+   <head>        
+      <title>
+         DHTML Event Model
+      </title>
+      <script type = "text/javascript">
+      function mOver() 
+      {
+         if ( event.srcElement.id )
+               event.srcElement.style.color =
+                  event.srcElement.id;       
+      }
+
+      function mOut() 
+      {
+         if ( event.srcElement.id )
+            event.srcElement.innerText = event.srcElement.id;
+      }
+
+         document.onmouseover = mOver;
+         document.onmouseout = mOut;  
+   </script>
+</head>
+
+<body style = "background-color: lightblue">	
+   <center>
+   <h2>Guess the Hex Code's Actual Color</h2>
+
+   <p style="text-align:justify" >Can you tell a color from its hexadecimal RGB code 
+   value? Look at the hex code, guess the color. To see 
+   what color it corresponds to, move the mouse over the 
+   hex code. Moving the mouse out will display the color 
+   name.</p>
+
+   <table style = "width: 50%; border-style: groove; 
+   text-align: center; font-family: monospace; 
+      font-weight: bold">
+
+      <caption>
+         <span> Hexadecimal Codes</span>
+      </caption>
+
+      <tr>
+         <!-- <td><a id = "Black">#000000</a></td>
+         <td><a id = "Blue">#0000FF</a></td>
+         <td><a id = "Magenta">#FF00FF</a></td> 
+         <td><a id = "Gray">#808080</a></td> -->
+         <td id = "Black">#000000</td>
+         <td id = "Blue">#0000FF</td>
+         <td id = "Magenta">#FF00FF</td> 
+         <td id = "Gray">#808080</td>
+      </tr>
+      <tr>
+         <td><a id = "Green">#008000</a></td> 
+         <td><a id = "Lime">#00FF00</a></td> 
+         <td><a id = "Maroon">#800000</a></td>
+         <td><a id = "Navy">#000080</a></td> 
+      </tr>
+      <tr>
+         <td><a id = "Olive">#808000</a></td> 
+         <td><a id = "Purple">#800080</a></td>
+         <td><a id = "Red">#FF0000</a></td>
+         <td><a id = "Silver">#C0C0C0</a></td> 
+      </tr>
+      <tr>
+         <td><a id = "Cyan">#00FFFF</a></td>
+         <td><a id = "Teal">#008080</a></td>
+         <td><a id = "Yellow">#FFFF00</a></td> 
+         <td><a id = "White">#FFFFFF</a></td> 
+      </tr>
+   </table>
+      </center>
+</body>
+</html>
