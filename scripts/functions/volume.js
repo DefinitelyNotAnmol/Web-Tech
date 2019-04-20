@@ -1,242 +1,240 @@
+// gallon - gallon
+// quart - quart
+// pint - pint
+// cubicInch - cubic inch
+// cubicFt - cubic feet
+// cubicM - cubic meter
+// ltr - litre
+// ml - mililitre
+
 // functions to convert mililitre into other units
-function MlToLtr(ml) {
+function mlToLtr(ml) {
 	return ml / 1000;
 }
 
-function MlToCubicM(ml) {
+function mlToCubicM(ml) {
 	return ml / 1e+6 ;
 }
 
-function MlToCubicFt(ml) {
+function mlToCubicFt(ml) {
 	return ml / 28316.847;
 }
 
-function MlToCubicInch(ml) {
+function mlToCubicInch(ml) {
 	return ml / 16.387;
 }
 
-function MlToPint(ml) {
+function mlToPint(ml) {
 	return ml / 568.261;
 }
 
-function MlToQuart(ml) {
+function mlToQuart(ml) {
 	return ml / 1136.522;
 }
 
-function MlToGallon(ml) {
+function mlToGallon(ml) {
 	return ml / 4546.09;
 }
 
 //functions to convert litre into other units
-
-function LtrToMl(ltr) {
+function ltrToMl(ltr) {
 	return ltr * 1000;
 }
 
-function LtrToCubicM(ltr) {
+function ltrToCubicM(ltr) {
 	return ltr * 1000;
 }
 
-function LtrToCubicFt(ltr) {
+function ltrToCubicFt(ltr) {
 	return ltr / 28.317;
 }
 
-function LtrToCubicInch(ltr) {
+function ltrToCubicInch(ltr) {
 	return ltr * 61.024;
 }
 
-function LtrToPint(ltr) {
+function ltrToPint(ltr) {
 	return ltr * 1.76 ;
 }
 
-function LtrToQuart(ltr) {
+function ltrToQuart(ltr) {
 	return ltr / 1.137 ;
 }
 
-function LtrToGallon(ltr) {
+function ltrToGallon(ltr) {
 	return ltr / 4.546;
 }
 
 //functions to convert cubic meter into other units
-
-function CubicMToMl(cubicmtr) {
+function cubicMToMl(cubicmtr) {
 	return cubicmtr * 1e+6 ;
 }
 
-function CubicMToLtr(cubicmtr) {
+function cubicMToLtr(cubicmtr) {
 	return cubicmtr * 1000;
 }
 
-function CubicMToCubicFt(cubicmtr) {
+function cubicMToCubicFt(cubicmtr) {
 	return cubicmtr * 35.315 ;
 }
 
-function CubicMToCubicInch(cubicmtr) {
+function cubicMToCubicInch(cubicmtr) {
 	return cubicmtr * 61023.744 ;
 }
 
-function CubicMToPint(cubicmtr) {
+function cubicMToPint(cubicmtr) {
 	return cubicmtr * 1759.754;
 }
 
-function CubicMToQuart(cubicmtr) {
+function cubicMToQuart(cubicmtr) {
 	return cubicmtr * 879.877 ;
 }
 
-function CubicMToGallon(cubicmtr) {
+function cubicMToGallon(cubicmtr) {
 	return cubicmtr * 219.969 ;
 }
 
 // functions to convert Cubic feet into other units
-
-function CubicFtToMl(cubicft) {
+function cubicFtToMl(cubicft) {
 	return cubicft * 28316.847 ;
 }
 
-function CubicFtToLtr(cubicft) {
+function cubicFtToLtr(cubicft) {
 	return cubicft * 28.317;
 }
 
-function CubicFtToCubicM(cubicft) {
+function cubicFtToCubicM(cubicft) {
 	return cubicft * 35.315 ;
 }
 
-function CubicFtToCubicInch(cubicft) {
+function cubicFtToCubicInch(cubicft) {
 	return cubicft * 1728 ;
 }
 
-function CubicFtToPint(cubicft) {
+function cubicFtToPint(cubicft) {
 	return cubicft * 49.831 ;
 }
 
-function CubicFtToQuart(cubicft) {
+function cubicFtToQuart(cubicft) {
 	return cubicft * 24.915;
 }
 
-function CubicFtToGallon(cubicft) {
+function cubicFtToGallon(cubicft) {
 	return cubicft * 6.229 ;
 }
 
-
 //functions to convert cubicinch to other units
-
-function CubicInchToMl(cubicinch) {
+function cubicInchToMl(cubicinch) {
 	return cubicinch * 16.387 ;
 }
 
-function CubicInchToLtr(cubicinch) {
+function cubicInchToLtr(cubicinch) {
 	return cubicinch / 61.024 ;
 }
 
-function CubicInchToCubicM(cubicinch) {
+function cubicInchToCubicM(cubicinch) {
 	return cubicinch / 61023.744 ;
 }
 
-function CubicInchToCubicFt(cubicinch) {
+function cubicInchToCubicFt(cubicinch) {
 	return cubicinch / 1728 ;
 }
 
-function CubicInchToPint(cubicinch) {
+function cubicInchToPint(cubicinch) {
 	return cubicinch / 34.677 ;
 }
 
-function CubicInchToQuart(cubicinch) {
+function cubicInchToQuart(cubicinch) {
 	return cubicinch / 69.335 ;
 }
 
-function CubicInchToGallon(cubicinch) {
+function cubicInchToGallon(cubicinch) {
 	return cubicinch / 277.419 ;
 }
 
 //functions to convert pint to other units
-
-function PintToMl(pint) {
+function pintToMl(pint) {
 	return pint * 568.261;
 }
 
-function PintToLtr(pint) {
+function pintToLtr(pint) {
 	return pint / 1.76;
 }
 
-function PintToCubicM(pint) {
+function pintToCubicM(pint) {
 	return pint / 1759.754;
 }
 
-function PintToCubicFt(pint) {
+function pintToCubicFt(pint) {
 	return pint / 49.831 ;
 }
 
-function PintToCubicInch(pint) {
+function pintToCubicInch(pint) {
 	return pint * 34.677 ;
 }
 
-function PintToQuart(pint) {
+function pintToQuart(pint) {
 	return pint / 2;
 }
 
-function PintToGallon(pint) {
+function pintToGallon(pint) {
 	return pint / 8 ;
 }
 
 //functions to convert quart to other units
-
-function QuartToMl(quart) {
+function quartToMl(quart) {
 	return quart * 1136.522;
 }
 
-function QuartToLtr(quart) {
+function quartToLtr(quart) {
 	return quart * 1.137;
 }
 
-function QuartToCubicM(quart) {
+function quartToCubicM(quart) {
 	return quart / 879.877;
 }
 
-function QuartToCubicInch(quart) {
+function quartToCubicInch(quart) {
 	return quart * 69.335 ;
 }
 
-function QuartToCubicFt(quart) {
+function quartToCubicFt(quart) {
 	return quart / 24.915 ;
 }
 
-function QuartToPint(quart) {
+function quartToPint(quart) {
 	return quart * 2 ;
 }
 
-function QuartToGallon(quart) {
+function quartToGallon(quart) {
 	return quart / 4 ;
 }
 
 //functions to convert gallon to other units
-
-function GallonToMl(gallon) {
+function gallonToMl(gallon) {
 	return gallon  * 4546.09 ;
 }
 
-function GallonToLtr(gallon) {
+function gallonToLtr(gallon) {
 	return gallon  * 4.546 ;
 }
 
-function GallonToCubicM(gallon) {
+function gallonToCubicM(gallon) {
 	return gallon  / 219.969 ;
 }
 
-function GallonToCubicInch(gallon) {
+function gallonToCubicInch(gallon) {
 	return gallon  * 277.419 ;
 }
 
-function GallonToCubicFt(gallon) {
+function gallonToCubicFt(gallon) {
 	return gallon  / 6.229 ;
 }
 
-function GallonToPint(gallon) {
+function gallonToPint(gallon) {
 	return gallon  * 8 ;
 }
 
-function GallonToQuart(gallon) {
+function gallonToQuart(gallon) {
 	return gallon  * 4 ;
 }
-
-
-
