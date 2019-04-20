@@ -1,10 +1,18 @@
-// functions to convert tonne into other units
+// oz - ounce
+// lb - pounds
+// q - quintal
+// microg - microgram
+// mg - miligram
+// g - gram
+// kg - kilogram
+// t - tonne
 
+// functions to convert tonne into other units
 function tToKg(t) {
 	return t * 1000;
 }
 
-function tToGm(t) {
+function tToG(t) {
 	return t * 1e+6;
 }	
 
@@ -29,212 +37,204 @@ function tToOz(t) {
 }
 
 // functions to convert kilogram into other units
-
-function KgToT(kg) {
+function kgToT(kg) {
 	return kg / 1000;
 }
 
-function KgToGm(kg) {
+function kgToG(kg) {
 	return kg * 1000;
 }
 
-function KgToMg(kg) {
+function kgToMg(kg) {
 	return kg * 1e+6;
 }
 
-function KgToMicrog(kg) {
+function kgToMicrog(kg) {
 	return kg * 1e+9;
 }
 
-function KgToQ(kg) {
+function kgToQ(kg) {
 	return kg / 100;
 }
 
-function KgToLb(kg) {
+function kgToLb(kg) {
 	return kg * 2.205;
 }
 
-function KgToOz(kg) {
+function kgToOz(kg) {
 	return kg * 35.274;
 }
 
 // functions to convert gram into other units
-
-function GmToT(gm) {
-	return gm / 1e+6 ;
+function gToT(g) {
+	return g / 1e+6 ;
 }
 
-function GmToKg(gm) {
-	return gm /1000 ;
+function gToKg(g) {
+	return g /1000 ;
 }
 
-function GmToMg(gm) {
-	return gm * 1000 ;
+function gToMg(g) {
+	return g * 1000 ;
 }
 
-function GmToMicrog(gm) {
-	return gm * 1e+6 ;
+function gToMicrog(g) {
+	return g * 1e+6 ;
 }
 
-function GmToQ(gm) {
-	return gm / 100000 ;
+function gToQ(g) {
+	return g / 100000 ;
 }
 
-function GmToLb(gm) {
-	return gm / 453.592 ;
+function gToLb(g) {
+	return g / 453.592 ;
 }
 
-function GmToOz(gm) {
-	return gm / 28.35 ;
+function gToOz(g) {
+	return g / 28.35 ;
 }
 
 // functions to convert miligram into other units
-
-function MgToT(mg) {
+function mgToT(mg) {
 	return mg / 1e+9;
 }
 
-function MgToKg(mg) {
+function mgToKg(mg) {
 	return mg / 1e+6;
 }
 
-function MgToGm(mg) {
+function mgToG(mg) {
 	return mg / 1000;
 }
 
-function MgToMicrog(mg) {
+function mgToMicrog(mg) {
 	return mg * 1000;
 }
 
-function MgToQ(mg) {
+function mgToQ(mg) {
 	return mg / 1e+8;
 }
 
-function MgToLb(mg) {
+function mgToLb(mg) {
 	return mg / 453592.37;
 }
 
-function MgToOz(mg) {
+function mgToOz(mg) {
 	return mg / 28349.523;
 }
 
 // functions to convert microgram into other units
-
-function MicrogToT(microg) {
+function microgToT(microg) {
 	return microg / 1e+12;
 }
 
-function MicrogToKg(microg) {
+function microgToKg(microg) {
 	return microg / 1e+9;
 }
 
-function MicrogToGm(microg) {
+function microgToG(microg) {
 	return microg / 1e+6;
 }
 
-function MicrogToMg(microg) {
+function microgToMg(microg) {
 	return microg / 1000;
 }
 
-function MicrogToQ(microg) {
+function microgToQ(microg) {
 	return microg / 1e+11;
 }
 
-function MicrogToLb(microg) {
+function microgToLb(microg) {
 	return microg / 4.536e+8;
 }
 
-function MicrogToOz(microg) {
+function microgToOz(microg) {
 	return microg / 2.835e+7 ;
 }
 
 // functions to convert quintal to other units
-
-function QToT(quintal) {
+function qToT(quintal) {
 	return quintal / 10;
 }
 
-function QToKg(quintal) {
+function qToKg(quintal) {
 	return quintal * 100;
 }
 
-function QToGm(quintal) {
+function qToG(quintal) {
 	return quintal * 100000;
 }
 
-function QToMg(quintal) {
+function qToMg(quintal) {
 	return quintal * 1e+8;
 }
 
-function QToMicrog(quintal) {
+function qToMicrog(quintal) {
 	return quintal * 1e+11;
 }
 
-function QToLb(quintal) {
+function qToLb(quintal) {
 	return quintal * 220.462;
 }
 
-function QToOz(quintal) {
+function qToOz(quintal) {
 	return quintal * 3527.396;
 }
 
 //functions to convert Pounds to other units
-
-function LbToT(pounds) {
+function lbToT(pounds) {
 	return pounds / 2204.623;
 }
 
-function LbToKg(pounds) {
+function lbToKg(pounds) {
 	return pounds * 2.205;
 }
 
-function LbToGm(pounds) {
+function lbToG(pounds) {
 	return pounds * 453.592;
 }
 
-function LbToMg(pounds) {
+function lbToMg(pounds) {
 	return pounds * 453592.37;
 }
 
-function LbToMicrog(pounds) {
+function lbToMicrog(pounds) {
 	return pounds * 4.536e+8;
 }
 
-function LbToQ(pounds) {
+function lbToQ(pounds) {
 	return pounds / 220.462;
 }
 
-function LbToOz(pounds) {
+function lbToOz(pounds) {
 	return pounds * 16;
 }
 
 //functions to convert ounce to other units
-
-function OzToT(ounce) {
+function ozToT(ounce) {
 	return ounce / 35273.962;
 }
 
-function OzToKg(ounce) {
+function ozToKg(ounce) {
 	return ounce / 35.274;
 }
 
-function OzToGm(ounce) {
+function ozToG(ounce) {
 	return ounce * 28.35;
 }
 
-function OzToMg(ounce) {
+function ozToMg(ounce) {
 	return ounce * 28349.523;
 }
 
-function OzToMicrog(ounce) {
+function ozToMicrog(ounce) {
 	return ounce * 2.835e+7;
 }
 
-function OzToQ(ounce) {
+function ozToQ(ounce) {
 	return ounce / 3527.396;
 }
 
-function OzToLb(ounce) {   //to convert ounce into pound
+function ozToLb(ounce) { 
 	return ounce / 16;
 }
-
