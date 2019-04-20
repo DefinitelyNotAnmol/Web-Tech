@@ -1,3 +1,7 @@
+// c - celsius
+// f - fahrenheit
+// k - kelvin
+
 // Celsius to Fahrenheit conversion
 function cToF(c) {
 	return (c * 9/5) + 32;
