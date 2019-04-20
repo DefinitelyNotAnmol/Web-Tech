@@ -217,7 +217,11 @@ button {
     margin-bottom: -15px;
 }
 
-.result {
+.para {
+    font-size: 1em;
+}
+
+.para-type2 {
     font-size: 1.2em;
 }
 
@@ -231,4 +235,16 @@ button {
     font-family: Poppins-SemiBold;
     font-size: 2em;
     margin-bottom: -10px;
+}
+
+.first-block {
+    padding: 10px;
+    margin: 10px 0 -15px 30px;
+    width: calc(calc(100% - 300px) - 50px);
+}
+
+.second-block {
+    padding: 10px;
+    margin-left: 30px;
+    width: calc(calc(100% - 300px) - 50px);
 }

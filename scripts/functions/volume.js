@@ -1,11 +1,11 @@
-// gallon - gallon
-// quart - quart
-// pint - pint
+// ml - mililitre
+// ltr - litre
 // cubicInch - cubic inch
 // cubicFt - cubic feet
 // cubicM - cubic meter
-// ltr - litre
-// ml - mililitre
+// quart - quart
+// pint - pint
+// gallon - gallon
 
 // functions to convert mililitre into other units
 function mlToLtr(ml) {

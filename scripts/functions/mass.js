@@ -1,11 +1,11 @@
-// oz - ounce
-// lb - pounds
-// q - quintal
-// microg - microgram
+// mcg - microgram
 // mg - miligram
 // g - gram
 // kg - kilogram
+// q - quintal
 // t - tonne
+// oz - ounce
+// lb - pounds
 
 // functions to convert tonne into other units
 function tToKg(t) {
@@ -124,31 +124,31 @@ function mgToOz(mg) {
 }
 
 // functions to convert microgram into other units
-function microgToT(microg) {
+function mcgToT(microg) {
 	return microg / 1e+12;
 }
 
-function microgToKg(microg) {
+function mcgToKg(microg) {
 	return microg / 1e+9;
 }
 
-function microgToG(microg) {
+function mcgToG(microg) {
 	return microg / 1e+6;
 }
 
-function microgToMg(microg) {
+function mcgToMg(microg) {
 	return microg / 1000;
 }
 
-function microgToQ(microg) {
+function mcgToQ(microg) {
 	return microg / 1e+11;
 }
 
-function microgToLb(microg) {
+function mcgToLb(microg) {
 	return microg / 4.536e+8;
 }
 
-function microgToOz(microg) {
+function mcgToOz(microg) {
 	return microg / 2.835e+7 ;
 }
 

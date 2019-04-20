@@ -1,10 +1,10 @@
-// slight - Speed of Light
-// ssoung - Speed of Sound
-// kn - Knot
-// fts - foot per second
-// mph - miles per hour
-// kmph - Kilometer per hour
 // ms - meter per second
+// fts - foot per second
+// kmph - Kilometer per hour
+// mph - miles per hour
+// kn - Knot
+// ssoung - Speed of Sound
+// slight - Speed of Light
 
 // functions to convert meter per second into something
 function msToKmph(ms) {

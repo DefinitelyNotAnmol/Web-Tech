@@ -1,12 +1,12 @@
+// micro - microseconds
+// ms - milisecond
+// s - seconds
+// min - minute
+// hr - hour
+// day - day
+// week - week
 // months - months
 // yr - year
-// week - week
-// day - day
-// hr - hour
-// ms - milisecond
-// min - minute
-// micro - microseconds
-// s - seconds
 
 // functions to convert seconds into every time unit
 function sToMs(s) {

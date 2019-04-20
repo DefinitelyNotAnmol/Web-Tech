@@ -1,11 +1,11 @@
 // cm - centimeter
-// inch - inches
+// in - inches
 // m - meter
 // mm - milimeter
 // km - kilometer
-// feet - feets
-// yards - yards
-// miles - miles (mi)
+// ft - feets
+// yd - yards
+// mi - miles (mi)
 // nm - Nautical Mile
 
 // functions to convert centimeter into something
@@ -141,134 +141,134 @@ function kmToNauticalmiles(km) {
 }
 
 // functions to convert inch into something
-function inchToMm(inch) {
+function inToMm(inch) {
 	return inch * 25.4;
 }
 
-function inchToCm(inch) {
+function inToCm(inch) {
 	return inch * 2.54;
 }
 
-function inchToM(inch) {
+function inToM(inch) {
 	return inch / 39.37;
 }
 
-function inchToKm(inch) {
+function inToKm(inch) {
 	return inch / 39370.079	; //for an approximate answer
 }
 
-function inchTofeet(inch) {
+function inTofeet(inch) {
 	return inch / 12;
 }
 
-function inchToYards(inch) {
+function inToYards(inch) {
 	return inch / 36 ;
 }
 
-function inchToMiles(inch) {
+function inToMiles(inch) {
 	return inch / 63360	;
 }
 
-function inchToNauticalmiles(inch) {
+function inToNauticalmiles(inch) {
 	return inch / 72913.386	; //for an approx. answer
 }
 
 //functions to convert feet into something
-function feetToMm(feet) {
+function ftToMm(feet) {
 	return feet * 304.8;
 }
 
-function feetToCm(feet) {
+function ftToCm(feet) {
 	return feet * 30.48;
 }
 
-function feetToM(feet) {
+function ftToM(feet) {
 	return feet / 3.281	;
 }
 
-function feetToKm(feet) {
+function ftToKm(feet) {
 	return feet / 3280.84;
 }
 
-function feetToInch(feet) {
+function ftToInch(feet) {
 	return feet * 12;
 }
 
-function feetToYards(feet) {
+function ftToYards(feet) {
 	return feet / 3 ;
 }
 
-function feetToMiles(feet) {
+function ftToMiles(feet) {
 	return feet / 5280;
 }
 
-function feetToNauticalmiles(feet) {
+function ftToNauticalmiles(feet) {
 	return feet / 6076.115; //for an approx. answer
 }
 
 //conversion of yards into smething
-function yardToMm(yards) {
+function ydToMm(yards) {
 	return yards * 914.4;
 }
 
-function yardToCm(yards) {
+function ydToCm(yards) {
 	return yards * 91.44;
 }
 
-function yardToM(yards) {
+function ydToM(yards) {
 	return yards / 1.094;
 }
 
-function yardToKm(yards) {
+function ydToKm(yards) {
 	return yards / 1093.613;
 }
 
-function yardToInch(yards) {
+function ydToInch(yards) {
 	return yards * 36;
 }
 
-function yardToFeet(yards) {
+function ydToFeet(yards) {
 	return yards * 3 ;
 }
 
-function yardToMiles(yards) {
+function ydToMiles(yards) {
 	return yards / 1760;
 }
 
-function yardToNauticalmiles(yards) {
+function ydToNauticalmiles(yards) {
 	return yards / 2025.372	; //for an approx. answer
 }
 
 //conversion of miles into something
-function mileToMm(miles) {
+function miToMm(miles) {
 	return miles * 1.609e+6;
 }
 
-function mileToCm(miles) {
+function miToCm(miles) {
 	return miles * 160934.4	;
 }
 
-function mileToM(miles) {
+function miToM(miles) {
 	return miles * 1609.344	;
 }
 
-function mileToKm(miles) {
+function miToKm(miles) {
 	return miles * 1.609;
 }
 
-function mileToInch(miles) {
+function miToInch(miles) {
 	return miles * 63360;
 }
 
-function mileToFeet(miles) {
+function miToFeet(miles) {
 	return miles * 5280	;
 }
 
-function mileToYards(miles) {
+function miToYards(miles) {
 	return miles * 1760;
 }
 
-function mileToNauticalmiles(miles) {
+function miToNauticalmiles(miles) {
 	return miles /  1.151; //for an approx. answer
 }
 
