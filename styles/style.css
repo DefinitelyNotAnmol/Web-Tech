@@ -217,12 +217,6 @@ button {
     margin-bottom: -15px;
 }
 
-.sub-heading {
-    font-family: Poppins-SemiBold;
-    font-size: 2em;
-    margin-bottom: -10px;
-}
-
 .result {
     font-size: 1.2em;
 }
@@ -231,4 +225,10 @@ button {
     padding: 10px;
     margin-left: 30px;
     width: calc(calc(100% - 300px) - 50px);
+}
+
+.sub-heading {
+    font-family: Poppins-SemiBold;
+    font-size: 2em;
+    margin-bottom: -10px;
 }
