@@ -208,11 +208,6 @@ function calculate() {
             "formula" : "A(ac) = A(in2) / 6.273e+6"
         },
     
-        "in2_mi2" : {
-            "para" : "The Area A in Square Mile(mi2) is equal to the Area A in Square Inch(in2) divide by 4.014e+9",
-            "formula" : "A(mi2) = A(in2) / 4,0144e+9"
-        },
-    
     
     
         "ft2_cm2" : {
@@ -258,42 +253,42 @@ function calculate() {
     
     
         "yd2_cm2" : {
-            "para" : "The Area A in Square Centimeter(cm2) is equal to the Area A in Square Yard(ft2) times 8361.274",
+            "para" : "The Area A in Square Centimeter(cm2) is equal to the Area A in Square Yard(yd2) times 8361.274",
             "formula" : "A(cm2) = A(yd2) * 8361.274"
         },
     
         "yd2_km2" : {
-            "para" : "The Area A in Square Kilometer(km2) is equal to the Area A in Square Yard(ft2) divide by 1.196e+6",
+            "para" : "The Area A in Square Kilometer(km2) is equal to the Area A in Square Yard(yd2) divide by 1.196e+6",
             "formula" : "A(km2) = A(yd2) / 1.196e+6"
         },
     
         "yd2_m2" : {
-            "para" : "The Area A in Square Meter(m2) is equal to the Area A in Square Yard(ft2) divide by 1.196",
+            "para" : "The Area A in Square Meter(m2) is equal to the Area A in Square Yard(yd2) divide by 1.196",
             "formula" : "A(m2) = A(yd2) / 1.196"
         },
     
         "yd2_ha" : {
-            "para" : "The Area A in Hectare(ha) is equal to the Area A in Square Yard(ft2) divide by 11959.9",
+            "para" : "The Area A in Hectare(ha) is equal to the Area A in Square Yard(yd2) divide by 11959.9",
             "formula" : "A(ha) = A(yd2) / 11959.9"
         },
     
         "yd2_in2" : {
-            "para" : "The Area A in Square Inch(in2) is equal to the Area A in Square Yard(ft2) times 1296",
+            "para" : "The Area A in Square Inch(in2) is equal to the Area A in Square Yard(yd2) times 1296",
             "formula" : "A(in2) = A(yd2) * 1296"
         },
     
         "yd2_ft2" : {
-            "para" : "The Area A in Square Foot(ft2) is equal to the Area A in Square Yard(ft2) times 9",
+            "para" : "The Area A in Square Foot(ft2) is equal to the Area A in Square Yard(yd2) times 9",
             "formula" : "A(ft2) = A(yd2) * 9"
         },
     
         "yd2_mi2" : {
-            "para" : "The Area A in Square Mile(mi2) is equal to the Area A in Square Yard(ft2) divide by 3.098e+6",
+            "para" : "The Area A in Square Mile(mi2) is equal to the Area A in Square Yard(yd2) divide by 3.098e+6",
             "formula" : "A(mi2) = A(yd2) / 3.098e+6"
         },
     
         "yd2_ac" : {
-            "para" : "The Area A in Acre(ac) is equal to the Area A in Square Yard(ft2) divide by 4840",
+            "para" : "The Area A in Acre(ac) is equal to the Area A in Square Yard(yd2) divide by 4840",
             "formula" : "A(ac) = A(yd2) / 4840"
         },
     

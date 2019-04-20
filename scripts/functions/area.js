@@ -1,12 +1,12 @@
-// ac - acre
-// mi2 - mile sqaure
-// yd2 - yard square
-// ft2 - foot square
-// in2 - inch square
-// ha - hectare
-// km2 - kilometer sqaure
-// m2 - meter sqaure
 // cm2 - centimeter square
+// in2 - inch square
+// m2 - meter sqaure
+// ac - acre
+// km2 - kilometer sqaure
+// ft2 - foot square
+// yd2 - yard square
+// mi2 - mile sqaure
+// ha - hectare
 
 // functions To convert centimeter square inTo something
 function cm2ToM2(cm) {

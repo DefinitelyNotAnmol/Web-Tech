@@ -1,391 +1,386 @@
 function calculate() {
     let json_text = {
-        "cm2_m2" : {
-            "para" : "The Area A in square meter(m2) is equal to the Area A in square centimeter(cm2) divided by 0.0001",
-            "formula" : "A(m2) = A(cm2) / 0.0001"
+        "cm_m" : {
+            "para" : "The Length L in Meter(m) is equal to the Length L in Centimeter(cm) divided by 100",
+            "formula" : "L(m) = L(cm) / 100"
         },
     
-        "cm2_ha" : {
-            "para" : "The Area A in Hectare(ha) is equal to the Area A in square centimeter(cm2) divided by 1e+8",
-            "formula" : "A(ha) = A(cm2) / 1e+8"
+        "cm_nm" : {
+            "para" : "The Length L in Nautical Mile(nm) is equal to the Length L in Centimeter(cm) divided by 185200",
+            "formula" : "L(nm) = L(cm) / 185200"
         },
     
-        "cm2_km2" : {
-            "para" : "The Area A in square kilometer(km2) is equal to the Area A in square centimeter(cm2) divided by 1e+10",
-            "formula" : "A(km2) = A(cm2) / 1e+10"
+        "cm_km" : {
+            "para" : "The Length L in Kilometer(km) is equal to the Length L in Centimeter(cm) divided by 100000",
+            "formula" : "L(km) = L(cm) / 100000"
         },
     
-        "cm2_in2" : {
-            "para" : "The Area A in square inch(in2) is equal to the Area A in square centimeter(cm2) divided by 6.452",
-            "formula" : "A(in2) = A(cm2) / 6.452"
+        "cm_in" : {
+            "para" : "The Length L in Inch(in) is equal to the Length L in Centimeter(cm) times 0.3927",
+            "formula" : "L(in) = L(cm) * 0.3937"
         },
     
-        "cm2_ft2" : {
-            "para" : "The Area A in square foot(ft2) is equal to the Area A in square centimeter(cm2) divided by 929.03",
-            "formula" : "A(ft2) = A(cm2) / 929.03"
+        "cm_ft" : {
+            "para" : "The Length L in Foot(ft) is equal to the Length L in Centimeter(cm) divided by 30.48",
+            "formula" : "L(ft) = L(cm) / 30.48"
         },
     
-        "cm2_yd2" : {
-            "para" : "The Area A in square yard(yd2) is equal to the Area A in square centimeter(cm2) divided by 8361.274",
-            "formula" : "A(yd2) = A(cm2) / 8361.274"
+        "cm_yd" : {
+            "para" : "The Length L in Yard(yd) is equal to the Length L in Centimeter(cm) divided by 91.44",
+            "formula" : "L(yd) = L(cm) / 91.44"
         },
     
-        "cm2_mi2" : {
-            "para" : "The Area A in mile square(mi2) is equal to the Area A in square centimeter(cm2) divided by 2.59e+10",
-            "formula" : "A(mi2) = A(cm2) / 2.59e+10"
+        "cm_mi" : {
+            "para" : "The Length L in Mile(mi) is equal to the Length L in Centimeter(cm) divided by 160934.4",
+            "formula" : "L(mi) = L(cm) / 160934.4"
         },
     
-        "cm2_ac" : {
-            "para" : "The Area A in Acre(ac) is equal to the Area A in square centimeter(cm2) divided by 4.047e+7",
-            "formula" : "A(ac) = A(cm2) / 4.047e+7"
+        "cm_mm" : {
+            "para" : "The Length L in Milimeter(mm) is equal to the Length L in Centimeter(cm) times 10",
+            "formula" : "L(mm) = L(cm) * 10"
         },
     
     
     
-        "m2_cm2" : {
-            "para" : "The Area A in square centimeter(cm2) is equal to the Area A in square meter(m2) times 10000",
-            "formula" : "A(cm2) = A(m2) * 10000"
+        "m_cm" : {
+            "para" : "The Length L in Centimeter(cm) is equal to the Length L in Meter(m) times 100",
+            "formula" : "L(cm) = L(m) * 100"
         },
     
-        "m2_ha" : {
-            "para" : "The Area A in Hectare(ha) is equal to the Area A in square meter(m2) divided by 10000",
-            "formula" : "A(ha) = A(m2) / 10000"
+        "m_nm" : {
+            "para" : "The Length L in Nautical Mile(nm) is equal to the Length L in Meter(m) divided by 1852",
+            "formula" : "L(nm) = L(m) / 1852"
         },
     
-        "m2_km2" : {
-            "para" : "The Area A in square kilometer(km2) is equal to the Area A in square meter(m2) divided by 1e+6",
-            "formula" : "A(km2) = A(m2) / 1e+6"
+        "m_km" : {
+            "para" : "The Length L in Kilometer(km) is equal to the Length L in Meter(m) divided by 1000",
+            "formula" : "L(km) = L(m) / 1000"
         },
     
-        "m2_in2" : {
-            "para" : "The Area A in Square Inch(in2) is equal to the Area A in square meter(m2) times 1550.003",
-            "formula" : "A(in2) = A(m2) * 1550.003"
+        "m_in" : {
+            "para" : "The Length L in Inch(in) is equal to the Length L in Meter(m) times 39.37",
+            "formula" : "L(in) = L(m) * 39.37"
         },
     
-        "m2_ft2" : {
-            "para" : "The Area A in Square Foot(ft2) is equal to the Area A in square meter(m2) times 10.764",
-            "formula" : "A(ft2) = A(m2) * 10.764"
+        "m_ft" : {
+            "para" : "The Length L in Foot(ft) is equal to the Length L in Meter(m) times 3.281",
+            "formula" : "L(ft) = L(m) * 3.281"
         },
     
-        "m2_yd2" : {
-            "para" : "The Area A in Square Yard(yd2) is equal to the Area A in square meter(m2) times 1.196",
-            "formula" : "A(yd2) = A(m2) * 1.196"
+        "m_yd" : {
+            "para" : "The Length L in Yard(yd) is equal to the Length L in Meter(m) times 1.094",
+            "formula" : "L(yd) = L(m) * 1.094"
         },
     
-        "m2_mi2" : {
-            "para" : "The Area A in Square Mile(km2) is equal to the Area A in square meter(m2) divided by 2.59e+6",
-            "formula" : "A(mi2) = A(m2) / 2.59e+6"
+        "m_mi" : {
+            "para" : "The Length L in Mile(km) is equal to the Length L in Meter(m) divided by 1609.344",
+            "formula" : "L(mi) = L(m) / 1609.344"
         },
     
-        "m2_Ac" : {
-            "para" : "The Area A in Acre(ac) is equal to the Area A in square meter(m2) divided by 4046.856",
-            "formula" : "A(km2) = A(m2) / 4046.856"
+        "m_mm" : {
+            "para" : "The Length L in Milimeter(mm) is equal to the Length L in Meter(m) times 1000",
+            "formula" : "L(km) = L(m) * 1000"
         },
     
     
     
-        "km2_cm2" : {
-            "para" : "The Area A in Square Centimeter(cm2) is equal to the Area A in Square Kilometer(km2) times 1e+10",
-            "formula" : "A(cm2) = A(km2) * 1e+10"
+        "km_cm" : {
+            "para" : "The Length L in Centimeter(cm) is equal to the Length L in Kilometer(km) times 100000",
+            "formula" : "L(cm) = L(km) * 100000"
         },
     
-        "km2_ha" : {
-            "para" : "The Area A in Hectare(ha) is equal to the Area A in Square Kilometer(km2) times 100",
-            "formula" : "A(ha) = A(km2) * 100"
+        "km_nm" : {
+            "para" : "The Length L in Nautical Mile(nm) is equal to the Length L in Kilometer(km) divide by 1.852",
+            "formula" : "L(nm) = L(km) / 1.852"
         },
     
-        "km2_m2" : {
-            "para" : "The Area A in Square Meter(m2) is equal to the Area A in Square Kilometer(km2) times 1e+6",
-            "formula" : "A(m2) = A(km2) * 1e+6"
+        "km_m" : {
+            "para" : "The Length L in Meter(m) is equal to the Length L in Kilometer(km) times 1000",
+            "formula" : "L(m) = L(km) * 1000"
         },
     
-        "km2_in2" : {
-            "para" : "The Area A in Square Inch(in2) is equal to the Area A in Square Kilometer(km2) times 1.55e+9",
-            "formula" : "A(in2) = A(km2) * 1.55e+9"
+        "km_in" : {
+            "para" : "The Length L in Inch(in) is equal to the Length L in Kilometer(km) times 39370.070",
+            "formula" : "L(in) = L(km) * 39370.070"
         },
     
-        "km2_ft2" : {
-            "para" : "The Area A in Square Foot(ft2) is equal to the Area A in Square Kilometer(km2) times 1.076e+7",
-            "formula" : "A(ft2) = A(km2) * 1.076e+7"
+        "km_ft" : {
+            "para" : "The Length L in Foot(ft) is equal to the Length L in Kilometer(km) times 3280.84",
+            "formula" : "L(ft) = L(km) * 3280.84"
         },
     
-        "km2_yd2" : {
-            "para" : "The Area A in Square Yard(yd2) is equal to the Area A in Square Kilometer(km2) times 1.196e+6",
-            "formula" : "A(yd2) = A(km2) * 1.196e+6"
+        "km_yd" : {
+            "para" : "The Length L in Yard(yd) is equal to the Length L in Kilometer(km) times 1093.613",
+            "formula" : "L(yd) = L(km) * 1093.613"
         },
     
-        "km2_mi2" : {
-            "para" : "The Area A in Square Mile(mi2) is equal to the Area A in Square Kilometer(km2) divided by 2.59",
-            "formula" : "A(cm2) = A(km2) / 2.59"
+        "km_mi" : {
+            "para" : "The Length L in Mile(mi) is equal to the Length L in Kilometer(km) divided by 1.609",
+            "formula" : "L(cm) = L(km) / 1.609"
         },
     
-        "km2_ac" : {
-            "para" : "The Area A in Acre(ac) is equal to the Area A in Square Kilometer(km2) times 247.105",
-            "formula" : "A(cm2) = A(km2) * 247.105"
+        "km_mm" : {
+            "para" : "The Length L in Milimeter(mm) is equal to the Length L in Kilometer(km) times 1000000",
+            "formula" : "L(cm) = L(km) * 1000000"
         },
     
     
     
-        "ha_cm2" : {
-            "para" : "The Area A in Square Centimeter(cm2) is equal to the Area A in Hectare(ha) times 1e+8",
-            "formula" : "A(cm2) = A(ha) * 1e+8"
+        "nm_cm" : {
+            "para" : "The Length L in Centimeter(cm) is equal to the Length L in Nautical Mile(nm) times 185200",
+            "formula" : "L(cm) = L(nm) * 185200"
         },
     
-        "ha_m2" : {
-            "para" : "The Area A in Square Meter(m2) is equal to the Area A in Hectare(ha) times 10000",
-            "formula" : "A(m2) = A(ha) * 10000"
+        "nm_m" : {
+            "para" : "The Length L in Meter(m) is equal to the Length L in Nautical Mile(nm) times 1852",
+            "formula" : "L(m) = L(nm) * 1852"
         },
     
-        "ha_km2" : {
-            "para" : "The Area A in Square Kilometer(km2) is equal to the Area A in Hectare(ha) divide by 100",
-            "formula" : "A(km2) = A(ha) / 100"
+        "nm_km" : {
+            "para" : "The Length L in Kilometer(km) is equal to the Length L in Nautical Mile(nm) times 1.852",
+            "formula" : "L(km) = L(nm) * 1.852"
         },
     
-        "ha_in2" : {
-            "para" : "The Area A in Square Inch(in2) is equal to the Area A in Hectare(ha) times 1.55e+7",
-            "formula" : "A(in2) = A(ha) * 1.55e+7"
+        "nm_in" : {
+            "para" : "The Length L in Inch(in) is equal to the Length L in Nautical Mile(nm) times 72913.386",
+            "formula" : "L(in) = L(nm) * 72913.386"
         },
     
-        "ha_ft2" : {
-            "para" : "The Area A in Square Foot(ft2) is equal to the Area A in Hectare(ha) times 107639.104",
-            "formula" : "A(ft2) = A(ha) * 107639.104"
+        "nm_ft" : {
+            "para" : "The Length L in Foot(ft) is equal to the Length L in Nautical Mile(nm) times 6076.12",
+            "formula" : "L(ft) = L(nm) * 6076.12"
         },
     
-        "ha_yd2" : {
-            "para" : "The Area A in Square Yard(m2) is equal to the Area A in Hectare(ha) times 11959.9",
-            "formula" : "A(yd2) = A(ha) * 11959.9"
+        "nm_yd" : {
+            "para" : "The Length L in Yard(m) is equal to the Length L in Nautical Mile(nm) times 2025.372",
+            "formula" : "L(yd) = L(nm) * 2025.372"
         },
     
-        "ha_mi2" : {
-            "para" : "The Area A in Square Mile(mi2) is equal to the Area A in Hectare(ha) divide by 258.999",
-            "formula" : "A(mi2) = A(ha) / 258.999"
+        "nm_mi" : {
+            "para" : "The Length L in Mile(mi) is equal to the Length L in Nautical Mile(nm) times 1.151",
+            "formula" : "L(mi) = L(nm) times 1.151"
         },
     
-        "ha_ac" : {
-            "para" : "The Area A in Acre(ac) is equal to the Area A in Hectare(ha) times 2.471",
-            "formula" : "A(ac) = A(ha) * 2.471"
+        "nm_mm" : {
+            "para" : "The Length L in Milimeter(mm) is equal to the Length L in Nautical Mile(nm) times 1.852e+6",
+            "formula" : "L(mm) = L(nm) * 1.852e+6"
         },
     
     
     
-        "in2_cm2" : {
-            "para" : "The Area A in Square Centimeter(cm2) is equal to the Area A in Square Inch(in2) times 6.452",
-            "formula" : "A(cm2) = A(in2) * 6.452"
+        "in_cm" : {
+            "para" : "The Length L in Centimeter(cm) is equal to the Length L in Inch(in) times 2.54",
+            "formula" : "L(cm) = L(in) * 2.54"
         },
     
-        "in2_km2" : {
-            "para" : "The Area A in Square Kilometer(km2) is equal to the Area A in Square Inch(in2) divide by 1.55e+9",
-            "formula" : "A(km2) = A(in2) / 1.55e+9"
+        "in_km" : {
+            "para" : "The Length L in Kilometer(km) is equal to the Length L in Inch(in) divide by 39370.079",
+            "formula" : "L(km) = L(in) / 39370.079"
         },
     
-        "in2_m2" : {
-            "para" : "The Area A in Square Meter(m2) is equal to the Area A in Square Inch(in2) divide by 1550.003",
-            "formula" : "A(m2) = A(in2) / 1550.003"
+        "in_m" : {
+            "para" : "The Length L in Meter(m) is equal to the Length L in Inch(in) divide by 39.37",
+            "formula" : "L(m) = L(in) / 39.37"
         },
     
-        "in2_ha" : {
-            "para" : "The Area A in Hectare(ha) is equal to the Area A in Square Inch(in2) times 1.55e+7",
-            "formula" : "A(ha) = A(in2) * 1.55e+7"
+        "in_nm" : {
+            "para" : "The Length L in Nautical Mile(nm) is equal to the Length L in Inch(in) divide by 72913.386",
+            "formula" : "L(nm) = L(in) 72913.386"
         },
     
-        "in2_ft2" : {
-            "para" : "The Area A in Square Foot(ft2) is equal to the Area A in Square Inch(in2) divide by 144",
-            "formula" : "A(ft2) = A(in2) / 144"
+        "in_ft" : {
+            "para" : "The Length L in Foot(ft) is equal to the Length L in Inch(in) divide by 12",
+            "formula" : "L(ft) = L(in) / 12"
         },
     
-        "in2_yd2" : {
-            "para" : "The Area A in Square Yard(yd2) is equal to the Area A in Square Inch(in2) divide by 1296",
-            "formula" : "A(yd2) = A(in2) / 1296"
+        "in_yd" : {
+            "para" : "The Length L in Yard(yd) is equal to the Length L in Inch(in) divide by 36",
+            "formula" : "L(yd) = L(in) / 36"
         },
     
-        "in2_mi2" : {
-            "para" : "The Area A in Square Mile(mi2) is equal to the Area A in Square Inch(in2) divide by 4.014e+9",
-            "formula" : "A(mi2) = A(in2) / 4,0144e+9"
+        "in_mi" : {
+            "para" : "The Length L in Mile(mi) is equal to the Length L in Inch(in) divide by 63360",
+            "formula" : "L(mi) = L(in) / 63360"
         },
     
-        "in2_ac" : {
-            "para" : "The Area A in Acre(ac) is equal to the Area A in Square Inch(in2) divide by 6.273e+6",
-            "formula" : "A(ac) = A(in2) / 6.273e+6"
+        "in_mm" : {
+            "para" : "The Length L in Milimeter(mm) is equal to the Length L in Inch(in) times 25.4",
+            "formula" : "L(mm) = L(in) * 25.4"
         },
     
-        "in2_mi2" : {
-            "para" : "The Area A in Square Mile(mi2) is equal to the Area A in Square Inch(in2) divide by 4.014e+9",
-            "formula" : "A(mi2) = A(in2) / 4,0144e+9"
-        },
-    
     
     
-        "ft2_cm2" : {
-            "para" : "The Area A in Square Centimeter(cm2) is equal to the Area A in Square Foot(ft2) times 929.03",
-            "formula" : "A(cm2) = A(ft2) * 929.03"
+        "ft_cm" : {
+            "para" : "The Length L in Centimeter(cm) is equal to the Length L in Foot(ft) times 30.48",
+            "formula" : "L(cm) = L(ft) * 30.48"
         },
     
-        "ft2_km2" : {
-            "para" : "The Area A in Square Kilometer(km2) is equal to the Area A in Square Foot(ft2) divide by 1.076e+7",
-            "formula" : "A(km2) = A(ft2) / 1.076e+7"
+        "ft_km" : {
+            "para" : "The Length L in Kilometer(km) is equal to the Length L in Foot(ft) divide by 3280.84",
+            "formula" : "L(km) = L(ft) / 3280.84"
         },
     
-        "ft2_m2" : {
-            "para" : "The Area A in Square Meter(mm2) is equal to the Area A in Square Foot(ft2) divide by 10.764",
-            "formula" : "A(m2) = A(ft2) / 10.764"
+        "ft_m" : {
+            "para" : "The Length L in Meter(mm) is equal to the Length L in Foot(ft) divide by 3.281",
+            "formula" : "L(m) = L(ft) / 3.281"
         },
     
-        "ft2_ha" : {
-            "para" : "The Area A in Hectare(ha) is equal to the Area A in Square Foot(ft2) divide by 107639.104",
-            "formula" : "A(ha) = A(ft2) / 107639.104"
+        "ft_nm" : {
+            "para" : "The Length L in Nautical Mile(nm) is equal to the Length L in Foot(ft) divide by 6076.115",
+            "formula" : "L(nm) = L(ft) / 6076.115"
         },
     
-        "ft2_in2" : {
-            "para" : "The Area A in Square Inch(in2) is equal to the Area A in Square Foot(ft2) times 144",
-            "formula" : "A(in2) = A(ft2) * 144"
+        "ft_in" : {
+            "para" : "The Length L in Inch(in) is equal to the Length L in Foot(ft) times 144",
+            "formula" : "L(in) = L(ft) * 12"
         },
     
-        "ft2_yd2" : {
-            "para" : "The Area A in Square Yard(yd2) is equal to the Area A in Square Foot(ft2) divide by 9",
-            "formula" : "A(yd2) = A(ft2) / 9"
+        "ft_yd" : {
+            "para" : "The Length L in Yard(yd) is equal to the Length L in Foot(ft) divide by 3",
+            "formula" : "L(yd) = L(ft) / 3"
         },
     
-        "ft2_mi2" : {
-            "para" : "The Area A in Square Mile(mi2) is equal to the Area A in Square Foot(ft2) divide by 2.788e+7",
-            "formula" : "A(mi2) = A(ft2) / 2.788e+7"
+        "ft_mi" : {
+            "para" : "The Length L in Mile(mi) is equal to the Length L in Foot(ft) divide by 5280",
+            "formula" : "L(mi) = L(ft) / 5280"
         },
     
-        "ft2_ac" : {
-            "para" : "The Area A in Acre(ac) is equal to the Area A in Square Foot(ft2) divide by 43560",
-            "formula" : "A(ac2) = A(ft2) / 43560"
+        "ft_mm" : {
+            "para" : "The Length L in Milimeter(mm) is equal to the Length L in Foot(ft) times 304.8",
+            "formula" : "L(mm) = L(ft) * 304.8"
         },
     
     
     
-        "yd2_cm2" : {
-            "para" : "The Area A in Square Centimeter(cm2) is equal to the Area A in Square Yard(ft2) times 8361.274",
-            "formula" : "A(cm2) = A(yd2) * 8361.274"
+        "yd_cm" : {
+            "para" : "The Length L in Centimeter(cm) is equal to the Length L in Yard(ft) times 91.44",
+            "formula" : "L(cm) = L(yd) * 91.44"
         },
     
-        "yd2_km2" : {
-            "para" : "The Area A in Square Kilometer(km2) is equal to the Area A in Square Yard(ft2) divide by 1.196e+6",
-            "formula" : "A(km2) = A(yd2) / 1.196e+6"
+        "yd_km" : {
+            "para" : "The Length L in Kilometer(km) is equal to the Length L in Yard(ft) divide by 1093.613",
+            "formula" : "L(km) = L(yd) / 1093.613"
         },
     
-        "yd2_m2" : {
-            "para" : "The Area A in Square Meter(m2) is equal to the Area A in Square Yard(ft2) divide by 1.196",
-            "formula" : "A(m2) = A(yd2) / 1.196"
+        "yd_m" : {
+            "para" : "The Length L in Meter(m) is equal to the Length L in Yard(ft) divide by 1.094",
+            "formula" : "L(m) = L(yd) / 1.094"
         },
     
-        "yd2_ha" : {
-            "para" : "The Area A in Hectare(ha) is equal to the Area A in Square Yard(ft2) divide by 11959.9",
-            "formula" : "A(ha) = A(yd2) / 11959.9"
+        "yd_nm" : {
+            "para" : "The Length L in Nautical Mile(nm) is equal to the Length L in Yard(ft) divide by 2025.372",
+            "formula" : "L(nm) = L(yd) / 2025.372"
         },
     
-        "yd2_in2" : {
-            "para" : "The Area A in Square Inch(in2) is equal to the Area A in Square Yard(ft2) times 1296",
-            "formula" : "A(in2) = A(yd2) * 1296"
+        "yd_in" : {
+            "para" : "The Length L in Inch(in) is equal to the Length L in Yard(ft) times 36",
+            "formula" : "L(in) = L(yd) * 36"
         },
     
-        "yd2_ft2" : {
-            "para" : "The Area A in Square Foot(ft2) is equal to the Area A in Square Yard(ft2) times 9",
-            "formula" : "A(ft2) = A(yd2) * 9"
+        "yd_ft" : {
+            "para" : "The Length L in Foot(ft) is equal to the Length L in Yard(ft) times 3",
+            "formula" : "L(ft) = L(yd) * 3"
         },
     
-        "yd2_mi2" : {
-            "para" : "The Area A in Square Mile(mi2) is equal to the Area A in Square Yard(ft2) divide by 3.098e+6",
-            "formula" : "A(mi2) = A(yd2) / 3.098e+6"
+        "yd_mi" : {
+            "para" : "The Length L in Mile(mi) is equal to the Length L in Yard(ft) divide by 1760",
+            "formula" : "L(mi) = L(yd) / 1760"
         },
     
-        "yd2_ac" : {
-            "para" : "The Area A in Acre(ac) is equal to the Area A in Square Yard(ft2) divide by 4840",
-            "formula" : "A(ac) = A(yd2) / 4840"
+        "yd_mm" : {
+            "para" : "The Length L in Milimeter(mm) is equal to the Length L in Yard(ft) times 914.4",
+            "formula" : "L(mm) = L(yd) times 914.4"
         },
     
     
     
-        "mi2_cm2" : {
-            "para" : "The Area A in Square Centimeter(cm2) is equal to the Area A in Square Mile(mi2) times 2.59e+10",
-            "formula" : "A(cm2) = A(mi2) * 2.59e+10"
+        "mi_cm" : {
+            "para" : "The Length L in Centimeter(cm) is equal to the Length L in Mile(mi) times 160934.4",
+            "formula" : "L(cm) = L(mi) * 160934.4"
         },
     
-        "mi2_km2" : {
-            "para" : "The Area A in Square Kilometer(km2) is equal to the Area A in Square Mile(mi2) times 2.59",
-            "formula" : "A(km2) = A(mi2) * 2.59"
+        "mi_km" : {
+            "para" : "The Length L in Kilometer(km) is equal to the Length L in Mile(mi) times 1.609",
+            "formula" : "L(km) = L(mi) * 1.609"
         },
     
-        "mi2_m2" : {
-            "para" : "The Area A in Square Meter(m2) is equal to the Area A in Square Mile(mi2) times 2.59e+6",
-            "formula" : "A(m2) = A(mi2) * 2.59e+6"
+        "mi_m" : {
+            "para" : "The Length L in Meter(m) is equal to the Length L in Mile(mi) times 1609.344",
+            "formula" : "L(m) = L(mi) * 1609.344"
         },
     
-        "mi2_ha" : {
-            "para" : "The Area A in Hectare(ha) is equal to the Area A in Square Mile(mi2) times 258.999",
-            "formula" : "A(ha) = A(mi2) * 258.999"
+        "mi_nm" : {
+            "para" : "The Length L in Nautical Mile(nm) is equal to the Length L in Mile(mi) divide by 1.151",
+            "formula" : "L(nm) = L(mi) / 1.151"
         },
     
-        "mi2_in2" : {
-            "para" : "The Area A in Square Inch(in2) is equal to the Area A in Square Mile(mi2) times 4.014e+9",
-            "formula" : "A(in2) = A(mi2) * 4.014e+9"
+        "mi_in" : {
+            "para" : "The Length L in Inch(in) is equal to the Length L in Mile(mi) times 63360",
+            "formula" : "L(in) = L(mi) * 63360"
         },
     
-        "mi2_ft2" : {
-            "para" : "The Area A in Square Foot(ft2) is equal to the Area A in Square Mile(mi2) times 2.788e+7",
-            "formula" : "A(ft2) = A(mi2) * 2.788e+7"
+        "mi_ft" : {
+            "para" : "The Length L in Foot(ft) is equal to the Length L in Mile(mi) times 5280",
+            "formula" : "L(ft) = L(mi) * 5280"
         },
     
-        "mi2_yd2" : {
-            "para" : "The Area A in Square Yard(yd2) is equal to the Area A in Square Mile(mi2) times 3.098e+6",
-            "formula" : "A(yd2) = A(mi2) * 3.098e+6"
+        "mi_yd" : {
+            "para" : "The Length L in Yard(yd) is equal to the Length L in Mile(mi) times 1760",
+            "formula" : "L(yd) = L(mi) * 1760"
         },
     
-        "mi2_ac" : {
-            "para" : "The Area A in Acre(ac) is equal to the Area A in Square Mile(mi2) times 640",
-            "formula" : "A(ac) = A(mi2) * 640"
+        "mi_mm" : {
+            "para" : "The Length L in Milimeter(mm) is equal to the Length L in Mile(mi) times 640",
+            "formula" : "L(mm) = L(mi) * 1.609e+6"
         },
     
     
     
-        "ac_cm2" : {
-            "para" : "The Area A in Square Centimeter(cm2) is equal to the Area A in Acre(ac) times 4.047e+7",
-            "formula" : "A(cm2) = A(ac) * 4.047e+7"
+        "mm_cm" : {
+            "para" : "The Length L in Centimeter(cm) is equal to the Length L in Milimeter(mm) divide by 10",
+            "formula" : "L(cm) = L(mm) / 10"
         },
     
-        "ac_km2" : {
-            "para" : "The Area A in Square Kilometer(km2) is equal to the Area A in Acre(ac) divide by 247.105",
-            "formula" : "A(km2) = A(ac) / 247.105"
+        "mm_km" : {
+            "para" : "The Length L in Kilometer(km) is equal to the Length L in Milimeter(mm) divide by 1000000",
+            "formula" : "L(km) = L(mm) / 1000000"
         },
     
-        "ac_m2" : {
-            "para" : "The Area A in Square Meter(m2) is equal to the Area A in Acre(ac) times 4046.856",
-            "formula" : "A(m2) = A(ac) * 4046.856"
+        "mm_m" : {
+            "para" : "The Length L in Meter(m) is equal to the Length L in Milimeter(mm) divide by 1000",
+            "formula" : "L(m) = L(mm) / 1000"
         },
     
-        "ac_ha" : {
-            "para" : "The Area A in Hectare(ha) is equal to the Area A in Acre(ac) divide by 2.471",
-            "formula" : "A(ha) = A(ac) / 2.471"
+        "mm_nm" : {
+            "para" : "The Length L in Nautical Mile(nm) is equal to the Length L in Milimeter(mm) divide by 1.852e+6",
+            "formula" : "L(nm) = L(mm) / 1.852e+6"
         },
     
-        "ac_in2" : {
-            "para" : "The Area A in Square Inch(in2) is equal to the Area A in Acre(ac) times 6.273e+6",
-            "formula" : "A(in2) = A(ac) * 6.273e+6"
+        "mm_in" : {
+            "para" : "The Length L in Inch(in) is equal to the Length L in Milimeter(mm) divide by 25.4",
+            "formula" : "L(in) = L(mm) / 25.4"
         },
     
-        "ac_ft2" : {
-            "para" : "The Area A in Square Foot(ft2) is equal to the Area A in Acre(ac) times 43560",
-            "formula" : "A(ft2) = A(ac) * 43560"
+        "mm_ft" : {
+            "para" : "The Length L in Foot(ft) is equal to the Length L in Milimeter(mm) divide by 304.8",
+            "formula" : "L(ft) = L(mm) / 304.8"
         },
     
-        "ac_yd2" : {
-            "para" : "The Area A in Square Yard(yd2) is equal to the Area A in Acre(ac) times 4840",
-            "formula" : "A(yd2) = A(ac) * 4840"
+        "mm_yd" : {
+            "para" : "The Length L in Yard(yd) is equal to the Length L in Milimeter(mm) divide by 914.4",
+            "formula" : "L(yd) = L(mm) / 914.4"
         },
     
-        "ac_mi2" : {
-            "para" : "The Area A in Square Mile(mi2) is equal to the Area A in Acre(ac) divide by 640",
-            "formula" : "A(mi2) = A(ac) / 640"
+        "mm_mi" : {
+            "para" : "The Length L in Mile(mi) is equal to the Length L in Milimeter(mm) divide by 6.213711922e-7",
+            "formula" : "L(mi) = L(mm) / 6.213711922e-7"
         }
     };
 
     let s = JSON.stringify(json_text);
     let content = JSON.parse(s);
 
-    // document.getElementById("result").innerHTML = time.cmToMi2;
+    // document.getElementById("result").innerHTML = time.cmToMi;
     var x = document.getElementById("menu1").value;
     var y = document.getElementById("menu2").value;
     
@@ -406,309 +401,309 @@ function calculate() {
     document.getElementById("para").innerHTML = content[x+'_'+y]["para"] + "<br>";
     document.getElementById("formula").innerHTML =  content[x+'_'+y]["formula"];
 
-    if (x == "ac") {
-        if (y == "mi2") {
-            document.getElementById("result").innerHTML = input + " ac = " + acToMi2(input) + " mi2";
+    if (x == "mm") {
+        if (y == "mi") {
+            document.getElementById("result").innerHTML = input + " mm = " + mmToMi(input) + " mi";
         }
     
-        else if (y == "yd2") {  
-            document.getElementById("result").innerHTML = input + " ac = " + acToYd2(input) + " yd2";
+        else if (y == "yd") {  
+            document.getElementById("result").innerHTML = input + " mm = " + mmToYd(input) + " yd";
         }
     
-        else if (y == "ft2") {
-            document.getElementById("result").innerHTML = input + " ac = " + acToFt2(input) + " ft2";
+        else if (y == "ft") {
+            document.getElementById("result").innerHTML = input + " mm = " + mmToFt(input) + " ft";
         }
     
-        else if (y == "in2") {
-            document.getElementById("result").innerHTML = input + " ac = " + acToIn2(input) + " in2";
+        else if (y == "in") {
+            document.getElementById("result").innerHTML = input + " mm = " + mmToIn(input) + " in";
         }
     
-        else if (y == "ha") {
-            document.getElementById("result").innerHTML = input + " ac = " + acToHa(input) + " ha";
+        else if (y == "nm") {
+            document.getElementById("result").innerHTML = input + " mm = " + mmToNm(input) + " nm";
         }
     
-        else if (y == "km2") {
-            document.getElementById("result").innerHTML = input + " ac = " + acToKm2(input) + " km2";
+        else if (y == "km") {
+            document.getElementById("result").innerHTML = input + " mm = " + mmToKm(input) + " km";
         }
     
-        else if (y == "m2") {
-            document.getElementById("result").innerHTML = input + " ac = " + acToM2(input) + " m2";
+        else if (y == "m") {
+            document.getElementById("result").innerHTML = input + " mm = " + mmToM(input) + " m";
         }
     
-        else if (y == "cm2") {
-            document.getElementById("result").innerHTML = input + " ac = " + acToCm2(input) + " cm2";
+        else if (y == "cm") {
+            document.getElementById("result").innerHTML = input + " mm = " + mmToCm(input) + " cm";
         }   
     }
 
-    else if (x == "mi2") {
-        if (y == "ac") {
-            document.getElementById("result").innerHTML = input + " mi2 = " + mi2toAc(input) + " ac";
+    else if (x == "mi") {
+        if (y == "mm") {
+            document.getElementById("result").innerHTML = input + " mi = " + miToMm(input) + " mm";
         }
     
-        else if (y == "yd2") {  
-            document.getElementById("result").innerHTML = input + " mi2 = " + mi2toYd2(input) + " yd2";
+        else if (y == "yd") {  
+            document.getElementById("result").innerHTML = input + " mi = " + miToYd(input) + " yd";
         }
     
-        else if (y == "ft2") {
-            document.getElementById("result").innerHTML = input + " mi2 = " + mi2ToFt2(input) + " ft2";
+        else if (y == "ft") {
+            document.getElementById("result").innerHTML = input + " mi = " + miToFt(input) + " ft";
         }
     
-        else if (y == "in2") {
-            document.getElementById("result").innerHTML = input + " mi2 = " + mi2ToIn2(input) + " in2";
+        else if (y == "in") {
+            document.getElementById("result").innerHTML = input + " mi = " + miToIn(input) + " in";
         }
     
-        else if (y == "ha") {
-            document.getElementById("result").innerHTML = input + " mi2 = " + mi2ToHa(input) + " ha";
+        else if (y == "nm") {
+            document.getElementById("result").innerHTML = input + " mi = " + miToNm(input) + " nm";
         }
     
-        else if (y == "km2") {
-            document.getElementById("result").innerHTML = input + " mi2 = " + mi2ToKm2(input) + " km2";
+        else if (y == "km") {
+            document.getElementById("result").innerHTML = input + " mi = " + miToKm(input) + " km";
         }
     
-        else if (y == "m2") {
-            document.getElementById("result").innerHTML = input + " mi2 = " + mi2ToM2(input) + " m2";
+        else if (y == "m") {
+            document.getElementById("result").innerHTML = input + " mi = " + miToM(input) + " m";
         }
     
-        else if (y == "cm2") {
-            document.getElementById("result").innerHTML = input + " mi2 = " + mi2ToCm2(input) + " cm2";
+        else if (y == "cm") {
+            document.getElementById("result").innerHTML = input + " mi = " + miToCm(input) + " cm";
         }  
     }
 
-    else if (x == "yd2") {
-        if (y == "mi2") {
-            document.getElementById("result").innerHTML = input + " yd2 = " + yd2ToMi2(input) + " mi2";
+    else if (x == "yd") {
+        if (y == "mi") {
+            document.getElementById("result").innerHTML = input + " yd = " + ydToMi(input) + " mi";
         }
     
-        else if (y == "ac") {  
-            document.getElementById("result").innerHTML = input + " yd2 = " + yd2ToAc(input) + " ac";
+        else if (y == "mm") {  
+            document.getElementById("result").innerHTML = input + " yd = " + ydToMm(input) + " mm";
         }
     
-        else if (y == "ft2") {
-            document.getElementById("result").innerHTML = input + " yd2 = " + yd2ToFt2(input) + " ft2";
+        else if (y == "ft") {
+            document.getElementById("result").innerHTML = input + " yd = " + ydToFt(input) + " ft";
         }
     
-        else if (y == "in2") {
-            document.getElementById("result").innerHTML = input + " yd2 = " + yd2ToIn2(input) + " in2";
+        else if (y == "in") {
+            document.getElementById("result").innerHTML = input + " yd = " + ydToIn(input) + " in";
         }
     
-        else if (y == "ha") {
-            document.getElementById("result").innerHTML = input + " yd2 = " + yd2ToHa(input) + " ha";
+        else if (y == "nm") {
+            document.getElementById("result").innerHTML = input + " yd = " + ydToNm(input) + " nm";
         }
     
-        else if (y == "km2") {
-            document.getElementById("result").innerHTML = input + " yd2 = " + yd2ToKm2(input) + " km2";
+        else if (y == "km") {
+            document.getElementById("result").innerHTML = input + " yd = " + ydToKm(input) + " km";
         }
     
-        else if (y == "m2") {
-            document.getElementById("result").innerHTML = input + " yd2 = " + yd2ToM2(input) + " m2";
+        else if (y == "m") {
+            document.getElementById("result").innerHTML = input + " yd = " + ydToM(input) + " m";
         }
     
-        else if (y == "cm2") {
-            document.getElementById("result").innerHTML = input + " a = " + yd2ToCm2(input) + " cm2";
+        else if (y == "cm") {
+            document.getElementById("result").innerHTML = input + " yd = " + ydToCm(input) + " cm";
         }  
     }
 
-    else if (x == "ft2") {
-        if (y == "mi2") {
-            document.getElementById("result").innerHTML = input + " ft2 = " + ft2ToMi2(input) + " mi2";
+    else if (x == "ft") {
+        if (y == "mi") {
+            document.getElementById("result").innerHTML = input + " ft = " + ftToMi(input) + " mi";
         }
     
-        else if (y == "yd2") {  
-            document.getElementById("result").innerHTML = input + " ft2 = " + ft2ToYd2(input) + " yd2";
+        else if (y == "yd") {  
+            document.getElementById("result").innerHTML = input + " ft = " + ftToYd(input) + " yd";
         }
     
-        else if (y == "ac") {
-            document.getElementById("result").innerHTML = input + " ft2 = " + ft2ToAc(input) + " ac";
+        else if (y == "mm") {
+            document.getElementById("result").innerHTML = input + " ft = " + ftToMm(input) + " mm";
         }
     
-        else if (y == "in2") {
-            document.getElementById("result").innerHTML = input + " ft2 = " + ft2ToIn2(input) + " in2";
+        else if (y == "in") {
+            document.getElementById("result").innerHTML = input + " ft = " + ftToIn(input) + " in";
         }
     
-        else if (y == "ha") {
-            document.getElementById("result").innerHTML = input + " ft2 = " + ft2ToHa(input) + " ha";
+        else if (y == "nm") {
+            document.getElementById("result").innerHTML = input + " ft = " + ftToNm(input) + " nm";
         }
     
-        else if (y == "km2") {
-            document.getElementById("result").innerHTML = input + " ft2 = " + ft2ToKm2(input) + " km2";
+        else if (y == "km") {
+            document.getElementById("result").innerHTML = input + " ft = " + ftToKm(input) + " km";
         }
     
-        else if (y == "m2") {
-            document.getElementById("result").innerHTML = input + " ft2 = " + ft2ToM2(input) + " m2";
+        else if (y == "m") {
+            document.getElementById("result").innerHTML = input + " ft = " + ftToM(input) + " m";
         }
     
-        else if (y == "cm2") {
-            document.getElementById("result").innerHTML = input + " ft2 = " + ft2ToCm2(input) + " cm2";
+        else if (y == "cm") {
+            document.getElementById("result").innerHTML = input + " ft = " + ftToCm(input) + " cm";
         }  
     }
 
-    else if (x == "in2") {
-        if (y == "mi2") {
-            document.getElementById("result").innerHTML = input + " in2 = " + in2ToMi2(input) + " mi2";
+    else if (x == "in") {
+        if (y == "mi") {
+            document.getElementById("result").innerHTML = input + " in = " + inToMi(input) + " mi";
         }
     
-        else if (y == "yd2") {  
-            document.getElementById("result").innerHTML = input + " in2 = " + in2ToYd2(input) + " yd2";
+        else if (y == "yd") {  
+            document.getElementById("result").innerHTML = input + " in = " + inToYd(input) + " yd";
         }
     
-        else if (y == "ft2") {
-            document.getElementById("result").innerHTML = input + " in2 = " + in2ToFt2(input) + " ft2";
+        else if (y == "ft") {
+            document.getElementById("result").innerHTML = input + " in = " + inToFt(input) + " ft";
         }
     
-        else if (y == "ac") {
-            document.getElementById("result").innerHTML = input + " in2 = " + in2ToAc(input) + " ac";
+        else if (y == "mm") {
+            document.getElementById("result").innerHTML = input + " in = " + inToMm(input) + " mm";
         }
     
-        else if (y == "ha") {
-            document.getElementById("result").innerHTML = input + " in2 = " + in2ToHa(input) + " ha";
+        else if (y == "nm") {
+            document.getElementById("result").innerHTML = input + " in = " + inToNm(input) + " nm";
         }
     
-        else if (y == "km2") {
-            document.getElementById("result").innerHTML = input + " in2 = " + in2ToKm2(input) + " km2";
+        else if (y == "km") {
+            document.getElementById("result").innerHTML = input + " in = " + inToKm(input) + " km";
         }
     
-        else if (y == "m2") {
-            document.getElementById("result").innerHTML = input + " in2 = " + in2ToM2(input) + " m2";
+        else if (y == "m") {
+            document.getElementById("result").innerHTML = input + " in = " + inToM(input) + " m";
         }
     
-        else if (y == "cm2") {
-            document.getElementById("result").innerHTML = input + " in2 = " + in2ToCm2(input) + " cm2";
+        else if (y == "cm") {
+            document.getElementById("result").innerHTML = input + " in = " + inToCm(input) + " cm";
         }  
     }
 
-    else if (x == "ha") {
-        if (y == "mi2") {
-            document.getElementById("result").innerHTML = input + " ha = " + haToMi2(input) + " mi2";
+    else if (x == "nm") {
+        if (y == "mi") {
+            document.getElementById("result").innerHTML = input + " nm = " + nmToMi(input) + " mi";
         }
     
-        else if (y == "yd2") {  
-            document.getElementById("result").innerHTML = input + " ha = " + haToYd2(input) + " yd2";
+        else if (y == "yd") {  
+            document.getElementById("result").innerHTML = input + " nm = " + nmToYd(input) + " yd";
         }
     
-        else if (y == "ft2") {
-            document.getElementById("result").innerHTML = input + " ha = " + haToFt2(input) + " ft2";
+        else if (y == "ft") {
+            document.getElementById("result").innerHTML = input + " nm = " + nmToFt(input) + " ft";
         }
     
-        else if (y == "in2") {
-            document.getElementById("result").innerHTML = input + " ha = " + haToIn2(input) + " in2";
+        else if (y == "in") {
+            document.getElementById("result").innerHTML = input + " nm = " + nmToIn(input) + " in";
         }
     
-        else if (y == "ac") {
-            document.getElementById("result").innerHTML = input + " ha = " + haToAc(input) + " ac";
+        else if (y == "mm") {
+            document.getElementById("result").innerHTML = input + " nm = " + nmToMm(input) + " mm";
         }
     
-        else if (y == "km2") {
-            document.getElementById("result").innerHTML = input + " ha = " + haToKm2(input) + " km2";
+        else if (y == "km") {
+            document.getElementById("result").innerHTML = input + " nm = " + nmToKm(input) + " km";
         }
     
-        else if (y == "m2") {
-            document.getElementById("result").innerHTML = input + " ha = " + haToM2(input) + " m2";
+        else if (y == "m") {
+            document.getElementById("result").innerHTML = input + " nm = " + nmToM(input) + " m";
         }
     
-        else if (y == "cm2") {
-            document.getElementById("result").innerHTML = input + " ha = " + haToCm2(input) + " cm2";
+        else if (y == "cm") {
+            document.getElementById("result").innerHTML = input + " nm = " + nmToCm(input) + " cm";
         }  
     }
 
-    else if (x == "km2") {
-        if (y == "mi2") {
-            document.getElementById("result").innerHTML = input + " km2 = " + km2ToMi2(input) + " mi2";
+    else if (x == "km") {
+        if (y == "mi") {
+            document.getElementById("result").innerHTML = input + " km = " + kmToMi(input) + " mi";
         }
     
-        else if (y == "yd2") {  
-            document.getElementById("result").innerHTML = input + " km2 = " + km2ToYd2(input) + " yd2";
+        else if (y == "yd") {  
+            document.getElementById("result").innerHTML = input + " km = " + kmToYd(input) + " yd";
         }
     
-        else if (y == "ft2") {
-            document.getElementById("result").innerHTML = input + " km2 = " + km2ToFt2(input) + " ft2";
+        else if (y == "ft") {
+            document.getElementById("result").innerHTML = input + " km = " + kmToFt(input) + " ft";
         }
     
-        else if (y == "in2") {
-            document.getElementById("result").innerHTML = input + " km2 = " + km2ToIn2(input) + " in2";
+        else if (y == "in") {
+            document.getElementById("result").innerHTML = input + " km = " + kmToIn(input) + " in";
         }
     
-        else if (y == "ha") {
-            document.getElementById("result").innerHTML = input + " km2 = " + km2ToHa(input) + " ha";
+        else if (y == "nm") {
+            document.getElementById("result").innerHTML = input + " km = " + kmToNm(input) + " nm";
         }
     
-        else if (y == "ac") {
-            document.getElementById("result").innerHTML = input + " km2 = " + km2ToAc(input) + " ac";
+        else if (y == "mm") {
+            document.getElementById("result").innerHTML = input + " km = " + kmToMm(input) + " mm";
         }
     
-        else if (y == "m2") {
-            document.getElementById("result").innerHTML = input + " km2 = " + km2ToM2(input) + " m2";
+        else if (y == "m") {
+            document.getElementById("result").innerHTML = input + " km = " + kmToM(input) + " m";
         }
     
-        else if (y == "cm2") {
-            document.getElementById("result").innerHTML = input + " km2 = " + km2ToCm2(input) + " cm2";
+        else if (y == "cm") {
+            document.getElementById("result").innerHTML = input + " km = " + kmToCm(input) + " cm";
         }  
     }
 
-    else if (x == "m2") {
-        if (y == "mi2") {
-            document.getElementById("result").innerHTML = input + " m2 = " + m2ToMi2(input) + " mi2";
+    else if (x == "m") {
+        if (y == "mi") {
+            document.getElementById("result").innerHTML = input + " m = " + mToMi(input) + " mi";
         }
     
-        else if (y == "yd2") {  
-            document.getElementById("result").innerHTML = input + " m2 = " + m2ToYd2(input) + " yd2";
+        else if (y == "yd") {  
+            document.getElementById("result").innerHTML = input + " m = " + mToYd(input) + " yd";
         }
     
-        else if (y == "ft2") {
-            document.getElementById("result").innerHTML = input + " m2 = " + m2ToFt2(input) + " ft2";
+        else if (y == "ft") {
+            document.getElementById("result").innerHTML = input + " m = " + mToFt(input) + " ft";
         }
     
-        else if (y == "in2") {
-            document.getElementById("result").innerHTML = input + " m2 = " + m2ToIn2(input) + " in2";
+        else if (y == "in") {
+            document.getElementById("result").innerHTML = input + " m = " + mToIn(input) + " in";
         }
     
-        else if (y == "ha") {
-            document.getElementById("result").innerHTML = input + " m2 = " + m2ToHa(input) + " ha";
+        else if (y == "nm") {
+            document.getElementById("result").innerHTML = input + " m = " + mToNm(input) + " nm";
         }
     
-        else if (y == "km2") {
-            document.getElementById("result").innerHTML = input + " m2 = " + m2ToKm2(input) + " km2";
+        else if (y == "km") {
+            document.getElementById("result").innerHTML = input + " m = " + mToKm(input) + " km";
         }
     
-        else if (y == "ac") {
-            document.getElementById("result").innerHTML = input + " m2 = " + m2ToAc(input) + " ac";
+        else if (y == "mm") {
+            document.getElementById("result").innerHTML = input + " m = " + mToMm(input) + " mm";
         }
     
-        else if (y == "cm2") {
-            document.getElementById("result").innerHTML = input + " m2 = " + m2ToCm2(input) + " cm2";
+        else if (y == "cm") {
+            document.getElementById("result").innerHTML = input + " m = " + mToCm(input) + " cm";
         }  
     }
 
-    else if (x == "cm2") {
-        if (y == "mi2") {
-            document.getElementById("result").innerHTML = input + " cm2 = " + cm2ToMi2(input) + " mi2";
+    else if (x == "cm") {
+        if (y == "mi") {
+            document.getElementById("result").innerHTML = input + " cm = " + cmToMi(input) + " mi";
         }
     
-        else if (y == "yd2") {  
-            document.getElementById("result").innerHTML = input + " cm2 = " + cm2ToYd2(input) + " yd2";
+        else if (y == "yd") {  
+            document.getElementById("result").innerHTML = input + " cm = " + cmToYd(input) + " yd";
         }
     
-        else if (y == "ft2") {
-            document.getElementById("result").innerHTML = input + " cm2 = " + cm2ToFt2(input) + " ft2";
+        else if (y == "ft") {
+            document.getElementById("result").innerHTML = input + " cm = " + cmToFt(input) + " ft";
         }
     
-        else if (y == "in2") {
-            document.getElementById("result").innerHTML = input + " cm2 = " + cm2ToIn2(input) + " in2";
+        else if (y == "in") {
+            document.getElementById("result").innerHTML = input + " cm = " + cmToIn(input) + " in";
         }
     
-        else if (y == "ha") {
-            document.getElementById("result").innerHTML = input + " cm2 = " + cm2ToHa(input) + " ha";
+        else if (y == "nm") {
+            document.getElementById("result").innerHTML = input + " cm = " + cmToNm(input) + " nm";
         }
     
-        else if (y == "km2") {
-            document.getElementById("result").innerHTML = input + " cm2 = " + cm2ToKm2(input) + " km2";
+        else if (y == "km") {
+            document.getElementById("result").innerHTML = input + " cm = " + cmToKm(input) + " km";
         }
     
-        else if (y == "m2") {
-            document.getElementById("result").innerHTML = input + " cm2 = " + cm2ToM2(input) + " m2";
+        else if (y == "m") {
+            document.getElementById("result").innerHTML = input + " cm = " + cmToM(input) + " m";
         }
     
-        else if (y == "ac") {
-            document.getElementById("result").innerHTML = input + " cm2 = " + cm2ToAc(input) + " ac";
+        else if (y == "mm") {
+            document.getElementById("result").innerHTML = input + " cm = " + cmToMm(input) + " mm";
         }  
     }
 }

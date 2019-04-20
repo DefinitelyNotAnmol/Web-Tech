@@ -1,6 +1,6 @@
 // cm - centimeter
 // in - inches
-// m - meter
+// m - meter 
 // mm - milimeter
 // km - kilometer
 // ft - feets
@@ -166,7 +166,7 @@ function inToYd(inch) {
 }
 
 function inToMi(inch) {
-	return inch / 63360	;
+	return inch / 63360;
 }
 
 function inToNm(inch) {
@@ -183,7 +183,7 @@ function ftToCm(feet) {
 }
 
 function ftToM(feet) {
-	return feet / 3.281	;
+	return feet / 3.281;
 }
 
 function ftToKm(feet) {
@@ -236,7 +236,7 @@ function ydToMi(yards) {
 }
 
 function ydToNm(yards) {
-	return yards / 2025.372	; //for an approx. answer
+	return yards / 2025.372; //for an approx. answer
 }
 
 //conversion of miles into something
@@ -245,11 +245,11 @@ function miToMm(miles) {
 }
 
 function miToCm(miles) {
-	return miles * 160934.4	;
+	return miles * 160934.4;
 }
 
 function miToM(miles) {
-	return miles * 1609.344	;
+	return miles * 1609.344;
 }
 
 function miToKm(miles) {
@@ -261,7 +261,7 @@ function miToIn(miles) {
 }
 
 function miToFt(miles) {
-	return miles * 5280	;
+	return miles * 5280;
 }
 
 function miToYd(miles) {
@@ -269,7 +269,7 @@ function miToYd(miles) {
 }
 
 function miToNm(miles) {
-	return miles /  1.151; //for an approx. answer
+	return miles / 1.151; //for an approx. answer
 }
 
 //conversion for nautical miles into something
@@ -282,7 +282,7 @@ function nmToCm(Nm) {
 }
 
 function nmToM(Nm) {
-	return Nm * 1852	;
+	return Nm * 1852;
 }
 
 function nmToKm(Nm) {
@@ -294,11 +294,11 @@ function nmToIn(Nm) {
 }
 
 function nmToFt(Nm) {
-	return Nm * 6076.12	;
+	return Nm * 6076.12;
 }
 
 function nmToYd(Nm) {
-	return Nm * 2025.372	;
+	return Nm * 2025.372;
 }
 
 function nmToMi(Nm) {
