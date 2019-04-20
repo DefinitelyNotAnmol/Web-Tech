@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css">
     <!-- scripts -->
     <script type="text/javascript" src="scripts/speed.js"></script>
+    <script type="text/javascript" src="scripts/functions/speed.js"></script>
 </head>
 <body>
     <div class="navbar">
@@ -29,8 +30,8 @@
         <div class="content">
             <div class="heading">Speed</div>
     
-            <div class="form">
-                <select name="menu1" class="input-menu" required>
+            <form class="form" method="POST">
+                <select name="menu1" class="input-menu" id="menu1" required>
                     <option value="" hidden>Select Unit</option>
                     <option value="fts">Feet per second</option>
                     <option value="ms">Meter per second</option>
@@ -41,7 +42,7 @@
                     <option value="slight">Speed of Light</option>
                 </select>
     
-                <select name="menu2" class="output-menu" required>
+                <select name="menu2" class="output-menu" id="menu2" required>
                     <option value="" hidden>Select Unit</option>
                     <option value="fts">Feet per second</option>
                     <option value="ms">Meter per second</option>
@@ -53,20 +54,20 @@
                 </select>
     
                 <div class="input-area">
-                    <input type="text" name="input" class="input">
+                    <input type="text" name="input" class="input" id="input">
                 </div>
         
                 <div class="button-wrap">
                     <div class="button-bg"></div>
-                    <button class="form-button">
+                    <button class="form-button" onclick="calculate()">
                         <span>Submit</span>
                     </button>
                 </div>
-            </div>
+            </form>
     
             <div class="data">
                 <p class="sub-heading">Results</p>
-                <p class="para-type2">100 F = 37.7 C</p>
+                <p class="para-type2" id="result"</p>
             </div>
     
             <div class="formula">
