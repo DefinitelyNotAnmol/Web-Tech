@@ -1,5 +1,14 @@
-// functions to convert centimeter into something
+// cm - centimeter
+// inch - inches
+// m - meter
+// mm - milimeter
+// km - kilometer
+// feet - feets
+// yards - yards
+// miles - miles (mi)
+// nm - Nautical Mile
 
+// functions to convert centimeter into something
 function cmToInch(cm) {
 	return cm * 0.3937;
 }
