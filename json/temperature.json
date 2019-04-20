@@ -1,0 +1,31 @@
+{
+    "c_f" : {
+        "para" : "The Temperature T in degrees Fahrenheit(F) is equal to the Temperature T in degrees Cesius(C) times 9/5 plus 32",
+        "formula" : "T(F) = T(C) * 9/5 + 32"
+    },
+
+    "c_k" : {
+        "para" : "The Temperature T in degrees Kelvin(K) is equal to the Temperature T in degrees Cesius(C) plus 273.15",
+        "formula" : "T(K) = T(C) + 273.15"
+    },
+
+    "f_c" : {
+        "para" : "The Temperature T in degrees Celsius(C) is equal to the Temperature T in degrees Fahrenheit(F) minus 32, times 5/9",
+        "formula" : "T(C) = (T(F) - 32) * 5/9"
+    },
+
+    "f_k" : {
+        "para" : "The Temperature T in degrees Kelvin(K) is equal to the Temperature T in degrees Fahrenheit(F) minus 32, times 5/9, plus 273.15",
+        "formula" : "T(K) = ((T(F) - 32) * 5/9) + 273.15"
+    },
+
+    "k_c" : {
+        "para" : "The Temperature T in degrees Celsius(C) is equal to the Temperature T in degrees Kelvin(K) minus 273.15",
+        "formula" : "T(C) = T(K) - 273.15"
+    },
+
+    "k_f" : {
+        "para" : "The Temperature T in degrees Fahrenheit(F) is equal to the Temperature T in degrees Kelvin(K) minus 273.15, times 9/5 plus 32",
+        "formula" : "T(C) = (T(K) - 273.15) * 9/5 + 32"
+    }
+}
