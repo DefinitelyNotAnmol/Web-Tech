@@ -9,7 +9,7 @@
 // nm - Nautical Mile
 
 // functions to convert centimeter into something
-function cmToInch(cm) {
+function cmToIn(cm) {
 	return cm * 0.3937;
 }
 
@@ -25,19 +25,19 @@ function cmToKm(cm) {
 	return cm / 100000;
 }
 
-function cmToFeet(cm) {
+function cmToFt(cm) {
 	return cm / 30.48;
 }
 
-function cmToYards(cm) {
+function cmToYd(cm) {
 	return cm / 91.44;
 }
 
-function cmToMiles(cm) {
+function cmToMi(cm) {
 	return cm / 160934.4;
 }
 
-function cmToNauticalMiles(cm) {
+function cmToNm(cm) {
 	return cm / 185200;
 }
 
@@ -54,23 +54,23 @@ function mmToKm(mm) {
 	return mm / 1000000;
 }
 
-function mmToInch(mm) {
+function mmToIn(mm) {
 	return mm / 25.4;
 }
 
-function mmToFeet(mm) {
+function mmToFt(mm) {
 	return mm / 304.8;
 }
 
-function mmToYards(mm) {
+function mmToYd(mm) {
 	return mm / 914.4;
 }
 
-function mmToMiles(mm) {
+function mmToMi(mm) {
 	return mm / 6.213711922e-7; //for an approximate answer
 }
 
-function mmToNauticalMiles(mm) {
+function mmToNm(mm) {
 	return mm / 1.852e+6;
 }
 
@@ -87,23 +87,23 @@ function mToKm(meter) {
 	return meter / 1000;
 }
 
-function mToInch(meter) {
+function mToIn(meter) {
 	return meter * 39.37;
 }
 
-function mTofeet(meter) {
+function mToFt(meter) {
 	return meter * 3.281; //for an approximate answer
 }
 
-function mToYards(meter) {
+function mToYd(meter) {
 	return meter * 1.094; //for an approximate answer
 }
 
-function mToMiles(meter) {
+function mToMi(meter) {
 	return meter / 1609.344;
 }
 
-function mToNauticalMiles(meter) {
+function mToNm(meter) {
 	return meter / 1852;
 }
 
@@ -120,23 +120,23 @@ function kmToM(km) {
 	return km * 1000;
 }
 
-function kmToInch(km) {
+function kmToIn(km) {
 	return km * 39370.070; //for an approximate answer
 }
 
-function kmTofeet(km) {
+function kmToFt(km) {
 	return km * 3280.84;
 }
 
-function kmToYards(km) {
+function kmToYd(km) {
 	return km * 1093.613;
 }
 
-function kmToMiles(km) {
+function kmToMi(km) {
 	return km / 1.609;
 }
 
-function kmToNauticalmiles(km) {
+function kmToNm(km) {
 	return km / 1.852;
 }
 
@@ -157,19 +157,19 @@ function inToKm(inch) {
 	return inch / 39370.079	; //for an approximate answer
 }
 
-function inTofeet(inch) {
+function inToFt(inch) {
 	return inch / 12;
 }
 
-function inToYards(inch) {
+function inToYd(inch) {
 	return inch / 36 ;
 }
 
-function inToMiles(inch) {
+function inToMi(inch) {
 	return inch / 63360	;
 }
 
-function inToNauticalmiles(inch) {
+function inToNm(inch) {
 	return inch / 72913.386	; //for an approx. answer
 }
 
@@ -190,19 +190,19 @@ function ftToKm(feet) {
 	return feet / 3280.84;
 }
 
-function ftToInch(feet) {
+function ftToIn(feet) {
 	return feet * 12;
 }
 
-function ftToYards(feet) {
+function ftToYd(feet) {
 	return feet / 3 ;
 }
 
-function ftToMiles(feet) {
+function ftToMi(feet) {
 	return feet / 5280;
 }
 
-function ftToNauticalmiles(feet) {
+function ftToNm(feet) {
 	return feet / 6076.115; //for an approx. answer
 }
 
@@ -223,19 +223,19 @@ function ydToKm(yards) {
 	return yards / 1093.613;
 }
 
-function ydToInch(yards) {
+function ydToIn(yards) {
 	return yards * 36;
 }
 
-function ydToFeet(yards) {
+function ydToFt(yards) {
 	return yards * 3 ;
 }
 
-function ydToMiles(yards) {
+function ydToMi(yards) {
 	return yards / 1760;
 }
 
-function ydToNauticalmiles(yards) {
+function ydToNm(yards) {
 	return yards / 2025.372	; //for an approx. answer
 }
 
@@ -256,51 +256,51 @@ function miToKm(miles) {
 	return miles * 1.609;
 }
 
-function miToInch(miles) {
+function miToIn(miles) {
 	return miles * 63360;
 }
 
-function miToFeet(miles) {
+function miToFt(miles) {
 	return miles * 5280	;
 }
 
-function miToYards(miles) {
+function miToYd(miles) {
 	return miles * 1760;
 }
 
-function miToNauticalmiles(miles) {
+function miToNm(miles) {
 	return miles /  1.151; //for an approx. answer
 }
 
 //conversion for nautical miles into something
-function nmToMm(nauticalmiles) {
-	return nauticalmiles * 1.852e+6;
+function nmToMm(Nm) {
+	return Nm * 1.852e+6;
 }
 
-function nmToCm(nauticalmiles) {
-	return nauticalmiles * 185200;
+function nmToCm(Nm) {
+	return Nm * 185200;
 }
 
-function nmToM(nauticalmiles) {
-	return nauticalmiles * 1852	;
+function nmToM(Nm) {
+	return Nm * 1852	;
 }
 
-function nmToKm(nauticalmiles) {
-	return nauticalmiles * 1.852;
+function nmToKm(Nm) {
+	return Nm * 1.852;
 }
 
-function nmToInch(nauticalmiles) {
-	return nauticalmiles * 72913.386;
+function nmToIn(Nm) {
+	return Nm * 72913.386;
 }
 
-function nmToFeet(nauticalmiles) {
-	return nauticalmiles * 6076.12	;
+function nmToFt(Nm) {
+	return Nm * 6076.12	;
 }
 
-function nmToYards(nauticalmiles) {
-	return nauticalmiles * 2025.372	;
+function nmToYd(Nm) {
+	return Nm * 2025.372	;
 }
 
-function nmToMiles(nauticalmiles) {
-	return nauticalmiles * 1.151; //for an approx. answer
+function nmToMi(Nm) {
+	return Nm * 1.151; //for an approx. answer
 }
