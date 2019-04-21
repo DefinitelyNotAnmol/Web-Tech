@@ -1,11 +1,11 @@
 // cm - centimeter
-// in - inches
+// in - inch
 // m - meter 
 // mm - milimeter
 // km - kilometer
-// ft - feets
-// yd - yards
-// mi - miles (mi)
+// ft - feet
+// yd - yard
+// mi - mile
 // nm - Nautical Mile
 
 // functions to convert centimeter into something

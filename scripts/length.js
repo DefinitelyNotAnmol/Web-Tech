@@ -152,13 +152,13 @@ function calculate() {
         },
     
         "nm_yd" : {
-            "para" : "The Length L in Yard(m) is equal to the Length L in Nautical Mile(nm) times 2025.372",
+            "para" : "The Length L in Yard(yd) is equal to the Length L in Nautical Mile(nm) times 2025.372",
             "formula" : "L(yd) = L(nm) * 2025.372"
         },
     
         "nm_mi" : {
             "para" : "The Length L in Mile(mi) is equal to the Length L in Nautical Mile(nm) times 1.151",
-            "formula" : "L(mi) = L(nm) times 1.151"
+            "formula" : "L(mi) = L(nm) * 1.151"
         },
     
         "nm_mm" : {
@@ -185,7 +185,7 @@ function calculate() {
     
         "in_nm" : {
             "para" : "The Length L in Nautical Mile(nm) is equal to the Length L in Inch(in) divide by 72913.386",
-            "formula" : "L(nm) = L(in) 72913.386"
+            "formula" : "L(nm) = L(in) / 72913.386"
         },
     
         "in_ft" : {

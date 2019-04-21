@@ -1,11 +1,11 @@
-// micro - microseconds
+// micro - microsecond
 // ms - milisecond
-// s - seconds
+// s - second
 // min - minute
 // hr - hour
 // day - day
 // week - week
-// months - months
+// month - month
 // yr - year
 
 // functions to convert seconds into every time unit
@@ -30,7 +30,7 @@ function sToWeek(s) {
 }
 
 function sToMonth(s) {
-	return s /2.628e+6 ;
+	return s / 2.628e+6;
 }
 
 function sToYr(s) {
@@ -46,7 +46,7 @@ function microToMs(micro) {
 	return micro / 1000;
 }
 
-function microTos(micro) {
+function microToS(micro) {
 	return micro / 1e+6;
 }
 function microToMin(micro) {
@@ -78,7 +78,7 @@ function minToMs(min) {
 	return min * 60000;
 }
 
-function minTos(min) {
+function minToS(min) {
 	return min * 60;
 }
 function minToMicro(min) {
@@ -98,7 +98,7 @@ function minToMonth(min) {
 }
 
 function minToYr(min) {
-	return min / 525600 ;
+	return min / 525600;
 }
 
 function minToWeek(min) {
@@ -110,7 +110,7 @@ function msToMicro(ms) {
 	return ms * 1000;
 }
 
-function msTos(ms) {
+function msToS(ms) {
 	return ms / 1000;
 }
 function msToMin(ms) {
@@ -146,7 +146,7 @@ function hrToMicro(hr) {
 	return hr * 3.6e+9;
 }
 
-function hrTos(hr) {
+function hrToS(hr) {
 	return hr * 3600;
 }
 
@@ -179,7 +179,7 @@ function dayToMicro(day) {
 	return day * 8.64e+10;
 }
 
-function dayTos(day) {
+function dayToS(day) {
 	return day * 86400;
 }
 
@@ -212,7 +212,7 @@ function weekToMs(week) {
 	return week * 6.048e+8;
 }
 
-function weekTos(week) {
+function weekToS(week) {
 	return week * 604800;
 }
 
@@ -245,7 +245,7 @@ function yrToMs(yr) {
 	return yr * 3.154e+10;
 }
 
-function yrTos(yr) {
+function yrToS(yr) {
 	return yr * 3.154e+7;
 }
 
@@ -270,34 +270,34 @@ function yrToWeek(yr) {
 }
 
 // functions to convert months into other units
-function monthsToMicro(months) {
+function monthToMicro(months) {
 	return months * 2.628e+12;
 }
 
-function monthsToMs(months) {
+function monthToMs(months) {
 	return months * 2.628e+9;
 }
 
-function monthsTos(months) {
+function monthToS(months) {
 	return months * 2.628e+6;
 }
 
-function monthsToMin(months) {
+function monthToMin(months) {
 	return months * 43800.048;
 }
 
-function monthsToHr(months) {
+function monthToHr(months) {
 	return months * 730.001;
 }
 
-function monthsToDay(months) {
+function monthToDay(months) {
 	return months * 30.4017;
 }
 
-function monthsToWeek(months) {
+function monthToWeek(months) {
 	return months * 4.345;
 }
 
-function monthsToYear(months) {
+function monthToYear(months) {
 	return months / 12
 }
