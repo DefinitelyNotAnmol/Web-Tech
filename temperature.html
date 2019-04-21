@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css">
     <!-- scripts -->
     <script type="text/javascript" src="scripts/temperature.js"></script>
+    <script type="text/javascript" src="scripts/refresh.js"></script>
     <script type="text/javascript" src="scripts/functions/temperature.js"></script>
 </head>
 <body>
@@ -31,14 +32,14 @@
             <div class="heading">Temperature</div>
     
             <form class="form" method="POST">
-                <select name="menu1" class="input-menu" id="menu1" required>
+                <select name="menu1" class="input-menu" id="menu1" onchange="refresh()" required>
                         <option value="" hidden>Select Unit</option>
                         <option value="c">Celsius</option>
                         <option value="f">Fahrenheit</option>
                         <option value="k">Kelvin</option>
                 </select>
     
-                <select name="menu2" class="output-menu" id="menu2" required>
+                <select name="menu2" class="output-menu" id="menu2" onchange="refresh()" required>
                         <option value="" hidden>Select Unit</option>
                         <option value="c">Celsius</option>
                         <option value="f">Fahrenheit</option>

@@ -7,6 +7,7 @@
     <!-- scripts -->
     <script type="text/javascript" src="scripts/speed.js"></script>
     <script type="text/javascript" src="scripts/functions/speed.js"></script>
+    <script type="text/javascript" src="scripts/refresh.js"></script>
 </head>
 <body>
     <div class="navbar">
@@ -31,26 +32,26 @@
             <div class="heading">Speed</div>
     
             <form class="form" method="POST">
-                <select name="menu1" class="input-menu" id="menu1" required>
+                <select name="menu1" class="input-menu" id="menu1" onchange="refresh()" required>
                     <option value="" hidden>Select Unit</option>
                     <option value="fts">Feet per second</option>
                     <option value="ms">Meter per second</option>
                     <option value="kmph">Kilometer per hour</option>
                     <option value="mph">Mile per hour</option>
                     <option value="kn">Knot</option>
-                    <option value="ssound">Speed of Sound</option>
-                    <option value="slight">Speed of Light</option>
+                    <option value="a">Speed of Sound</option>
+                    <option value="c">Speed of Light</option>
                 </select>
     
-                <select name="menu2" class="output-menu" id="menu2" required>
+                <select name="menu2" class="output-menu" id="menu2" onchange="refresh()" required>
                     <option value="" hidden>Select Unit</option>
                     <option value="fts">Feet per second</option>
                     <option value="ms">Meter per second</option>
                     <option value="kmph">Kilometer per hour</option>
                     <option value="mph">Mile per hour</option>
                     <option value="kn">Knot</option>
-                    <option value="ssound">Speed of Sound</option>
-                    <option value="slight">Speed of Light</option>
+                    <option value="a">Speed of Sound</option>
+                    <option value="c">Speed of Light</option>
                 </select>
     
                 <div class="input-area">
@@ -64,7 +65,7 @@
                     <span>Submit</span>
                 </button>
             </div>
-            
+
             <div class="data">
                 <p class="sub-heading" id="data_heading"></p>
                 <p class="para-type2" id="result"></p>

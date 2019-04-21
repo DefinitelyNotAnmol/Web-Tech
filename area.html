@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css">
     <!-- scripts -->
     <script type="text/javascript" src="scripts/area.js"></script>
+    <script type="text/javascript" src="scripts/refresh.js"></script>
     <script type="text/javascript" src="scripts/functions/area.js"></script>
 </head>
 <body>    
@@ -31,7 +32,7 @@
             <div class="heading">Area</div>
     
             <form class="form" method="POST">
-                <select name="menu1" class="input-menu" id="menu1" required>
+                <select name="menu1" class="input-menu" id="menu1" onchange="refresh()" required>
                         <option value="" hidden>Select Unit</option>
                         <option value="ac">Acre</option>
                         <option value="mi2">Mile Square</option>
@@ -44,7 +45,7 @@
                         <option value="cm2">Centimeter Square</option>
                 </select>
     
-                <select name="menu2" class="output-menu" id="menu2" required>
+                <select name="menu2" class="output-menu" id="menu2" onchange="refresh()" required>
                         <option value="" hidden>Select Unit</option>
                         <option value="ac">Acre</option>
                         <option value="mi2">Mile Square</option>

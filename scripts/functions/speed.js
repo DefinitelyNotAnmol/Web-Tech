@@ -3,8 +3,8 @@
 // kmph - Kilometer per hour
 // mph - miles per hour
 // kn - Knot
-// ssoung - Speed of Sound
-// slight - Speed of Light
+// a - Speed of Sound
+// c - Speed of Light
 
 // functions to convert meter per second into something
 function msToKmph(ms) {
@@ -23,12 +23,12 @@ function msToKn(ms) {
 	return ms * 1.944;
 }
 
-function msToSsound(ms) {
+function msToA(ms) {
 	return ms / 343;
 }
 
-function msToSlight(ms) {
-	return ms /  2.998e+8;
+function msToC(ms) {
+	return ms / 2.998e+8;
 }
 
 // functions to convert kilometer per hour into something
@@ -48,17 +48,17 @@ function kmphToKn(kmph) {
 	return kmph / 1.852;
 }
 
-function kmphToSsound(kmph) {
-	return kmph /  1234.8;
+function kmphToA(kmph) {
+	return kmph / 1234.8;
 }
 
-function kmphToSlight(kmph) {
-	return kmph /  1.079e+9;
+function kmphToC(kmph) {
+	return kmph / 1.079e+9;
 }
 
 // functions to convert miles per hour into something
 function mphToMs(mph) {
-	return mph /  2.237;
+	return mph / 2.237;
 }
 
 function mphToKmph(mph) {
@@ -73,17 +73,17 @@ function mphToKn(mph) {
 	return mph / 1.151;
 }
 
-function mphToSsound(mph) {
-	return mph /  767.269;
+function mphToA(mph) {
+	return mph / 767.269;
 }
 
-function mphToSlight(mph) {
+function mphToC(mph) {
 	return mph / 6.706e+8;
 }
 
 // functions to convert foot per second into something
 function ftsToMs(fts) {
-	return fts /  3.281;
+	return fts / 3.281;
 }
 
 function ftsToKmph(fts) {
@@ -98,17 +98,17 @@ function ftsToKn(fts) {
 	return fts / 1.688;
 }
 
-function ftsToSsound(fts) {
-	return fts /  1125.328;
+function ftsToA(fts) {
+	return fts / 1125.328;
 }
 
-function ftsToSlight(fts) {
+function ftsToC(fts) {
 	return fts / 9.836e+8;
 }
 
 // functions to convert knot into something
 function knToMs(kn) {
-	return kn /  1.944;
+	return kn / 1.944;
 }
 
 function knToKmph(kn) {
@@ -123,60 +123,60 @@ function knToFts(kn) {
 	return kn * 1.688;
 }
 
-function knToSsound(kn) {
+function knToA(kn) {
 	return kn / 666.739;
 }
 
-function knToSlight(kn) {
+function knToC(kn) {
 	return kn / 5.827e+8;
 }
 
 // functions to convert speed of sound into something
-function ssoundToMs(ssound) {
+function aToMs(ssound) {
 	return ssound * 343;
 }
 
-function ssoundToKmph(ssound) {
+function aToKmph(ssound) {
 	return ssound * 1234.8;
 }
 
-function ssoundToMph(ssound) {
+function aToMph(ssound) {
 	return ssound * 767.269;
 }
 
-function ssoundToFts(ssound) {
+function aToFts(ssound) {
 	return ssound * 1125.328;
 }
 
-function ssoundToKn(ssound) {
+function aToKn(ssound) {
 	return ssound * 666.739;
 }
 
-function ssoundToSlight(ssound) {
+function aToC(ssound) {
 	return ssound / 874030.49;
 }
 
 // functions to convert speed of light into something
-function slightToMs(slight) {
+function cToMs(slight) {
 	return slight * 2.998e+8;
 }
 
-function slightToKmph(slight) {
+function cToKmph(slight) {
 	return slight * 1.079e+9;
 }
 
-function slightToMph(slight) {
+function cToMph(slight) {
 	return slight * 6.706e+8;
 }
 
-function slightToFts(slight) {
+function cToFts(slight) {
 	return slight * 9.836e+8;
 }
 
-function slightToKn(slight) {
+function cToKn(slight) {
 	return slight * 5.827e+8;
 }
 
-function slightToSsound(slight) {
+function cToA(slight) {
 	return slight * 874030.49;
 }

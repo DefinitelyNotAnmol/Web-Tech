@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css">
     <!-- scripts -->
     <script type="text/javascript" src="scripts/volume.js"></script>
+    <script type="text/javascript" src="scripts/refresh.js"></script>
     <script type="text/javascript" src="scripts/functions/volume.js"></script>
 </head>
 <body> 
@@ -31,7 +32,7 @@
             <div class="heading">Volume</div>
     
             <form class="form" method="POST">
-                <select name="menu1" class="input-menu" id="menu1" required>
+                <select name="menu1" class="input-menu" id="menu1" onchange="refresh()" required>
                     <option value="" hidden>Select Unit</option>
                     <option value="ml">Mililitre</option>
                     <option value="ltr">Litre</option>
@@ -43,7 +44,7 @@
                     <option value="gal">Gallon</option>
                 </select>
     
-                <select name="menu2" class="output-menu" id="menu2" required>
+                <select name="menu2" class="output-menu" id="menu2" onchange="refresh()" required>
                     <option value="" hidden>Select Unit</option>
                     <option value="ml">Mililitre</option>
                     <option value="ltr">Litre</option>

@@ -5,8 +5,8 @@
 // cubicM - cubic meter
 // qt - quart
 // pt - pint
-// gal - gallon
 
+// gal - gallon
 // functions to convert mililitre into other units
 function mlToLtr(ml) {
 	return ml / 1000;
