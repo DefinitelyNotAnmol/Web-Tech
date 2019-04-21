@@ -1,297 +1,297 @@
 function calculate() {
     let json_text = {
-        "mcg_g" : {
-            "para" : "The Mass M in Gram(g) is equal to the Mass M in Microgram(mcg) divided by 1e+6",
-            "formula" : "L(g) = L(mcg) / 1e+6"
+        "ml_cubicIn" : {
+            "para" : "The Volume V in Cubic Inch(cubicIn) is equal to the Volume V in Mililitre(ml) divided by 16.387",
+            "formula" : "L(cubicIn) = L(ml) / 16.387"
         },
     
-        "mcg_q" : {
-            "para" : "The Mass M in Quintal(q) is equal to the Mass M in Microgram(mcg) divided by 1e+11",
-            "formula" : "L(q) = L(mcg) / 1e+11"
+        "ml_cubicM" : {
+            "para" : "The Volume V in Cubic Meter(cubicM) is equal to the Volume V in Mililitre(ml) divided by 1e+6",
+            "formula" : "L(cubicM) = L(ml) / 1e+6"
         },
     
-        "mcg_mg" : {
-            "para" : "The Mass M in Miligram(mg) is equal to the Mass M in Microgram(mcg) divide by 1000",
-            "formula" : "L(mg) = L(mcg) / 1000"
+        "ml_ltr" : {
+            "para" : "The Volume V in Litre(ltr) is equal to the Volume V in Mililitre(ml) divide by 1000",
+            "formula" : "L(ltr) = L(ml) / 1000"
         },
     
-        "mcg_t" : {
-            "para" : "The Mass M in Tonne(t) is equal to the Mass M in Microgram(mcg) divided by 1e+12",
-            "formula" : "L(t) = L(mcg) / 1e+12"
+        "ml_qt" : {
+            "para" : "The Volume V in Quart(qt) is equal to the Volume V in Mililitre(ml) divided by 1136.522",
+            "formula" : "L(qt) = L(ml) / 1136.522"
         },
     
-        "mcg_oz" : {
-            "para" : "The Mass M in Ounce(oz) is equal to the Mass M in Microgram(mcg) divided by 2.835e+7",
-            "formula" : "L(oz) = L(mcg) / 2.835e+7"
+        "ml_pt" : {
+            "para" : "The Volume V in Pint(pt) is equal to the Volume V in Mililitre(ml) divided by 568.261",
+            "formula" : "L(pt) = L(ml) / 568.261"
         },
     
-        "mcg_lb" : {
-            "para" : "The Mass M in Pound(lb) is equal to the Mass M in Microgram(mcg) divided by 4.536e+8",
-            "formula" : "L(lb) = L(mcg) / 4.536e+8"
+        "ml_gal" : {
+            "para" : "The Volume V in Gallon(gal) is equal to the Volume V in Mililitre(ml) divided by 4546.09",
+            "formula" : "L(gal) = L(ml) / 4546.09"
         },
     
-        "mcg_kg" : {
-            "para" : "The Mass M in Kilogram(kg) is equal to the Mass M in Microgram(mcg) divide by 1e+9",
-            "formula" : "L(kg) = L(mcg) / 1e+9"
-        },
-    
-    
-    
-        "g_mcg" : {
-            "para" : "The Mass M in Microgram(mcg) is equal to the Mass M in Gram(g) times 1e+6",
-            "formula" : "L(mcg) = L(g) * 1e+6"
-        },
-    
-        "g_q" : {
-            "para" : "The Mass M in Quintal(q) is equal to the Mass M in Gram(g) divided by 100000",
-            "formula" : "L(q) = L(g) / 100000"
-        },
-    
-        "g_mg" : {
-            "para" : "The Mass M in Miligram(mg) is equal to the Mass M in Gram(g) times 1000",
-            "formula" : "L(mg) = L(g) * 1000"
-        },
-    
-        "g_t" : {
-            "para" : "The Mass M in Tonne(t) is equal to the Mass M in Gram(g) divide by 1e+6",
-            "formula" : "L(t) = L(g) / 1e+6"
-        },
-    
-        "g_oz" : {
-            "para" : "The Mass M in Ounce(oz) is equal to the Mass M in Gram(g) divide by 28.35",
-            "formula" : "L(oz) = L(g) / 28.35"
-        },
-    
-        "g_lb" : {
-            "para" : "The Mass M in Pound(lb) is equal to the Mass M in Gram(g) divided by 453.592",
-            "formula" : "L(lb) = L(g) / 453.592"
-        },
-    
-        "g_kg" : {
-            "para" : "The Mass M in Kilogram(kg) is equal to the Mass M in Gram(g) divide by 1000",
-            "formula" : "L(kg) = L(g) / 1000"
+        "ml_cubicFt" : {
+            "para" : "The Volume V in Cubic Feet(cubicFt) is equal to the Volume V in Mililitre(ml) divide by 28316.847",
+            "formula" : "L(cubicFt) = L(ml) / 28316.847"
         },
     
     
     
-        "q_mcg" : {
-            "para" : "The Mass M in Microgram(mcg) is equal to the Mass M in Quintal(q) times 1e+11",
-            "formula" : "L(mcg) = L(q) * 1e+11"
+        "cubicIn_ml" : {
+            "para" : "The Volume V in Mililitre(ml) is equal to the Volume V in Cubic Inch(cubicIn) times 16.387",
+            "formula" : "L(ml) = L(cubicIn) * 16.387"
         },
     
-        "q_g" : {
-            "para" : "The Mass M in Gram(g) is equal to the Mass M in Quintal(q) times 100000",
-            "formula" : "L(g) = L(q) * 100000"
+        "cubicIn_cubicM" : {
+            "para" : "The Volume V in Cubic Meter(cubicM) is equal to the Volume V in Cubic Inch(cubicIn) divided by 61023.744",
+            "formula" : "L(cubicM) = L(cubicIn) / 61023.744"
         },
     
-        "q_mg" : {
-            "para" : "The Mass M in Miligram(mg) is equal to the Mass M in Quintal(q) times 1e+8",
-            "formula" : "L(mg) = L(q) * 1e+8"
+        "cubicIn_ltr" : {
+            "para" : "The Volume V in Litre(ltr) is equal to the Volume V in Cubic Inch(cubicIn) divide by 61.024",
+            "formula" : "L(ltr) = L(cubicIn) / 61.024"
         },
     
-        "q_t" : {
-            "para" : "The Mass M in Tonne(t) is equal to the Mass M in Quintal(q) divide by 10",
-            "formula" : "L(t) = L(q) / 10"
+        "cubicIn_qt" : {
+            "para" : "The Volume V in Quart(qt) is equal to the Volume V in Cubic Inch(cubicIn) divide by 69.335",
+            "formula" : "L(qt) = L(cubicIn) / 69.335"
         },
     
-        "q_oz" : {
-            "para" : "The Mass M in Ounce(oz) is equal to the Mass M in Quintal(q) times 3527.396",
-            "formula" : "L(oz) = L(q) * 3527.396"
+        "cubicIn_pt" : {
+            "para" : "The Volume V in Pint(pt) is equal to the Volume V in Cubic Inch(cubicIn) divide by 34.677",
+            "formula" : "L(pt) = L(cubicIn) / 34.677"
         },
     
-        "q_lb" : {
-            "para" : "The Mass M in Pound(lb) is equal to the Mass M in Quintal(q) times 220.462",
-            "formula" : "L(lb) = L(q) * 220.462"
+        "cubicIn_gal" : {
+            "para" : "The Volume V in Gallon(gal) is equal to the Volume V in Cubic Inch(cubicIn) divided by 277.419",
+            "formula" : "L(gal) = L(cubicIn) / 277.419"
         },
     
-        "q_kg" : {
-            "para" : "The Mass M in Kilogram(kg) is equal to the Mass M in Quintal(q) times 100",
-            "formula" : "L(kg) = L(q) * 100"
-        },
-    
-    
-    
-        "mg_mcg" : {
-            "para" : "The Mass M in Microgram(mcg) is equal to the Mass M in Miligram(mg) times 1000",
-            "formula" : "L(mcg) = L(mg) * 1000"
-        },
-    
-        "mg_q" : {
-            "para" : "The Mass M in Quintal(q) is equal to the Mass M in Miligram(mg) divide by 1e+8",
-            "formula" : "L(q) = L(mg) / 1e+8"
-        },
-    
-        "mg_g" : {
-            "para" : "The Mass M in Gram(g) is equal to the Mass M in Miligram(mg) divide by 1000",
-            "formula" : "L(g) = L(mg) / 1000"
-        },
-    
-        "mg_t" : {
-            "para" : "The Mass M in Tonne(t) is equal to the Mass M in Miligram(mg) divide by 1e+9",
-            "formula" : "L(t) = L(mg) / 1e+9"
-        },
-    
-        "mg_oz" : {
-            "para" : "The Mass M in Ounce(oz) is equal to the Mass M in Miligram(mg) divide by 28349.523",
-            "formula" : "L(oz) = L(mg) / 28349.523"
-        },
-    
-        "mg_lb" : {
-            "para" : "The Mass M in Pound(lb) is equal to the Mass M in Miligram(mg) divide by 453592.37",
-            "formula" : "L(lb) = L(mg) / 453592.37"
-        },
-    
-        "mg_kg" : {
-            "para" : "The Mass M in Kilogram(kg) is equal to the Mass M in Miligram(mg) divide by 1e+6",
-            "formula" : "L(kg) = L(mg) / 1e+6"
+        "cubicIn_cubicFt" : {
+            "para" : "The Volume V in Cubic Feet(cubicFt) is equal to the Volume V in Cubic Inch(cubicIn) divide by 1728",
+            "formula" : "L(cubicFt) = L(cubicIn) / 1728"
         },
     
     
     
-        "t_mcg" : {
-            "para" : "The Mass M in Microgram(mcg) is equal to the Mass M in Tonne(t) times 1e+12",
-            "formula" : "L(mcg) = L(t) * 1e+12"
+        "cubicM_ml" : {
+            "para" : "The Volume V in Mililitre(ml) is equal to the Volume V in Cubic Meter(cubicM) times 1e+6",
+            "formula" : "L(ml) = L(cubicM) * 1e+6"
         },
     
-        "t_q" : {
-            "para" : "The Mass M in Quintal(q) is equal to the Mass M in Tonne(t) times 10",
-            "formula" : "L(q) = L(t) * 10"
+        "cubicM_cubicIn" : {
+            "para" : "The Volume V in Cubic Inch(cubicIn) is equal to the Volume V in Cubic Meter(cubicM) times 61023.744",
+            "formula" : "L(cubicIn) = L(cubicM) * 61023.744"
         },
     
-        "t_g" : {
-            "para" : "The Mass M in Gram(g) is equal to the Mass M in Tonne(t) times 1e+6",
-            "formula" : "L(g) = L(t) * 1e+6"
+        "cubicM_ltr" : {
+            "para" : "The Volume V in Litre(ltr) is equal to the Volume V in Cubic Meter(cubicM) times 1000",
+            "formula" : "L(ltr) = L(cubicM) * 1000"
         },
     
-        "t_mg" : {
-            "para" : "The Mass M in Miligram(mg) is equal to the Mass M in Tonne(t) times 1e+9",
-            "formula" : "L(mg) = L(t) * 1e+9"
+        "cubicM_qt" : {
+            "para" : "The Volume V in Quart(qt) is equal to the Volume V in Cubic Meter(cubicM) times 879.877",
+            "formula" : "L(qt) = L(cubicM) * 879.877"
         },
     
-        "t_oz" : {
-            "para" : "The Mass M in Ounce(oz) is equal to the Mass M in Tonne(t) times 35273.962",
-            "formula" : "L(oz) = L(t) * 35273.962"
+        "cubicM_pt" : {
+            "para" : "The Volume V in Pint(pt) is equal to the Volume V in Cubic Meter(cubicM) times 1759.754",
+            "formula" : "L(pt) = L(cubicM) * 1759.754"
         },
     
-        "t_lb" : {
-            "para" : "The Mass M in Pound(lb) is equal to the Mass M in Tonne(t) times 2204.623",
-            "formula" : "L(lb) = L(t) * 2204.623"
+        "cubicM_gal" : {
+            "para" : "The Volume V in Gallon(gal) is equal to the Volume V in Cubic Meter(cubicM) times 219.969",
+            "formula" : "L(gal) = L(cubicM) * 219.969"
         },
     
-        "t_kg" : {
-            "para" : "The Mass M in Kilogram(kg) is equal to the Mass M in Tonne(t) times 1000",
-            "formula" : "L(kg) = L(t) * 1000"
-        },
-    
-    
-    
-        "oz_mcg" : {
-            "para" : "The Mass M in Microgram(mcg) is equal to the Mass M in Ounce(oz) times 2.835e+7",
-            "formula" : "L(mcg) = L(oz) * 2.835e+7"
-        },
-    
-        "oz_q" : {
-            "para" : "The Mass M in Quintal(q) is equal to the Mass M in Ounce(oz) divide by 3527.396",
-            "formula" : "L(q) = L(oz) / 3527.396"
-        },
-    
-        "oz_g" : {
-            "para" : "The Mass M in Gram(g) is equal to the Mass M in Ounce(oz) times 28.35",
-            "formula" : "L(g) = L(oz) * 28.35"
-        },
-    
-        "oz_mg" : {
-            "para" : "The Mass M in Miligram(mg) is equal to the Mass M in Ounce(oz) times 28349.523",
-            "formula" : "L(mg) = L(oz) * 28349.523"
-        },
-    
-        "oz_t" : {
-            "para" : "The Mass M in Tonne(t) is equal to the Mass M in Ounce(oz) divide by 35273.962",
-            "formula" : "L(t) = L(oz) / 35273.962"
-        },
-    
-        "oz_lb" : {
-            "para" : "The Mass M in Pound(lb) is equal to the Mass M in Ounce(oz) divide by 16",
-            "formula" : "L(lb) = L(oz) / 16"
-        },
-    
-        "oz_kg" : {
-            "para" : "The Mass M in Kilogram(kg) is equal to the Mass M in Ounce(oz) divide by 35.274",
-            "formula" : "L(kg) = L(oz) / 35.274"
+        "cubicM_cubicFt" : {
+            "para" : "The Volume V in Cubic Feet(cubicFt) is equal to the Volume V in Cubic Meter(cubicM) times 35.315",
+            "formula" : "L(cubicFt) = L(cubicM) * 35.315"
         },
     
     
     
-        "lb_mcg" : {
-            "para" : "The Mass M in Microgram(mcg) is equal to the Mass M in Pound(lb) times 4.536e+8",
-            "formula" : "L(mcg) = L(lb) * 4.536e+8"
+        "ltr_ml" : {
+            "para" : "The Volume V in Mililitre(ml) is equal to the Volume V in Litre(ltr) times 1000",
+            "formula" : "L(ml) = L(ltr) * 1000"
         },
     
-        "lb_q" : {
-            "para" : "The Mass M in Quintal(q) is equal to the Mass M in Pound(lb) divide by 220.462",
-            "formula" : "L(q) = L(lb) / 220.462"
+        "ltr_cubicM" : {
+            "para" : "The Volume V in Cubic Meter(cubicM) is equal to the Volume V in Litre(ltr) times 1000",
+            "formula" : "L(cubicM) = L(ltr) * 1000"
         },
     
-        "lb_g" : {
-            "para" : "The Mass M in Gram(g) is equal to the Mass M in Pound(lb) times 453.592",
-            "formula" : "L(g) = L(lb) * 453.592"
+        "ltr_cubicIn" : {
+            "para" : "The Volume V in Cubic Inch(cubicIn) is equal to the Volume V in Litre(ltr) times 61.024",
+            "formula" : "L(cubicIn) = L(ltr) * 61.024"
         },
     
-        "lb_mg" : {
-            "para" : "The Mass M in Miligram(mg) is equal to the Mass M in Pound(lb) times 453592.37",
-            "formula" : "L(mg) = L(lb) * 453592.37"
+        "ltr_qt" : {
+            "para" : "The Volume V in Quart(qt) is equal to the Volume V in Litre(ltr) divide by 1.137",
+            "formula" : "L(qt) = L(ltr) / 1.137"
         },
     
-        "lb_t" : {
-            "para" : "The Mass M in Tonne(t) is equal to the Mass M in Pound(lb) divide by 2204.623",
-            "formula" : "L(t) = L(lb) / 2204.623"
+        "ltr_pt" : {
+            "para" : "The Volume V in Pint(pt) is equal to the Volume V in Litre(ltr) times 1.76",
+            "formula" : "L(pt) = L(ltr) * 1.76"
         },
     
-        "lb_oz" : {
-            "para" : "The Mass M in Ounce(oz) is equal to the Mass M in Pound(lb) times 16",
-            "formula" : "L(oz) = L(lb) * 16"
+        "ltr_gal" : {
+            "para" : "The Volume V in Gallon(gal) is equal to the Volume V in Litre(ltr) divide by 4.546",
+            "formula" : "L(gal) = L(ltr) / 4.546"
         },
     
-        "lb_kg" : {
-            "para" : "The Mass M in Kilogram(kg) is equal to the Mass M in Pound(lb) times 2.205",
-            "formula" : "L(kg) = L(lb) * 2.205"
+        "ltr_cubicFt" : {
+            "para" : "The Volume V in Cubic Feet(cubicFt) is equal to the Volume V in Litre(ltr) divide by 28.317",
+            "formula" : "L(cubicFt) = L(ltr) / 28.317"
+        },
+    
+    
+    
+        "qt_ml" : {
+            "para" : "The Volume V in Mililitre(ml) is equal to the Volume V in Quart(qt) times 1136.522",
+            "formula" : "L(ml) = L(qt) * 1136.522"
+        },
+    
+        "qt_cubicM" : {
+            "para" : "The Volume V in Cubic Meter(cubicM) is equal to the Volume V in Quart(qt) divide by 879.877",
+            "formula" : "L(cubicM) = L(qt) / 879.877"
+        },
+    
+        "qt_cubicIn" : {
+            "para" : "The Volume V in Cubic Inch(cubicIn) is equal to the Volume V in Quart(qt) times 69.335",
+            "formula" : "L(cubicIn) = L(qt) * 69.335"
+        },
+    
+        "qt_ltr" : {
+            "para" : "The Volume V in Litre(ltr) is equal to the Volume V in Quart(qt) times 1.137",
+            "formula" : "L(ltr) = L(qt) * 1.137"
+        },
+    
+        "qt_pt" : {
+            "para" : "The Volume V in Pint(pt) is equal to the Volume V in Quart(qt) times 2",
+            "formula" : "L(pt) = L(qt) * 2"
+        },
+    
+        "qt_gal" : {
+            "para" : "The Volume V in Gallon(gal) is equal to the Volume V in Quart(qt) divide by 4",
+            "formula" : "L(gal) = L(qt) / 4"
+        },
+    
+        "qt_cubicFt" : {
+            "para" : "The Volume V in Cubic Feet(cubicFt) is equal to the Volume V in Quart(qt) divide by 24.915",
+            "formula" : "L(cubicFt) = L(qt) / 24.915"
+        },
+    
+    
+    
+        "pt_ml" : {
+            "para" : "The Volume V in Mililitre(ml) is equal to the Volume V in Pint(pt) times 568.261",
+            "formula" : "L(ml) = L(pt) * 568.261"
+        },
+    
+        "pt_cubicM" : {
+            "para" : "The Volume V in Cubic Meter(cubicM) is equal to the Volume V in Pint(pt) divide by 1759.754",
+            "formula" : "L(cubicM) = L(pt) / 1759.754"
+        },
+    
+        "pt_cubicIn" : {
+            "para" : "The Volume V in Cubic Inch(cubicIn) is equal to the Volume V in Pint(pt) times 34.677",
+            "formula" : "L(cubicIn) = L(pt) * 34.677"
+        },
+    
+        "pt_ltr" : {
+            "para" : "The Volume V in Litre(ltr) is equal to the Volume V in Pint(pt) divide by 1.76",
+            "formula" : "L(ltr) = L(pt) / 1.76"
+        },
+    
+        "pt_qt" : {
+            "para" : "The Volume V in Quart(qt) is equal to the Volume V in Pint(pt) divide by 2",
+            "formula" : "L(qt) = L(pt) / 2"
+        },
+    
+        "pt_gal" : {
+            "para" : "The Volume V in Gallon(gal) is equal to the Volume V in Pint(pt) divide by 8",
+            "formula" : "L(gal) = L(pt) / 8"
+        },
+    
+        "pt_cubicFt" : {
+            "para" : "The Volume V in Cubic Feet(cubicFt) is equal to the Volume V in Pint(pt) divide by 49.831",
+            "formula" : "L(cubicFt) = L(pt) / 49.831"
+        },
+    
+    
+    
+        "gal_ml" : {
+            "para" : "The Volume V in Mililitre(ml) is equal to the Volume V in Gallon(gal) times 4546.09",
+            "formula" : "L(ml) = L(gal) * 4546.09"
+        },
+    
+        "gal_cubicM" : {
+            "para" : "The Volume V in Cubic Meter(cubicM) is equal to the Volume V in Gallon(gal) divide by 219.969",
+            "formula" : "L(cubicM) = L(gal) / 219.969"
+        },
+    
+        "gal_cubicIn" : {
+            "para" : "The Volume V in Cubic Inch(cubicIn) is equal to the Volume V in Gallon(gal) times 277.419",
+            "formula" : "L(cubicIn) = L(gal) * 277.419"
+        },
+    
+        "gal_ltr" : {
+            "para" : "The Volume V in Litre(ltr) is equal to the Volume V in Gallon(gal) times 4.546",
+            "formula" : "L(ltr) = L(gal) * 4.546"
+        },
+    
+        "gal_qt" : {
+            "para" : "The Volume V in Quart(qt) is equal to the Volume V in Gallon(gal) times 4",
+            "formula" : "L(qt) = L(gal) * 3"
+        },
+    
+        "gal_pt" : {
+            "para" : "The Volume V in Pint(pt) is equal to the Volume V in Gallon(gal) times 8",
+            "formula" : "L(pt) = L(gal) * 8"
+        },
+    
+        "gal_cubicFt" : {
+            "para" : "The Volume V in Cubic Feet(cubicFt) is equal to the Volume V in Gallon(gal) divide by 6.229",
+            "formula" : "L(cubicFt) = L(gal) / 6.229"
         },
     
         
     
-        "kg_mcg" : {
-            "para" : "The Mass M in Microgram(mcg) is equal to the Mass M in Kilogram(kg) times 1e+9",
-            "formula" : "L(mcg) = L(kg) * 1e+9"
+        "cubicFt_ml" : {
+            "para" : "The Volume V in Mililitre(ml) is equal to the Volume V in Cubic Feet(cubicFt) times 28316.847",
+            "formula" : "L(ml) = L(cubicFt) * 28316.847"
         },
     
-        "kg_q" : {
-            "para" : "The Mass M in Quintal(q) is equal to the Mass M in Kilogram(kg) divide by 100",
-            "formula" : "L(q) = L(kg) / 100"
+        "cubicFt_cubicM" : {
+            "para" : "The Volume V in Cubic Meter(cubicM) is equal to the Volume V in Cubic Feet(cubicFt) times 35.315",
+            "formula" : "L(cubicM) = L(cubicFt) * 35.315"
         },
     
-        "kg_g" : {
-            "para" : "The Mass M in Gram(g) is equal to the Mass M in Kilogram(kg) times 1000",
-            "formula" : "L(g) = L(kg) * 1000"
+        "cubicFt_cubicIn" : {
+            "para" : "The Volume V in Cubic Inch(cubicIn) is equal to the Volume V in Cubic Feet(cubicFt) times 1728",
+            "formula" : "L(cubicIn) = L(cubicFt) * 1728"
         },
     
-        "kg_mg" : {
-            "para" : "The Mass M in Miligram(mg) is equal to the Mass M in Kilogram(kg) times 1e+6",
-            "formula" : "L(mg) = L(kg) * 1e+6"
+        "cubicFt_ltr" : {
+            "para" : "The Volume V in Litre(ltr) is equal to the Volume V in Cubic Feet(cubicFt) times 28.317",
+            "formula" : "L(ltr) = L(cubicFt) * 28.317"
         },
     
-        "kg_t" : {
-            "para" : "The Mass M in Tonne(t) is equal to the Mass M in Kilogram(kg) divide by 1000",
-            "formula" : "L(t) = L(kg) / 1000"
+        "cubicFt_qt" : {
+            "para" : "The Volume V in Quart(qt) is equal to the Volume V in Cubic Feet(cubicFt) times 24.915",
+            "formula" : "L(qt) = L(cubicFt) * 24.915"
         },
     
-        "kg_oz" : {
-            "para" : "The Mass M in Ounce(oz) is equal to the Mass M in Kilogram(kg) times 35.274",
-            "formula" : "L(oz) = L(kg) * 35.274"
+        "cubicFt_pt" : {
+            "para" : "The Volume V in Pint(pt) is equal to the Volume V in Cubic Feet(cubicFt) times 49.831",
+            "formula" : "L(pt) = L(cubicFt) * 49.831"
         },
     
-        "kg_lb" : {
-            "para" : "The Mass M in Pound(lb) is equal to the Mass M in Kilogram(kg) times 2.205",
-            "formula" : "L(lb) = L(kg) * 2.205"
+        "cubicFt_gal" : {
+            "para" : "The Volume V in Gallon(gal) is equal to the Volume V in Cubic Feet(cubicFt) times 6.229",
+            "formula" : "L(gal) = L(cubicFt) * 6.229"
         }
     };
 
@@ -318,243 +318,243 @@ function calculate() {
     document.getElementById("para").innerHTML = content[x+'_'+y]["para"] + "<br>";
     document.getElementById("formula").innerHTML =  content[x+'_'+y]["formula"];
 
-    if (x == "kg") {
-        if (y == "lb") {
-            document.getElementById("result").innerHTML = input + " kg = " + kgToLb(input) + " lb";
+    if (x == "cubicFt") {
+        if (y == "gal") {
+            document.getElementById("result").innerHTML = input + " cubicFt = " + cubicFtToGal(input) + " gal";
         }
     
-        else if (y == "oz") {  
-            document.getElementById("result").innerHTML = input + " kg = " + kgToOz(input) + " oz";
+        else if (y == "pt") {  
+            document.getElementById("result").innerHTML = input + " cubicFt = " + cubicFtToPt(input) + " pt";
         }
     
-        else if (y == "t") {
-            document.getElementById("result").innerHTML = input + " kg = " + kgToT(input) + " t";
+        else if (y == "qt") {
+            document.getElementById("result").innerHTML = input + " cubicFt = " + cubicFtToQt(input) + " qt";
         }
     
-        else if (y == "mg") {
-            document.getElementById("result").innerHTML = input + " kg = " + kgToMg(input) + " mg";
+        else if (y == "ltr") {
+            document.getElementById("result").innerHTML = input + " cubicFt = " + cubicFtToLtr(input) + " ltr";
         }
     
-        else if (y == "q") {
-            document.getElementById("result").innerHTML = input + " kg = " + kgToQ(input) + " q";
+        else if (y == "cubicM") {
+            document.getElementById("result").innerHTML = input + " cubicFt = " + cubicFtToCubicM(input) + " cubicM";
         }
     
-        else if (y == "g") {
-            document.getElementById("result").innerHTML = input + " kg = " + kgToG(input) + " g";
+        else if (y == "cubicIn") {
+            document.getElementById("result").innerHTML = input + " cubicFt = " + cubicFtToCubicIn(input) + " cubicIn";
         }
     
-        else if (y == "mcg") {
-            document.getElementById("result").innerHTML = input + " kg = " + kgToMcg(input) + " mcg";
+        else if (y == "ml") {
+            document.getElementById("result").innerHTML = input + " cubicFt = " + cubicFtToMl(input) + " ml";
         }   
     }
 
-    else if (x == "lb") {
-        if (y == "kg") {
-            document.getElementById("result").innerHTML = input + " lb = " + lbToKg(input) + " kg";
+    else if (x == "gal") {
+        if (y == "cubicFt") {
+            document.getElementById("result").innerHTML = input + " gal = " + galToCubicFt(input) + " cubicFt";
         }
     
-        else if (y == "oz") {  
-            document.getElementById("result").innerHTML = input + " lb = " + lbToOz(input) + " oz";
+        else if (y == "pt") {  
+            document.getElementById("result").innerHTML = input + " gal = " + galToPt(input) + " pt";
         }
     
-        else if (y == "t") {
-            document.getElementById("result").innerHTML = input + " lb = " + lbToT(input) + " t";
+        else if (y == "qt") {
+            document.getElementById("result").innerHTML = input + " gal = " + galToQt(input) + " qt";
         }
     
-        else if (y == "mg") {
-            document.getElementById("result").innerHTML = input + " lb = " + lbToMg(input) + " mg";
+        else if (y == "ltr") {
+            document.getElementById("result").innerHTML = input + " gal = " + galToLtr(input) + " ltr";
         }
     
-        else if (y == "q") {
-            document.getElementById("result").innerHTML = input + " lb = " + lbToQ(input) + " q";
+        else if (y == "cubicM") {
+            document.getElementById("result").innerHTML = input + " gal = " + galToCubicM(input) + " cubicM";
         }
     
-        else if (y == "g") {
-            document.getElementById("result").innerHTML = input + " lb = " + lbToG(input) + " g";
+        else if (y == "cubicIn") {
+            document.getElementById("result").innerHTML = input + " gal = " + galToCubicIn(input) + " cubicIn";
         }
     
-        else if (y == "mcg") {
-            document.getElementById("result").innerHTML = input + " lb = " + lbToMcg(input) + " mcg";
+        else if (y == "ml") {
+            document.getElementById("result").innerHTML = input + " gal = " + galToMl(input) + " ml";
         }  
     }
 
-    else if (x == "oz") {
-        if (y == "lb") {
-            document.getElementById("result").innerHTML = input + " oz = " + ozToLb(input) + " lb";
+    else if (x == "pt") {
+        if (y == "gal") {
+            document.getElementById("result").innerHTML = input + " pt = " + ptToGal(input) + " gal";
         }
     
-        else if (y == "kg") {  
-            document.getElementById("result").innerHTML = input + " oz = " + ozToKg(input) + " kg";
+        else if (y == "cubicFt") {  
+            document.getElementById("result").innerHTML = input + " pt = " + ptToCubicFt(input) + " cubicFt";
         }
     
-        else if (y == "t") {
-            document.getElementById("result").innerHTML = input + " oz = " + ozToT(input) + " t";
+        else if (y == "qt") {
+            document.getElementById("result").innerHTML = input + " pt = " + ptToQt(input) + " qt";
         }
     
-        else if (y == "mg") {
-            document.getElementById("result").innerHTML = input + " oz = " + ozToMg(input) + " mg";
+        else if (y == "ltr") {
+            document.getElementById("result").innerHTML = input + " pt = " + ptToLtr(input) + " ltr";
         }
     
-        else if (y == "q") {
-            document.getElementById("result").innerHTML = input + " oz = " + ozToQ(input) + " q";
+        else if (y == "cubicM") {
+            document.getElementById("result").innerHTML = input + " pt = " + ptToCubicM(input) + " cubicM";
         }
     
-        else if (y == "g") {
-            document.getElementById("result").innerHTML = input + " oz = " + ozToG(input) + " g";
+        else if (y == "cubicIn") {
+            document.getElementById("result").innerHTML = input + " pt = " + ptToCubicIn(input) + " cubicIn";
         }
     
-        else if (y == "mcg") {
-            document.getElementById("result").innerHTML = input + " oz = " + ozToMcg(input) + " mcg";
+        else if (y == "ml") {
+            document.getElementById("result").innerHTML = input + " pt = " + ptToMl(input) + " ml";
         }  
     }
 
-    else if (x == "t") {
-        if (y == "lb") {
-            document.getElementById("result").innerHTML = input + " t = " + tToLb(input) + " lb";
+    else if (x == "qt") {
+        if (y == "gal") {
+            document.getElementById("result").innerHTML = input + " qt = " + qtToGal(input) + " gal";
         }
     
-        else if (y == "oz") {  
-            document.getElementById("result").innerHTML = input + " t = " + tToOz(input) + " oz";
+        else if (y == "pt") {  
+            document.getElementById("result").innerHTML = input + " qt = " + qtToPt(input) + " pt";
         }
     
-        else if (y == "kg") {
-            document.getElementById("result").innerHTML = input + " t = " + tToKg(input) + " kg";
+        else if (y == "cubicFt") {
+            document.getElementById("result").innerHTML = input + " qt = " + qtToCubicFt(input) + " cubicFt";
         }
     
-        else if (y == "mg") {
-            document.getElementById("result").innerHTML = input + " t = " + tToMg(input) + " mg";
+        else if (y == "ltr") {
+            document.getElementById("result").innerHTML = input + " qt = " + qtToLtr(input) + " ltr";
         }
 
-        else if (y == "q") {
-            document.getElementById("result").innerHTML = input + " t = " + tToQ(input) + " q";
+        else if (y == "cubicM") {
+            document.getElementById("result").innerHTML = input + " qt = " + qtToCubicM(input) + " cubicM";
         }
     
-        else if (y == "g") {
-            document.getElementById("result").innerHTML = input + " t = " + tToG(input) + " g";
+        else if (y == "cubicIn") {
+            document.getElementById("result").innerHTML = input + " qt = " + qtToCubicIn(input) + " cubicIn";
         }
     
-        else if (y == "mcg") {
-            document.getElementById("result").innerHTML = input + " t = " + tToMcg(input) + " mcg";
+        else if (y == "ml") {
+            document.getElementById("result").innerHTML = input + " qt = " + qtToMl(input) + " ml";
         }  
     }
 
-    else if (x == "mg") {
-        if (y == "lb") {
-            document.getElementById("result").innerHTML = input + " mg = " + mgToLb(input) + " lb";
+    else if (x == "ltr") {
+        if (y == "gal") {
+            document.getElementById("result").innerHTML = input + " ltr = " + ltrToGal(input) + " gal";
         }
     
-        else if (y == "oz") {  
-            document.getElementById("result").innerHTML = input + " mg = " + mgToOz(input) + " oz";
+        else if (y == "pt") {  
+            document.getElementById("result").innerHTML = input + " ltr = " + ltrToPt(input) + " pt";
         }
     
-        else if (y == "t") {
-            document.getElementById("result").innerHTML = input + " mg = " + mgToT(input) + " t";
+        else if (y == "qt") {
+            document.getElementById("result").innerHTML = input + " ltr = " + ltrToQt(input) + " qt";
         }
     
-        else if (y == "kg") {
-            document.getElementById("result").innerHTML = input + " mg = " + mgToKg(input) + " kg";
+        else if (y == "cubicFt") {
+            document.getElementById("result").innerHTML = input + " ltr = " + ltrToCubicFt(input) + " cubicFt";
         }
 
-        else if (y == "q") {
-            document.getElementById("result").innerHTML = input + " mg = " + mgToQ(input) + " q";
+        else if (y == "cubicM") {
+            document.getElementById("result").innerHTML = input + " ltr = " + ltrToCubicM(input) + " cubicM";
         }
     
-        else if (y == "g") {
-            document.getElementById("result").innerHTML = input + " mg = " + mgToG(input) + " g";
+        else if (y == "cubicIn") {
+            document.getElementById("result").innerHTML = input + " ltr = " + ltrToCubicIn(input) + " cubicIn";
         }
     
-        else if (y == "mcg") {
-            document.getElementById("result").innerHTML = input + " mg = " + mgToMcg(input) + " mcg";
+        else if (y == "ml") {
+            document.getElementById("result").innerHTML = input + " ltr = " + ltrToMl(input) + " ml";
         }  
     }
 
-    else if (x == "q") {
-        if (y == "lb") {
-            document.getElementById("result").innerHTML = input + " q = " + qToLb(input) + " lb";
+    else if (x == "cubicM") {
+        if (y == "gal") {
+            document.getElementById("result").innerHTML = input + " cubicM = " + cubicMToGal(input) + " gal";
         }
     
-        else if (y == "oz") {  
-            document.getElementById("result").innerHTML = input + " q = " + qToOz(input) + " oz";
+        else if (y == "pt") {  
+            document.getElementById("result").innerHTML = input + " cubicM = " + cubicMToPt(input) + " pt";
         }
     
-        else if (y == "t") {
-            document.getElementById("result").innerHTML = input + " q = " + qToT(input) + " t";
+        else if (y == "qt") {
+            document.getElementById("result").innerHTML = input + " cubicM = " + cubicMToQt(input) + " qt";
         }
     
-        else if (y == "mg") {
-            document.getElementById("result").innerHTML = input + " q = " + qToMg(input) + " mg";
+        else if (y == "ltr") {
+            document.getElementById("result").innerHTML = input + " cubicM = " + cubicMToLtr(input) + " ltr";
         }
 
-        else if (y == "kg") {
-            document.getElementById("result").innerHTML = input + " q = " + qToKg(input) + " kg";
+        else if (y == "cubicFt") {
+            document.getElementById("result").innerHTML = input + " cubicM = " + cubicMToCubicFt(input) + " cubicFt";
         }
     
-        else if (y == "g") {
-            document.getElementById("result").innerHTML = input + " q = " + qToG(input) + " g";
+        else if (y == "cubicIn") {
+            document.getElementById("result").innerHTML = input + " cubicM = " + cubicMToCubicIn(input) + " cubicIn";
         }
     
-        else if (y == "mcg") {
-            document.getElementById("result").innerHTML = input + " q = " + qToMcg(input) + " mcg";
+        else if (y == "ml") {
+            document.getElementById("result").innerHTML = input + " cubicM = " + cubicMToMl(input) + " ml";
         }  
     }
 
-    else if (x == "g") {
-        if (y == "lb") {
-            document.getElementById("result").innerHTML = input + " g = " + gToLb(input) + " lb";
+    else if (x == "cubicIn") {
+        if (y == "gal") {
+            document.getElementById("result").innerHTML = input + " cubicIn = " + cubicInToGal(input) + " gal";
         }
     
-        else if (y == "oz") {  
-            document.getElementById("result").innerHTML = input + " g = " + gToOz(input) + " oz";
+        else if (y == "pt") {  
+            document.getElementById("result").innerHTML = input + " cubicIn = " + cubicInToPt(input) + " pt";
         }
     
-        else if (y == "t") {
-            document.getElementById("result").innerHTML = input + " g = " + gToT(input) + " t";
+        else if (y == "qt") {
+            document.getElementById("result").innerHTML = input + " cubicIn = " + cubicInToQt(input) + " qt";
         }
     
-        else if (y == "mg") {
-            document.getElementById("result").innerHTML = input + " g = " + gToMg(input) + " mg";
+        else if (y == "ltr") {
+            document.getElementById("result").innerHTML = input + " cubicIn = " + cubicInTOLtr(input) + " ltr";
         }
 
-        else if (y == "q") {
-            document.getElementById("result").innerHTML = input + " g = " + gToQ(input) + " q";
+        else if (y == "cubicM") {
+            document.getElementById("result").innerHTML = input + " cubicIn = " + cubicInToCubicM(input) + " cubicM";
         }
     
-        else if (y == "kg") {
-            document.getElementById("result").innerHTML = input + " g = " + gToKg(input) + " kg";
+        else if (y == "cubicFt") {
+            document.getElementById("result").innerHTML = input + " cubicIn = " + cubicInToCubicFt(input) + " cubicFt";
         }
     
-        else if (y == "mcg") {
-            document.getElementById("result").innerHTML = input + " g = " + gToMcg(input) + " mcg";
+        else if (y == "ml") {
+            document.getElementById("result").innerHTML = input + " cubicIn = " + cubicInTOMl(input) + " ml";
         }  
     }
 
-    else if (x == "mcg") {
-        if (y == "lb") {
-            document.getElementById("result").innerHTML = input + " mcg = " + mcgToLb(input) + " lb";
+    else if (x == "ml") {
+        if (y == "gal") {
+            document.getElementById("result").innerHTML = input + " ml = " + mlToGal(input) + " gal";
         }
     
-        else if (y == "oz") {  
-            document.getElementById("result").innerHTML = input + " mcg = " + mcgToOz(input) + " oz";
+        else if (y == "pt") {  
+            document.getElementById("result").innerHTML = input + " ml = " + mlToPt(input) + " pt";
         }
     
-        else if (y == "t") {
-            document.getElementById("result").innerHTML = input + " mcg = " + mcgToT(input) + " t";
+        else if (y == "qt") {
+            document.getElementById("result").innerHTML = input + " ml = " + mlToQt(input) + " qt";
         }
     
-        else if (y == "mg") {
-            document.getElementById("result").innerHTML = input + " mcg = " + mcgToMg(input) + " mg";
+        else if (y == "ltr") {
+            document.getElementById("result").innerHTML = input + " ml = " + mlToLtr(input) + " ltr";
         }
 
-        else if (y == "q") {
-            document.getElementById("result").innerHTML = input + " mcg = " + mcgToQ(input) + " q";
+        else if (y == "cubicM") {
+            document.getElementById("result").innerHTML = input + " ml = " + mlToCubicM(input) + " cubicM";
         }
     
-        else if (y == "g") {
-            document.getElementById("result").innerHTML = input + " mcg = " + mcgToG(input) + " g";
+        else if (y == "cubicIn") {
+            document.getElementById("result").innerHTML = input + " ml = " + mlToCubicIn(input) + " cubicIn";
         }
     
-        else if (y == "kg") {
-            document.getElementById("result").innerHTML = input + " mcg = " + mcgToKg(input) + " kg";
+        else if (y == "cubicFt") {
+            document.getElementById("result").innerHTML = input + " ml = " + mlToCubicFt(input) + " cubicFt";
         }  
     }
 }

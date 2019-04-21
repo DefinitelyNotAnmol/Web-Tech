@@ -1,295 +1,295 @@
 {
-    "mcg_g" : {
-        "para" : "The Mass M in Gram(g) is equal to the Mass M in Microgram(mcg) divided by 1e+6",
-        "formula" : "L(g) = L(mcg) / 1e+6"
+    "ml_cubicIn" : {
+        "para" : "The Volume V in Cubic Inch(cubicIn) is equal to the Volume V in Mililitre(ml) divided by 16.387",
+        "formula" : "L(cubicIn) = L(ml) / 16.387"
     },
 
-    "mcg_q" : {
-        "para" : "The Mass M in Quintal(q) is equal to the Mass M in Microgram(mcg) divided by 1e+11",
-        "formula" : "L(q) = L(mcg) / 1e+11"
+    "ml_cubicM" : {
+        "para" : "The Volume V in Cubic Meter(cubicM) is equal to the Volume V in Mililitre(ml) divided by 1e+6",
+        "formula" : "L(cubicM) = L(ml) / 1e+6"
     },
 
-    "mcg_mg" : {
-        "para" : "The Mass M in Miligram(mg) is equal to the Mass M in Microgram(mcg) divide by 1000",
-        "formula" : "L(mg) = L(mcg) / 1000"
+    "ml_ltr" : {
+        "para" : "The Volume V in Litre(ltr) is equal to the Volume V in Mililitre(ml) divide by 1000",
+        "formula" : "L(ltr) = L(ml) / 1000"
     },
 
-    "mcg_t" : {
-        "para" : "The Mass M in Tonne(t) is equal to the Mass M in Microgram(mcg) divided by 1e+12",
-        "formula" : "L(t) = L(mcg) / 1e+12"
+    "ml_qt" : {
+        "para" : "The Volume V in Quart(qt) is equal to the Volume V in Mililitre(ml) divided by 1136.522",
+        "formula" : "L(qt) = L(ml) / 1136.522"
     },
 
-    "mcg_oz" : {
-        "para" : "The Mass M in Ounce(oz) is equal to the Mass M in Microgram(mcg) divided by 2.835e+7",
-        "formula" : "L(oz) = L(mcg) / 2.835e+7"
+    "ml_pt" : {
+        "para" : "The Volume V in Pint(pt) is equal to the Volume V in Mililitre(ml) divided by 568.261",
+        "formula" : "L(pt) = L(ml) / 568.261"
     },
 
-    "mcg_lb" : {
-        "para" : "The Mass M in Pound(lb) is equal to the Mass M in Microgram(mcg) divided by 4.536e+8",
-        "formula" : "L(lb) = L(mcg) / 4.536e+8"
+    "ml_gal" : {
+        "para" : "The Volume V in Gallon(gal) is equal to the Volume V in Mililitre(ml) divided by 4546.09",
+        "formula" : "L(gal) = L(ml) / 4546.09"
     },
 
-    "mcg_kg" : {
-        "para" : "The Mass M in Kilogram(kg) is equal to the Mass M in Microgram(mcg) divide by 1e+9",
-        "formula" : "L(kg) = L(mcg) / 1e+9"
-    },
-
-
-
-    "g_mcg" : {
-        "para" : "The Mass M in Microgram(mcg) is equal to the Mass M in Gram(g) times 1e+6",
-        "formula" : "L(mcg) = L(g) * 1e+6"
-    },
-
-    "g_q" : {
-        "para" : "The Mass M in Quintal(q) is equal to the Mass M in Gram(g) divided by 100000",
-        "formula" : "L(q) = L(g) / 100000"
-    },
-
-    "g_mg" : {
-        "para" : "The Mass M in Miligram(mg) is equal to the Mass M in Gram(g) times 1000",
-        "formula" : "L(mg) = L(g) * 1000"
-    },
-
-    "g_t" : {
-        "para" : "The Mass M in Tonne(t) is equal to the Mass M in Gram(g) divide by 1e+6",
-        "formula" : "L(t) = L(g) / 1e+6"
-    },
-
-    "g_oz" : {
-        "para" : "The Mass M in Ounce(oz) is equal to the Mass M in Gram(g) divide by 28.35",
-        "formula" : "L(oz) = L(g) / 28.35"
-    },
-
-    "g_lb" : {
-        "para" : "The Mass M in Pound(lb) is equal to the Mass M in Gram(g) divided by 453.592",
-        "formula" : "L(lb) = L(g) / 453.592"
-    },
-
-    "g_kg" : {
-        "para" : "The Mass M in Kilogram(kg) is equal to the Mass M in Gram(g) divide by 1000",
-        "formula" : "L(kg) = L(g) / 1000"
+    "ml_cubicFt" : {
+        "para" : "The Volume V in Cubic Feet(cubicFt) is equal to the Volume V in Mililitre(ml) divide by 28316.847",
+        "formula" : "L(cubicFt) = L(ml) / 28316.847"
     },
 
 
 
-    "q_mcg" : {
-        "para" : "The Mass M in Microgram(mcg) is equal to the Mass M in Quintal(q) times 1e+11",
-        "formula" : "L(mcg) = L(q) * 1e+11"
+    "cubicIn_ml" : {
+        "para" : "The Volume V in Mililitre(ml) is equal to the Volume V in Cubic Inch(cubicIn) times 16.387",
+        "formula" : "L(ml) = L(cubicIn) * 16.387"
     },
 
-    "q_g" : {
-        "para" : "The Mass M in Gram(g) is equal to the Mass M in Quintal(q) times 100000",
-        "formula" : "L(g) = L(q) * 100000"
+    "cubicIn_cubicM" : {
+        "para" : "The Volume V in Cubic Meter(cubicM) is equal to the Volume V in Cubic Inch(cubicIn) divided by 61023.744",
+        "formula" : "L(cubicM) = L(cubicIn) / 61023.744"
     },
 
-    "q_mg" : {
-        "para" : "The Mass M in Miligram(mg) is equal to the Mass M in Quintal(q) times 1e+8",
-        "formula" : "L(mg) = L(q) * 1e+8"
+    "cubicIn_ltr" : {
+        "para" : "The Volume V in Litre(ltr) is equal to the Volume V in Cubic Inch(cubicIn) divide by 61.024",
+        "formula" : "L(ltr) = L(cubicIn) / 61.024"
     },
 
-    "q_t" : {
-        "para" : "The Mass M in Tonne(t) is equal to the Mass M in Quintal(q) divide by 10",
-        "formula" : "L(t) = L(q) / 10"
+    "cubicIn_qt" : {
+        "para" : "The Volume V in Quart(qt) is equal to the Volume V in Cubic Inch(cubicIn) divide by 69.335",
+        "formula" : "L(qt) = L(cubicIn) / 69.335"
     },
 
-    "q_oz" : {
-        "para" : "The Mass M in Ounce(oz) is equal to the Mass M in Quintal(q) times 3527.396",
-        "formula" : "L(oz) = L(q) * 3527.396"
+    "cubicIn_pt" : {
+        "para" : "The Volume V in Pint(pt) is equal to the Volume V in Cubic Inch(cubicIn) divide by 34.677",
+        "formula" : "L(pt) = L(cubicIn) / 34.677"
     },
 
-    "q_lb" : {
-        "para" : "The Mass M in Pound(lb) is equal to the Mass M in Quintal(q) times 220.462",
-        "formula" : "L(lb) = L(q) * 220.462"
+    "cubicIn_gal" : {
+        "para" : "The Volume V in Gallon(gal) is equal to the Volume V in Cubic Inch(cubicIn) divided by 277.419",
+        "formula" : "L(gal) = L(cubicIn) / 277.419"
     },
 
-    "q_kg" : {
-        "para" : "The Mass M in Kilogram(kg) is equal to the Mass M in Quintal(q) times 100",
-        "formula" : "L(kg) = L(q) * 100"
-    },
-
-
-
-    "mg_mcg" : {
-        "para" : "The Mass M in Microgram(mcg) is equal to the Mass M in Miligram(mg) times 1000",
-        "formula" : "L(mcg) = L(mg) * 1000"
-    },
-
-    "mg_q" : {
-        "para" : "The Mass M in Quintal(q) is equal to the Mass M in Miligram(mg) divide by 1e+8",
-        "formula" : "L(q) = L(mg) / 1e+8"
-    },
-
-    "mg_g" : {
-        "para" : "The Mass M in Gram(g) is equal to the Mass M in Miligram(mg) divide by 1000",
-        "formula" : "L(g) = L(mg) / 1000"
-    },
-
-    "mg_t" : {
-        "para" : "The Mass M in Tonne(t) is equal to the Mass M in Miligram(mg) divide by 1e+9",
-        "formula" : "L(t) = L(mg) / 1e+9"
-    },
-
-    "mg_oz" : {
-        "para" : "The Mass M in Ounce(oz) is equal to the Mass M in Miligram(mg) divide by 28349.523",
-        "formula" : "L(oz) = L(mg) / 28349.523"
-    },
-
-    "mg_lb" : {
-        "para" : "The Mass M in Pound(lb) is equal to the Mass M in Miligram(mg) divide by 453592.37",
-        "formula" : "L(lb) = L(mg) / 453592.37"
-    },
-
-    "mg_kg" : {
-        "para" : "The Mass M in Kilogram(kg) is equal to the Mass M in Miligram(mg) divide by 1e+6",
-        "formula" : "L(kg) = L(mg) / 1e+6"
+    "cubicIn_cubicFt" : {
+        "para" : "The Volume V in Cubic Feet(cubicFt) is equal to the Volume V in Cubic Inch(cubicIn) divide by 1728",
+        "formula" : "L(cubicFt) = L(cubicIn) / 1728"
     },
 
 
 
-    "t_mcg" : {
-        "para" : "The Mass M in Microgram(mcg) is equal to the Mass M in Tonne(t) times 1e+12",
-        "formula" : "L(mcg) = L(t) * 1e+12"
+    "cubicM_ml" : {
+        "para" : "The Volume V in Mililitre(ml) is equal to the Volume V in Cubic Meter(cubicM) times 1e+6",
+        "formula" : "L(ml) = L(cubicM) * 1e+6"
     },
 
-    "t_q" : {
-        "para" : "The Mass M in Quintal(q) is equal to the Mass M in Tonne(t) times 10",
-        "formula" : "L(q) = L(t) * 10"
+    "cubicM_cubicIn" : {
+        "para" : "The Volume V in Cubic Inch(cubicIn) is equal to the Volume V in Cubic Meter(cubicM) times 61023.744",
+        "formula" : "L(cubicIn) = L(cubicM) * 61023.744"
     },
 
-    "t_g" : {
-        "para" : "The Mass M in Gram(g) is equal to the Mass M in Tonne(t) times 1e+6",
-        "formula" : "L(g) = L(t) * 1e+6"
+    "cubicM_ltr" : {
+        "para" : "The Volume V in Litre(ltr) is equal to the Volume V in Cubic Meter(cubicM) times 1000",
+        "formula" : "L(ltr) = L(cubicM) * 1000"
     },
 
-    "t_mg" : {
-        "para" : "The Mass M in Miligram(mg) is equal to the Mass M in Tonne(t) times 1e+9",
-        "formula" : "L(mg) = L(t) * 1e+9"
+    "cubicM_qt" : {
+        "para" : "The Volume V in Quart(qt) is equal to the Volume V in Cubic Meter(cubicM) times 879.877",
+        "formula" : "L(qt) = L(cubicM) * 879.877"
     },
 
-    "t_oz" : {
-        "para" : "The Mass M in Ounce(oz) is equal to the Mass M in Tonne(t) times 35273.962",
-        "formula" : "L(oz) = L(t) * 35273.962"
+    "cubicM_pt" : {
+        "para" : "The Volume V in Pint(pt) is equal to the Volume V in Cubic Meter(cubicM) times 1759.754",
+        "formula" : "L(pt) = L(cubicM) * 1759.754"
     },
 
-    "t_lb" : {
-        "para" : "The Mass M in Pound(lb) is equal to the Mass M in Tonne(t) times 2204.623",
-        "formula" : "L(lb) = L(t) * 2204.623"
+    "cubicM_gal" : {
+        "para" : "The Volume V in Gallon(gal) is equal to the Volume V in Cubic Meter(cubicM) times 219.969",
+        "formula" : "L(gal) = L(cubicM) * 219.969"
     },
 
-    "t_kg" : {
-        "para" : "The Mass M in Kilogram(kg) is equal to the Mass M in Tonne(t) times 1000",
-        "formula" : "L(kg) = L(t) * 1000"
-    },
-
-
-
-    "oz_mcg" : {
-        "para" : "The Mass M in Microgram(mcg) is equal to the Mass M in Ounce(oz) times 2.835e+7",
-        "formula" : "L(mcg) = L(oz) * 2.835e+7"
-    },
-
-    "oz_q" : {
-        "para" : "The Mass M in Quintal(q) is equal to the Mass M in Ounce(oz) divide by 3527.396",
-        "formula" : "L(q) = L(oz) / 3527.396"
-    },
-
-    "oz_g" : {
-        "para" : "The Mass M in Gram(g) is equal to the Mass M in Ounce(oz) times 28.35",
-        "formula" : "L(g) = L(oz) * 28.35"
-    },
-
-    "oz_mg" : {
-        "para" : "The Mass M in Miligram(mg) is equal to the Mass M in Ounce(oz) times 28349.523",
-        "formula" : "L(mg) = L(oz) * 28349.523"
-    },
-
-    "oz_t" : {
-        "para" : "The Mass M in Tonne(t) is equal to the Mass M in Ounce(oz) divide by 35273.962",
-        "formula" : "L(t) = L(oz) / 35273.962"
-    },
-
-    "oz_lb" : {
-        "para" : "The Mass M in Pound(lb) is equal to the Mass M in Ounce(oz) divide by 16",
-        "formula" : "L(lb) = L(oz) / 16"
-    },
-
-    "oz_kg" : {
-        "para" : "The Mass M in Kilogram(kg) is equal to the Mass M in Ounce(oz) divide by 35.274",
-        "formula" : "L(kg) = L(oz) / 35.274"
+    "cubicM_cubicFt" : {
+        "para" : "The Volume V in Cubic Feet(cubicFt) is equal to the Volume V in Cubic Meter(cubicM) times 35.315",
+        "formula" : "L(cubicFt) = L(cubicM) * 35.315"
     },
 
 
 
-    "lb_mcg" : {
-        "para" : "The Mass M in Microgram(mcg) is equal to the Mass M in Pound(lb) times 4.536e+8",
-        "formula" : "L(mcg) = L(lb) * 4.536e+8"
+    "ltr_ml" : {
+        "para" : "The Volume V in Mililitre(ml) is equal to the Volume V in Litre(ltr) times 1000",
+        "formula" : "L(ml) = L(ltr) * 1000"
     },
 
-    "lb_q" : {
-        "para" : "The Mass M in Quintal(q) is equal to the Mass M in Pound(lb) divide by 220.462",
-        "formula" : "L(q) = L(lb) / 220.462"
+    "ltr_cubicM" : {
+        "para" : "The Volume V in Cubic Meter(cubicM) is equal to the Volume V in Litre(ltr) times 1000",
+        "formula" : "L(cubicM) = L(ltr) * 1000"
     },
 
-    "lb_g" : {
-        "para" : "The Mass M in Gram(g) is equal to the Mass M in Pound(lb) times 453.592",
-        "formula" : "L(g) = L(lb) * 453.592"
+    "ltr_cubicIn" : {
+        "para" : "The Volume V in Cubic Inch(cubicIn) is equal to the Volume V in Litre(ltr) times 61.024",
+        "formula" : "L(cubicIn) = L(ltr) * 61.024"
     },
 
-    "lb_mg" : {
-        "para" : "The Mass M in Miligram(mg) is equal to the Mass M in Pound(lb) times 453592.37",
-        "formula" : "L(mg) = L(lb) * 453592.37"
+    "ltr_qt" : {
+        "para" : "The Volume V in Quart(qt) is equal to the Volume V in Litre(ltr) divide by 1.137",
+        "formula" : "L(qt) = L(ltr) / 1.137"
     },
 
-    "lb_t" : {
-        "para" : "The Mass M in Tonne(t) is equal to the Mass M in Pound(lb) divide by 2204.623",
-        "formula" : "L(t) = L(lb) / 2204.623"
+    "ltr_pt" : {
+        "para" : "The Volume V in Pint(pt) is equal to the Volume V in Litre(ltr) times 1.76",
+        "formula" : "L(pt) = L(ltr) * 1.76"
     },
 
-    "lb_oz" : {
-        "para" : "The Mass M in Ounce(oz) is equal to the Mass M in Pound(lb) times 16",
-        "formula" : "L(oz) = L(lb) * 16"
+    "ltr_gal" : {
+        "para" : "The Volume V in Gallon(gal) is equal to the Volume V in Litre(ltr) divide by 4.546",
+        "formula" : "L(gal) = L(ltr) / 4.546"
     },
 
-    "lb_kg" : {
-        "para" : "The Mass M in Kilogram(kg) is equal to the Mass M in Pound(lb) times 2.205",
-        "formula" : "L(kg) = L(lb) * 2.205"
+    "ltr_cubicFt" : {
+        "para" : "The Volume V in Cubic Feet(cubicFt) is equal to the Volume V in Litre(ltr) divide by 28.317",
+        "formula" : "L(cubicFt) = L(ltr) / 28.317"
+    },
+
+
+
+    "qt_ml" : {
+        "para" : "The Volume V in Mililitre(ml) is equal to the Volume V in Quart(qt) times 1136.522",
+        "formula" : "L(ml) = L(qt) * 1136.522"
+    },
+
+    "qt_cubicM" : {
+        "para" : "The Volume V in Cubic Meter(cubicM) is equal to the Volume V in Quart(qt) divide by 879.877",
+        "formula" : "L(cubicM) = L(qt) / 879.877"
+    },
+
+    "qt_cubicIn" : {
+        "para" : "The Volume V in Cubic Inch(cubicIn) is equal to the Volume V in Quart(qt) times 69.335",
+        "formula" : "L(cubicIn) = L(qt) * 69.335"
+    },
+
+    "qt_ltr" : {
+        "para" : "The Volume V in Litre(ltr) is equal to the Volume V in Quart(qt) times 1.137",
+        "formula" : "L(ltr) = L(qt) * 1.137"
+    },
+
+    "qt_pt" : {
+        "para" : "The Volume V in Pint(pt) is equal to the Volume V in Quart(qt) times 2",
+        "formula" : "L(pt) = L(qt) * 2"
+    },
+
+    "qt_gal" : {
+        "para" : "The Volume V in Gallon(gal) is equal to the Volume V in Quart(qt) divide by 4",
+        "formula" : "L(gal) = L(qt) / 4"
+    },
+
+    "qt_cubicFt" : {
+        "para" : "The Volume V in Cubic Feet(cubicFt) is equal to the Volume V in Quart(qt) divide by 24.915",
+        "formula" : "L(cubicFt) = L(qt) / 24.915"
+    },
+
+
+
+    "pt_ml" : {
+        "para" : "The Volume V in Mililitre(ml) is equal to the Volume V in Pint(pt) times 568.261",
+        "formula" : "L(ml) = L(pt) * 568.261"
+    },
+
+    "pt_cubicM" : {
+        "para" : "The Volume V in Cubic Meter(cubicM) is equal to the Volume V in Pint(pt) divide by 1759.754",
+        "formula" : "L(cubicM) = L(pt) / 1759.754"
+    },
+
+    "pt_cubicIn" : {
+        "para" : "The Volume V in Cubic Inch(cubicIn) is equal to the Volume V in Pint(pt) times 34.677",
+        "formula" : "L(cubicIn) = L(pt) * 34.677"
+    },
+
+    "pt_ltr" : {
+        "para" : "The Volume V in Litre(ltr) is equal to the Volume V in Pint(pt) divide by 1.76",
+        "formula" : "L(ltr) = L(pt) / 1.76"
+    },
+
+    "pt_qt" : {
+        "para" : "The Volume V in Quart(qt) is equal to the Volume V in Pint(pt) divide by 2",
+        "formula" : "L(qt) = L(pt) / 2"
+    },
+
+    "pt_gal" : {
+        "para" : "The Volume V in Gallon(gal) is equal to the Volume V in Pint(pt) divide by 8",
+        "formula" : "L(gal) = L(pt) / 8"
+    },
+
+    "pt_cubicFt" : {
+        "para" : "The Volume V in Cubic Feet(cubicFt) is equal to the Volume V in Pint(pt) divide by 49.831",
+        "formula" : "L(cubicFt) = L(pt) / 49.831"
+    },
+
+
+
+    "gal_ml" : {
+        "para" : "The Volume V in Mililitre(ml) is equal to the Volume V in Gallon(gal) times 4546.09",
+        "formula" : "L(ml) = L(gal) * 4546.09"
+    },
+
+    "gal_cubicM" : {
+        "para" : "The Volume V in Cubic Meter(cubicM) is equal to the Volume V in Gallon(gal) divide by 219.969",
+        "formula" : "L(cubicM) = L(gal) / 219.969"
+    },
+
+    "gal_cubicIn" : {
+        "para" : "The Volume V in Cubic Inch(cubicIn) is equal to the Volume V in Gallon(gal) times 277.419",
+        "formula" : "L(cubicIn) = L(gal) * 277.419"
+    },
+
+    "gal_ltr" : {
+        "para" : "The Volume V in Litre(ltr) is equal to the Volume V in Gallon(gal) times 4.546",
+        "formula" : "L(ltr) = L(gal) * 4.546"
+    },
+
+    "gal_qt" : {
+        "para" : "The Volume V in Quart(qt) is equal to the Volume V in Gallon(gal) times 4",
+        "formula" : "L(qt) = L(gal) * 3"
+    },
+
+    "gal_pt" : {
+        "para" : "The Volume V in Pint(pt) is equal to the Volume V in Gallon(gal) times 8",
+        "formula" : "L(pt) = L(gal) * 8"
+    },
+
+    "gal_cubicFt" : {
+        "para" : "The Volume V in Cubic Feet(cubicFt) is equal to the Volume V in Gallon(gal) divide by 6.229",
+        "formula" : "L(cubicFt) = L(gal) / 6.229"
     },
 
     
 
-    "kg_mcg" : {
-        "para" : "The Mass M in Microgram(mcg) is equal to the Mass M in Kilogram(kg) times 1e+9",
-        "formula" : "L(mcg) = L(kg) * 1e+9"
+    "cubicFt_ml" : {
+        "para" : "The Volume V in Mililitre(ml) is equal to the Volume V in Cubic Feet(cubicFt) times 28316.847",
+        "formula" : "L(ml) = L(cubicFt) * 28316.847"
     },
 
-    "kg_q" : {
-        "para" : "The Mass M in Quintal(q) is equal to the Mass M in Kilogram(kg) divide by 100",
-        "formula" : "L(q) = L(kg) / 100"
+    "cubicFt_cubicM" : {
+        "para" : "The Volume V in Cubic Meter(cubicM) is equal to the Volume V in Cubic Feet(cubicFt) times 35.315",
+        "formula" : "L(cubicM) = L(cubicFt) * 35.315"
     },
 
-    "kg_g" : {
-        "para" : "The Mass M in Gram(g) is equal to the Mass M in Kilogram(kg) times 1000",
-        "formula" : "L(g) = L(kg) * 1000"
+    "cubicFt_cubicIn" : {
+        "para" : "The Volume V in Cubic Inch(cubicIn) is equal to the Volume V in Cubic Feet(cubicFt) times 1728",
+        "formula" : "L(cubicIn) = L(cubicFt) * 1728"
     },
 
-    "kg_mg" : {
-        "para" : "The Mass M in Miligram(mg) is equal to the Mass M in Kilogram(kg) times 1e+6",
-        "formula" : "L(mg) = L(kg) * 1e+6"
+    "cubicFt_ltr" : {
+        "para" : "The Volume V in Litre(ltr) is equal to the Volume V in Cubic Feet(cubicFt) times 28.317",
+        "formula" : "L(ltr) = L(cubicFt) * 28.317"
     },
 
-    "kg_t" : {
-        "para" : "The Mass M in Tonne(t) is equal to the Mass M in Kilogram(kg) divide by 1000",
-        "formula" : "L(t) = L(kg) / 1000"
+    "cubicFt_qt" : {
+        "para" : "The Volume V in Quart(qt) is equal to the Volume V in Cubic Feet(cubicFt) times 24.915",
+        "formula" : "L(qt) = L(cubicFt) * 24.915"
     },
 
-    "kg_oz" : {
-        "para" : "The Mass M in Ounce(oz) is equal to the Mass M in Kilogram(kg) times 35.274",
-        "formula" : "L(oz) = L(kg) * 35.274"
+    "cubicFt_pt" : {
+        "para" : "The Volume V in Pint(pt) is equal to the Volume V in Cubic Feet(cubicFt) times 49.831",
+        "formula" : "L(pt) = L(cubicFt) * 49.831"
     },
 
-    "kg_lb" : {
-        "para" : "The Mass M in Pound(lb) is equal to the Mass M in Kilogram(kg) times 2.205",
-        "formula" : "L(lb) = L(kg) * 2.205"
+    "cubicFt_gal" : {
+        "para" : "The Volume V in Gallon(gal) is equal to the Volume V in Cubic Feet(cubicFt) times 6.229",
+        "formula" : "L(gal) = L(cubicFt) * 6.229"
     }
 }
