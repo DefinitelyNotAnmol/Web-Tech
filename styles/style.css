@@ -1,4 +1,9 @@
 @font-face {
+font-family: Poppins-Light;
+src: url('../fonts/Poppins-Light.ttf');
+}
+
+@font-face {
 font-family: Poppins-Regular;
 src: url('../fonts/Poppins-Regular.ttf'); 
 }
@@ -74,17 +79,45 @@ button {
     position: absolute;
     min-height: 100%;
     height: auto;
-    background: url("../Resources/resources_Asset\ 15_TGL.png") no-repeat, linear-gradient(135deg, #994e9e, #5d429a);
     z-index: 1;
     color: white;
     margin-left: 299px;
     width: calc(100% - 300px);
 }
 
+.area {
+    background: url("../Resources/resources_area_TGL.png") no-repeat, linear-gradient(135deg, #994e9e, #5d429a);
+}
+
+.length {
+    background: url("../Resources/resources_length_TGL.png") no-repeat, linear-gradient(135deg, #994e9e, #5d429a);
+}
+
+.mass {
+    background: url("../Resources/resources_mass_TGL.png") no-repeat, linear-gradient(135deg, #994e9e, #5d429a);
+}
+
+.speed {
+    background: url("../Resources/resources_speed_TGL.png") no-repeat, linear-gradient(135deg, #994e9e, #5d429a);
+}
+
+.temperature {
+    background: url("../Resources/resources_temperature_TGL.png") no-repeat, linear-gradient(135deg, #994e9e, #5d429a);
+}
+
+.time {
+    background: url("../Resources/resources_time_TGL.png") no-repeat, linear-gradient(135deg, #994e9e, #5d429a);
+}
+
+.volume {
+    background: url("../Resources/resources_volume_TGL.png") no-repeat, linear-gradient(135deg, #994e9e, #5d429a);
+}
+
 .content-about {
     position: absolute;
-    height: 100%;
-    background: url("../Resources/resources_Asset\ 17_TGL.png") no-repeat, linear-gradient(135deg, #994e9e, #5d429a);
+    min-height: 100%;
+    height: auto;
+    background: url("../Resources/resources_about_TGL.png") no-repeat, linear-gradient(135deg, #994e9e, #5d429a); 
     z-index: 1;
     color: white;
     margin-left: 299px;
@@ -144,8 +177,6 @@ button {
     text-shadow: 5px 5px 15px #994e9e;
     background: linear-gradient(90deg, rgba(141, 44, 248, 0), rgba(93, 66, 154, 1));
 }
-           
-/* Content */
 
 .heading {
     font-size: 5em;
@@ -237,18 +268,57 @@ button {
     margin-bottom: -10px;
 }
 
-.first-block {
+.start {
     padding: 10px;
-    margin: 10px 0 -15px 30px;
+    margin: 30px 0 -25px 30px;
     width: calc(calc(100% - 300px) - 50px);
 }
 
-.second-block {
-    padding: 10px;
+.block {
+    padding: 10px 10px 0 10px;
     margin-left: 30px;
+    margin-bottom: -30px;
     width: calc(calc(100% - 300px) - 50px);
 }
 
 .formulae {
     font-style: italic;
+}
+
+.thumbnail {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.additional {
+    margin-bottom: 50px;
+}
+
+.profiles {
+    margin-top: 30px;
+}
+
+.profiles > span {
+    display: inline-block;
+    display: -moz-inline-box;
+    zoom: 1;
+    margin-left: 2%;
+    width: 30%;
+    text-align: center;
+}
+
+.profiles > span:first-child {
+    margin-left: 0;
+}
+
+.name {
+    font-family: Poppins-Medium;
+    font-size: 1.6em;
+    margin-bottom: -10px;
+}
+
+.quote {
+    margin-top: -3px;
+    font-family: Poppins-Light;
+    font-size: 0.8em;
 }
